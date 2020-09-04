@@ -50,7 +50,7 @@ class VideoBackgroundPage extends React.Component {
                                             deleniti consequuntur nihil.
                                     </h4>
                                         <MDBBtn outline rounded color="white">
-                                            <MDBIcon icon="home" /> Donate
+                                            <MDBIcon icon="heart" /> Donate
                                     </MDBBtn>
                                     </MDBCol>
                                 </MDBRow>

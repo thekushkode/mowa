@@ -21,10 +21,10 @@ class Nav extends Component {
         // );
         return (
                 <div>
-                    <MDBNavbar dark expand="md" fixed="top">
+                    <MDBNavbar color='unique-color-dark' dark expand="md" fixed="top">
                         <MDBContainer>
                             <MDBNavbarBrand>
-                                <span className="white-text">MOW ATL</span>
+                                <span className="white-text"><b>MOW ATL</b></span>
                             </MDBNavbarBrand>
                             <MDBNavbarToggler onClick={this.toggleCollapse("navbarCollapse")} />
                             <MDBCollapse id="navbarCollapse" isOpen={this.state.collapseID} navbar>
@@ -33,22 +33,19 @@ class Nav extends Component {
                                         <MDBNavLink to="#!">Home</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
+                                        <MDBNavLink to="/donate">Donate</MDBNavLink>
+                                    </MDBNavItem>
+                                    <MDBNavItem>
                                         <MDBNavLink to="#!">About</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink to="#!">Features</MDBNavLink>
+                                        <MDBNavLink to="#!">Blog</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink to="#!">Services</MDBNavLink>
+                                        <MDBNavLink to="/team">Our Team</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink to="#!">Opinions</MDBNavLink>
-                                    </MDBNavItem>
-                                    <MDBNavItem>
-                                        <MDBNavLink to="#!">Team</MDBNavLink>
-                                    </MDBNavItem>
-                                    <MDBNavItem>
-                                        <MDBNavLink to="#!">Contact</MDBNavLink>
+                                        <MDBNavLink to="/contact">Contact</MDBNavLink>
                                     </MDBNavItem>
                                 </MDBNavbarNav>
                                 <MDBNavbarNav right>
