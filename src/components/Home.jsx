@@ -49,9 +49,9 @@ class VideoBackgroundPage extends React.Component {
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit
                                             deleniti consequuntur nihil.
                                     </h4>
-                                        <MDBBtn outline rounded color="white">
-                                            <MDBIcon icon="heart" /> Donate
-                                    </MDBBtn>
+                                        <MDBBtn outline rounded color="white" href="/donate">
+                                            <MDBIcon className='mr-1' icon="heart" /> Donate
+                                        </MDBBtn>
                                     </MDBCol>
                                 </MDBRow>
                             </MDBContainer>

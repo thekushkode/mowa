@@ -1,6 +1,8 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from "mdbreact";
 import Nav from "./Nav";
+import Kush from '../assets/kush250x250.png';
+import Footer from "./Footer";
 
 const Team = () => {
     return (
@@ -49,13 +51,13 @@ const Team = () => {
                         <MDBCol md="4" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
-                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg"
+                                src={Kush}
                                 className="rounded z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                             />
-                            <h4 className="font-weight-bold dark-grey-text my-4">John Doe</h4>
+                            <h4 className="font-weight-bold dark-grey-text my-4">Robert Kushner</h4>
                             <h6 className="text-uppercase grey-text mb-3">
-                                Front-end Developer
+                                Full-Stack Developer
                             </h6>
                             <MDBBtn
                                 tag="a"
@@ -97,6 +99,9 @@ const Team = () => {
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 }

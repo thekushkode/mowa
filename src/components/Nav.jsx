@@ -16,22 +16,19 @@ class Nav extends Component {
         }));
 
     render() {
-        // const overlay = (
-        //     <div id="sidenav-overlay" style={{ backgroundColor: "transparent" }} onClick={this.toggleCollapse("navbarCollapse")} />
-        // );
+        const overlay = (
+            <div id="sidenav-overlay" style={{ backgroundColor: "transparent" }} onClick={this.toggleCollapse("navbarCollapse")} />
+        );
         return (
                 <div>
-                    <MDBNavbar color='unique-color-dark' dark expand="md" fixed="top">
+                    <MDBNavbar color='blue darken-4' dark expand="md" fixed="top">
                         <MDBContainer>
                             <MDBNavbarBrand>
-                                <span className="white-text"><b>MOW ATL</b></span>
+                                <span className="white-text"><b><a style={{ color: "white" }} href='/'>MOW ATL</a></b></span>
                             </MDBNavbarBrand>
                             <MDBNavbarToggler onClick={this.toggleCollapse("navbarCollapse")} />
                             <MDBCollapse id="navbarCollapse" isOpen={this.state.collapseID} navbar>
                                 <MDBNavbarNav left>
-                                    <MDBNavItem>
-                                        <MDBNavLink to="#!">Home</MDBNavLink>
-                                    </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink to="/donate">Donate</MDBNavLink>
                                     </MDBNavItem>
@@ -68,7 +65,7 @@ class Nav extends Component {
                             </MDBCollapse>
                         </MDBContainer>
                     </MDBNavbar>
-                    {/* {this.state.collapseID && overlay} */}
+                    {this.state.collapseID && overlay}
                 </div>
         );
     }
