@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import streakpic from '../assets/oldladyandwoman.jpg';
 import oldguy from '../assets/oldguy.jpg';
 import oldpeople from '../assets/oldpeople.png';
+import feeding from '../assets/oldfood.jpg';
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -77,7 +78,7 @@ class VideoBackgroundPage extends React.Component {
                         </MDBRow>
                     </section>
 
-                    <hr className='mx-4' />
+                    <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' />
 
                     <section className='mx-5 my-5'>
                         <h2 className="h1-responsive font-weight-bold text-center my-5">
@@ -96,12 +97,12 @@ class VideoBackgroundPage extends React.Component {
                                         <MDBIcon
                                             icon="flag-checkered"
                                             size="2x"
-                                            className="deep-purple-text"
+                                            className="blue-text"
                                         />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">International</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">International</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -110,11 +111,11 @@ class VideoBackgroundPage extends React.Component {
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="flask" size="2x" className="deep-purple-text" />
+                                        <MDBIcon icon="flask" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">Experimental</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">Experimental</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -123,11 +124,11 @@ class VideoBackgroundPage extends React.Component {
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="glass-martini" size="2x" className="deep-purple-text" />
+                                        <MDBIcon icon="glass-martini" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">Relaxing</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">Relaxing</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -138,18 +139,18 @@ class VideoBackgroundPage extends React.Component {
                             <MDBCol md="4" className="text-center">
                                 <img
                                     className="img-fluid"
-                                    src={oldpeople}
+                                    src={feeding}
                                     alt=""
                                 />
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="heart" size="2x" className="deep-purple-text" />
+                                        <MDBIcon icon="heart" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">Beloved</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">Beloved</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -158,11 +159,11 @@ class VideoBackgroundPage extends React.Component {
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="bolt" size="2x" className="deep-purple-text" />
+                                        <MDBIcon icon="bolt" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">Rapid</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">Rapid</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -171,11 +172,11 @@ class VideoBackgroundPage extends React.Component {
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="magic" size="2x" className="deep-purple-text" />
+                                        <MDBIcon icon="magic" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3">Magical</h5>
-                                        <p className="grey-text">
+                                        <h5 className="font-weight-bold mb-3 blue-text">Magical</h5>
+                                        <p className="text-muted">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                             hic.
@@ -212,7 +213,7 @@ class VideoBackgroundPage extends React.Component {
                                         </MDBCol>
                                         <MDBCol md='3' className='mb-2'>
                                             <MDBIcon icon="dollar-sign" size="2x" className="amber-text" />
-                                            <h1 className='mx-2 font-weight-bold'>$557,273</h1>
+                                            <h1 className='mx-2 font-weight-bold'>557,273</h1>
                                             <p className='font-weight-bold'>Dollars Saved</p>
                                         </MDBCol>
                                         <MDBCol md='3' className='mb-2'>

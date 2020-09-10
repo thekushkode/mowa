@@ -21,7 +21,7 @@ class Nav extends Component {
         );
         return (
                 <div>
-                    <MDBNavbar color='blue darken-4' dark expand="md" fixed="top">
+                    <MDBNavbar color='blue-gradient' dark expand="md" fixed="top">
                         <MDBContainer>
                             <MDBNavbarBrand>
                                 <span className="white-text"><b><a style={{ color: "white" }} href='/'>MOW ATL</a></b></span>
