@@ -13,7 +13,7 @@ import Footer from "./Footer";
 import streakpic from '../assets/oldladyandwoman.jpg';
 import oldguy from '../assets/oldguy.jpg';
 import oldpeople from '../assets/oldpeople.png';
-import feeding from '../assets/oldfood.jpg';
+import feeding from '../assets/feed.png';
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -95,43 +95,37 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
                                         <MDBIcon
-                                            icon="flag-checkered"
+                                            icon="truck"
                                             size="2x"
                                             className="blue-text"
                                         />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">International</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">Home Deliveries</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                            Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="flask" size="2x" className="blue-text" />
+                                        <MDBIcon icon="users" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">Experimental</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">Congregate Meals</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                        MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="glass-martini" size="2x" className="blue-text" />
+                                        <MDBIcon icon="carrot" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">Relaxing</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">MOWA Fresh Food Partnership</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                        MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
@@ -146,40 +140,34 @@ class VideoBackgroundPage extends React.Component {
                             <MDBCol md="4">
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="heart" size="2x" className="blue-text" />
+                                        <MDBIcon icon="calendar-check" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">Beloved</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">Events</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                            MOWA host numerous, fun events to get the community involved, raise awareness and generate valuable proceeds that go directly to feeding our ATL seniors.
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="bolt" size="2x" className="blue-text" />
+                                        <MDBIcon icon="shopping-cart" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">Rapid</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">Food Pantry</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                        MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
                                 <MDBRow className="mb-3">
                                     <MDBCol size="2">
-                                        <MDBIcon icon="magic" size="2x" className="blue-text" />
+                                        <MDBIcon icon="dog" size="2x" className="blue-text" />
                                     </MDBCol>
                                     <MDBCol size="10">
-                                        <h5 className="font-weight-bold mb-3 blue-text">Magical</h5>
+                                        <h5 className="font-weight-bold mb-3 blue-text">Pet Food Program</h5>
                                         <p className="text-muted">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                                            hic.
+                                        For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
                                             </p>
                                     </MDBCol>
                                 </MDBRow>
