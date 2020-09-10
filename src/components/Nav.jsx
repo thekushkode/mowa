@@ -33,10 +33,13 @@ class Nav extends Component {
                                         <MDBNavLink to="/donate">Donate</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink to="#!">About</MDBNavLink>
+                                        <MDBNavLink to="/donate">Our Kitchen</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink to="#!">Blog</MDBNavLink>
+                                        <MDBNavLink to="/donate">Dinner is Served</MDBNavLink>
+                                    </MDBNavItem>
+                                    <MDBNavItem>
+                                        <MDBNavLink to="#!">Events & More</MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink to="/team">Our Team</MDBNavLink>
