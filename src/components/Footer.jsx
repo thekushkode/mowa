@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink } from "mdbreact";
 
 const Footer = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <MDBFooter color="blue-gradient" className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
@@ -20,7 +25,7 @@ const Footer = () => {
                                 <MDBNavLink to="/contact">Contact</MDBNavLink>
                             </li>
                             <li className="list-unstyled">
-                                <MDBNavLink to="#!">Link 2</MDBNavLink>
+                                <MDBNavLink to='/faq'>FAQ</MDBNavLink>
                             </li>
                             <li className="list-unstyled">
                                 <MDBNavLink to="#!">Link 3</MDBNavLink>
