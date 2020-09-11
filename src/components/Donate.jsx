@@ -8,10 +8,13 @@ import {
     MDBIcon,
     MDBNav,
     MDBNavItem,
-    MDBTabContent
+    MDBTabContent,
+    MDBBtn
 } from "mdbreact";
 import Nav from "./Nav";
-import ladies from '../assets/oldladyandwoman.jpg';
+import DonationModal from './DonationModal';
+import ladies from '../assets/donatesample.png';
+import Footer from "./Footer";
 
 class Donate extends Component {
 
@@ -34,16 +37,26 @@ class Donate extends Component {
     render() {
         return (
             <div>
-                <header>
+                <header style={{ marginBottom: '100px' }}>
                     <Nav />
                 </header>
-                <MDBContainer>
+                {/* <div>
                     <MDBRow>
                         <MDBCol md="12" className="mb-3">
                             <img src={ladies} className="img-fluid z-depth-1" alt="" />
                         </MDBCol>
                     </MDBRow>
-                </MDBContainer>
+                </div> */}
+                <div className="my-5 px-1 text-center">
+                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                        ATL Seniors Need Your Support!
+                    </h2>
+                    <p className="muted-text w-responsive mx-auto mb-5">
+                        Meals On Wheels Atlanta needs your support to fight senior hunger in our community! While financial support creates the largest impact, we also have a great need for volunteers and commercial kitchen supplies. Thank you in advance for your generosity!
+                        
+                    </p>
+                </div>
+
                 <MDBContainer>
                     <MDBNav tabs className="nav-justified" color='primary'>
                         <MDBNavItem>
@@ -68,31 +81,32 @@ class Donate extends Component {
                     >
                         <MDBTabPane tabId="1" role="tabpanel">
                             <p className="mt-2">
-                                Raw denim you probably haven't heard of them jean shorts
-                                Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                                cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher
-                                synth. Cosby sweater eu banh mi, qui irure terry richardson
-                                ex squid. Aliquip placeat salvia cillum iphone. Seitan
-                                aliquip quis cardigan american apparel, butcher voluptate
-                                nisi qui.
+                                Thank you for helping Meals On Wheels Atlanta fight senior hunger in our community.
+                                Your generosity means the world to us and to those we serve.
+                                For just $9 per day, we can provide a senior in need with breakfast and lunch, home-delivered by our friendly volunteers.
+                                Please consider signing up for a monthly gift to help sustain and grow our impact
                             </p>
+                            <div className='d-flex text-center'>
+                                <DonationModal />
+                            </div>
                         </MDBTabPane>
                         <MDBTabPane tabId="2" role="tabpanel">
                             <p className="mt-2">
-                                Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-                                single-origin coffee squid. Exercitation +1 labore velit,
-                                blog sartorial PBR leggings next level wes anderson artisan
-                                four loko farm-to-table craft beer twee. Qui photo booth
-                                letterpress, commodo enim craft beer mlkshk aliquip jean
-                                shorts ullamco ad vinyl cillum PBR. Homo nostrud organic,
-                                assumenda labore aesthetic magna delectus mollit. Keytar
-                                helvetica VHS salvia yr, vero magna velit sapiente labore
-                                stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
-                                sustainable jean shorts beard ut DIY ethical culpa terry
-                                richardson biodiesel. Art party scenester stumptown, tumblr
-                                butcher vero sint qui sapiente accusamus tattooed echo park.
+                                You’ll find that there are a number of different types of volunteer opportunities at MOWA, all of which are vital in supporting our work with local seniors. Some opportunities include delivering meals, preparing shelf stable meal options, and stocking our food pantry. Regardless of what opportunity speaks to you, you will be making a world of difference to our senior neighbors here in Atlanta!.
                             </p>
+                            <h2 className='text-center red-text darken-4'>Volunteer Requirements</h2>
+                            <ol>
+                                <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.</li>
+                                <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
+                                <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
+                                <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
+                                <li>Due to the nature of volunteer opportunities, volunteering at Meals On Wheels Atlanta may require periods of standing, walking, and lifting boxes up to 10 pounds.</li>
+                                <li>Volunteers must be able to stay for the entire duration of the event that you register for.</li>
+                            </ol>
+                            <div className='d-flex justify-content-center'>
+                                <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
+                                <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
+                            </div>
                         </MDBTabPane>
                         <MDBTabPane tabId="3" role="tabpanel">
                             <p className="mt-2">
@@ -107,9 +121,16 @@ class Donate extends Component {
                                 you probably haven't heard of them, vinyl craft beer blog
                                 stumptown. Pitchfork sustainable tofu synth chambray yr.
                             </p>
+                            <div className='d-flex justify-content-center'>
+                                <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
+                                <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
+                            </div>
                         </MDBTabPane>
                     </MDBTabContent>
                 </MDBContainer>
+                <footer>
+                    <Footer />
+                </footer>
             </div>
         );
     }
