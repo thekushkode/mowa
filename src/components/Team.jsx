@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from "mdbreact";
 import Nav from "./Nav";
 import Kush from '../assets/kush250x250.png';
 import Footer from "./Footer";
 
 const Team = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div>
             <header>

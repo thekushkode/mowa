@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
 const ContactPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div>
             <header style={{ marginBottom: '100px' }}>

@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Donate from './components/Donate';
 import Team from './components/Team';
 import ContactPage from './components/Contact';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route exact path='/donate' component={Donate} />
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={ContactPage} />
+      <Route exact path='/events' component={Events} />
     </Switch>
   );
 }

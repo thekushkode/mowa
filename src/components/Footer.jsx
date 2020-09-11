@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink } from "mdbreact";
 
 const Footer = () => {
     return (
@@ -17,16 +17,16 @@ const Footer = () => {
                         <h5 className="title">Links</h5>
                         <ul>
                             <li className="list-unstyled">
-                                <a href="#!">Link 1</a>
+                                <MDBNavLink to="/contact">Contact</MDBNavLink>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 2</a>
+                                <MDBNavLink to="#!">Link 2</MDBNavLink>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 3</a>
+                                <MDBNavLink to="#!">Link 3</MDBNavLink>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!">Link 4</a>
+                                <MDBNavLink to="#!">Link 4</MDBNavLink>
                             </li>
                         </ul>
                     </MDBCol>
