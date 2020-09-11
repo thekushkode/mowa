@@ -7,6 +7,8 @@ import Donate from './components/Donate';
 import Team from './components/Team';
 import ContactPage from './components/Contact';
 import Events from './components/Events';
+import Faq from './components/Faq';
+import InTheNews from './components/InTheNews';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/events' component={Events} />
+      <Route exact path='/inthenews' component={InTheNews} />
+      <Route exact path='/faq' component={Faq} />
     </Switch>
   );
 }

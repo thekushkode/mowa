@@ -17,8 +17,8 @@ const Team = () => {
             </header>
             <MDBCard className="my-5 px-1 pb-5 text-center">
                 <MDBCardBody>
-                    <h2 className="h1-responsive font-weight-bold my-5">
-                        Our amazing team
+                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                        Our Amazing Team
                     </h2>
                     <p className="grey-text w-responsive mx-auto mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
