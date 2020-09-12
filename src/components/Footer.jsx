@@ -1,5 +1,7 @@
 import React, { useEffect} from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink } from "mdbreact";
+import seal from '../assets/sealoftransparency.png';
+import member from '../assets/mow2020member.png';
 
 const Footer = () => {
 
@@ -11,15 +13,17 @@ const Footer = () => {
         <MDBFooter color="blue-gradient" className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
-                    <MDBCol md="6">
-                        <h5 className="title">Footer Content</h5>
-                        <p>
-                            Here you can use rows and columns here to organize your footer
-                            content.
-                        </p>
+                    <MDBCol md="4">
+                        <img src={seal} className="img-fluid mb-1 pl-4" alt="Seal of Transparency" />
+                        <img src={member} className="img-fluid mb-1" alt="MOW 2020 Member" />
                     </MDBCol>
-                    <MDBCol md="6">
-                        <h5 className="title">Links</h5>
+                    <MDBCol md='4'>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <h5 className="title">Meals on Wheels Atlanta</h5>
+                        <p>
+                            Tax ID#: 58-0960309
+                        </p>
                         <ul>
                             <li className="list-unstyled">
                                 <MDBNavLink to="/contact">Contact</MDBNavLink>
