@@ -27,14 +27,11 @@ const ContactPage = () => {
                     <MDBCol lg="5" className="lg-0 mb-4">
                         <MDBCard>
                             <MDBCardBody>
-                                <div className="form-header blue darken-4">
+                                <div className="form-header blue-gradient">
                                     <h3 className="mt-2">
-                                        <MDBIcon icon="envelope" /> Write to us:
+                                        <MDBIcon icon="envelope" /> Get In Touch:
                                     </h3>
                                 </div>
-                                <p className="dark-grey-text">
-                                    We'll write rarely, but only the best content.
-                                </p>
                                 <div className="md-form">
                                     <MDBInput
                                         icon="user"
@@ -72,7 +69,7 @@ const ContactPage = () => {
                                     />
                                 </div>
                                 <div className="text-center">
-                                    <MDBBtn color="blue darken-4">Submit</MDBBtn>
+                                    <MDBBtn className="blue-gradient btn-rounded">Submit</MDBBtn>
                                 </div>
                             </MDBCardBody>
                         </MDBCard>
@@ -95,21 +92,21 @@ const ContactPage = () => {
                         <br />
                         <MDBRow className="text-center">
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating color="blue" className="accent-1">
+                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
                                     <MDBIcon icon="map-marker-alt" />
                                 </MDBBtn>
                                 <p>Atlanta, Ga 30318</p>
 
                             </MDBCol>
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating color="blue" className="accent-1">
+                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
                                     <MDBIcon icon="phone" />
                                 </MDBBtn>
                                 <p>404.351.3889</p>
 
                             </MDBCol>
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating color="blue" className="accent-1">
+                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
                                     <MDBIcon icon="envelope" />
                                 </MDBBtn>
                                 <p>info@mowatl.org</p>

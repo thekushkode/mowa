@@ -265,30 +265,30 @@ class VideoBackgroundPage extends React.Component {
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")", height: '220px' }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
-                                <h1 className='text-center amber-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
-                                <MDBRow className='amber-text text-center'>
+                                <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
+                                <MDBRow className='cyan-text text-center'>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="utensils" size="2x" className="amber-text" />
+                                        <MDBIcon icon="utensils" size="2x" className="cyan-text" />
                                         <h1 className='mx-2 font-weight-bold'>514,765</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="clock" size="2x" className="amber-text" />
+                                        <MDBIcon icon="clock" size="2x" className="cyan-text" />
                                         <h1 className='mx-2 font-weight-bold'>21,914</h1>
                                         <p className='font-weight-bold'>Volunteer Hours</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="dollar-sign" size="2x" className="amber-text" />
+                                        <MDBIcon icon="dollar-sign" size="2x" className="cyan-text" />
                                         <h1 className='mx-2 font-weight-bold'>557,273</h1>
                                         <p className='font-weight-bold'>Dollars Saved</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="home" size="2x" className="amber-text" />
+                                        <MDBIcon icon="home" size="2x" className="cyan-text" />
                                         <h1 className='mx-2 font-weight-bold'>372</h1>
                                         <p className='font-weight-bold'>Homes Repaired</p>
                                     </MDBCol>
                                 </MDBRow>
-                                <figcaption className='figure-caption text-center amber-text mb-2'>**2019 Results</figcaption>
+                                <figcaption className='figure-caption text-center cyan-text mb-2'>**2019 Results</figcaption>
                             </MDBContainer>
                         </div>
                     </div>

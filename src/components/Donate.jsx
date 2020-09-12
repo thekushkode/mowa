@@ -9,7 +9,8 @@ import {
     MDBNav,
     MDBNavItem,
     MDBTabContent,
-    MDBBtn
+    MDBBtn,
+    MDBInput
 } from "mdbreact";
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
@@ -103,24 +104,74 @@ class Donate extends Component {
                                 <li>Due to the nature of volunteer opportunities, volunteering at Meals On Wheels Atlanta may require periods of standing, walking, and lifting boxes up to 10 pounds.</li>
                                 <li>Volunteers must be able to stay for the entire duration of the event that you register for.</li>
                             </ol>
+                            <p>
+                                After completing the online application form, your account is subject to review. Once approved, you will be contacted by a member of our Community Engagement Team who will provide you with instructions on completing all required paperwork and waivers as well as creating your VolunteerHub account!
+                            </p>
+                            <h4 className='font-weight-bold'>Community Service Eligibility:</h4>
+                            <ul>
+                                <li>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b></li>
+                                <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org'>Alissa Robbins</a>.</li>
+                            </ul>
+                            <h2 className='text-center red-text darken-4'>Additional Information</h2>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Volunteer Waiver</b></h4>
+                            <p>
+                                All volunteers will ﬁll out a volunteer waiver during the volunteer orientation with MOWA.
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Background Checks</b></h4>
+                            <p>
+                                All individual volunteers will need a volunteer background check that can be ﬁlled out at orientation.
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Group Volunteers</b></h4>
+                            <p>
+                                Corporate Volunteers will not need to ﬁll out a background check. Faith-based groups, civic groups and school groups will still need all members to ﬁll out a background check prior to their scheduled volunteer date. The completed forms may be mailed, scanned or faxed for your convenience.
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Parking</b></h4>
+                            <p>
+                                Parking can be found on either side of the building. Due to limited parking, carpooling is recommended for ease and convenience.
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Arriving</b></h4>
+                            <p>
+                                Ask for a MOWA Volunteer Representative in the reception area so your group can be directed to the volunteer orientation.
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Confirmation</b></h4>
+                            <p>
+                                We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
+                            </p>
+                            <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
+                            <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org'>Contact us!</a></p>
+                            
                             <div className='d-flex justify-content-center'>
                                 <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
-                                <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
+                                <MDBBtn className='btn-rounded blue-gradient'><MDBNavLink className='p-0' to='/contact' style={{ color: 'white' }}>Contact Us</MDBNavLink></MDBBtn>
                             </div>
                         </MDBTabPane>
                         <MDBTabPane tabId="3" role="tabpanel">
                             <p className="mt-2">
-                                Etsy mixtape wayfarers, ethical wes anderson tofu before
-                                they sold out mcsweeney's organic lomo retro fanny pack
-                                lo-fi farm-to-table readymade. Messenger bag gentrify
-                                pitchfork tattooed craft beer, iphone skateboard locavore
-                                carles etsy salvia banksy hoodie helvetica. DIY synth PBR
-                                banksy irony. Leggings gentrify squid 8-bit cred pitchfork.
-                                Williamsburg banh mi whatever gluten-free, carles pitchfork
-                                biodiesel fixie etsy retro mlkshk vice blog. Scenester cred
-                                you probably haven't heard of them, vinyl craft beer blog
-                                stumptown. Pitchfork sustainable tofu synth chambray yr.
+                                Would you like to donate new kitchen supplies or commercial appliances to “OUR Kitchen”? How about hosting a virtual Kitchen shower in support of “Our Kitchen”? If so, please submit the form below and somebody will reach out to you to discuss your options!
                             </p>
+                            <MDBContainer className='px-5 py-5'>
+                                <MDBRow>
+                                    <MDBCol md="12">
+                                        <form>
+                                            <p className="h5 text-center mb-4">Get In Touch</p>
+                                            <div className="grey-text">
+                                            <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
+                                                success="right" />
+                                            <MDBInput label="Your email" icon="envelope" group type="email" validate error="wrong"
+                                                success="right" />
+                                            <MDBInput label="Subject" icon="tag" group type="text" validate error="wrong" success="right" />
+                                            <MDBInput type="textarea" rows="2" label="Your message" icon="pencil-alt" />
+                                            </div>
+                                            <div className="text-center">
+                                            <MDBBtn className='purple-gradient btn-rounded'>
+                                                Submit
+                                                <MDBIcon far icon="paper-plane" className="ml-1" />
+                                            </MDBBtn>
+                                            </div>
+                                        </form>
+                                    </MDBCol>
+                                </MDBRow>
+                            </MDBContainer>
                             <div className='d-flex justify-content-center'>
                                 <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
                                 <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
