@@ -56,8 +56,8 @@ class VideoBackgroundPage extends React.Component {
                                         <h4 className="subtext-header mt-2 mb-4">
                                             Supporting senior independence through meals, shelter, education, and community.
                                     </h4>
-                                        <MDBBtn outline rounded color="white" href="/donate" className='pb-2'>
-                                            <MDBIcon className='mr-1' icon="heart" /> Donate
+                                        <MDBBtn size='lg' outline rounded color="white" href="/donate">
+                                            <MDBIcon size='lg' className='mr-1' icon="heart" /> Donate
                                         </MDBBtn>
                                     </MDBCol>
                                 </MDBRow>
@@ -104,7 +104,7 @@ class VideoBackgroundPage extends React.Component {
                         </MDBCarouselInner>
                     </MDBCarousel> */}
                 </div>
-                <section className='mb-5'>
+                <section>
                     {/* <h2 className="h1-responsive font-weight-bold text-center my-5">
                         Our Story
                         </h2>
@@ -121,7 +121,7 @@ class VideoBackgroundPage extends React.Component {
                     </MDBRow> */}
                     <MDBCard className="px-5 pb-5">
                         <MDBCardBody>
-                            <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
+                            <h2 className="h1-responsive font-weight-bold mdb-color-text text-center mb-5 mt-2">
                                 Our Story
                             </h2>
                             <p className="text-center text-muted w-responsive mx-auto mb-5">
@@ -154,112 +154,6 @@ class VideoBackgroundPage extends React.Component {
                         </MDBCardBody>
                     </MDBCard>
                 </section>
-
-                {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
-
-                <section className='mx-5 my-5'>
-                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
-                        What We Do!
-                        </h2>
-                    <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam.
-                        </p>
-
-                    <MDBRow>
-                        <MDBCol md="4">
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon
-                                        icon="truck"
-                                        size="2x"
-                                        className="blue-text"
-                                    />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">Home Deliveries</h5>
-                                    <p className="text-muted">
-                                        Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="users" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">Congregate Meals</h5>
-                                    <p className="text-muted">
-                                        MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="carrot" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">MOWA Fresh Food Partnership</h5>
-                                    <p className="text-muted">
-                                        MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCol>
-                        <MDBCol md="4" className="text-center">
-                            <img
-                                className="img-fluid"
-                                src={feeding}
-                                alt=""
-                            />
-                        </MDBCol>
-                        <MDBCol md="4">
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="hammer" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">Home Repair</h5>
-                                    <p className="text-muted">
-                                        Home repair is essential to homeowners as it prevents seniors from being displaced from their homes
-                                        and being forced into transitional housing or shelters because of code violations.
-                                    </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="shopping-cart" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">Food Pantry</h5>
-                                    <p className="text-muted">
-                                        MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="dog" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 blue-text">Pet Food Program</h5>
-                                    <p className="text-muted">
-                                        For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCol>
-                    </MDBRow>
-                </section>
-
-                {/* <div style={{ marginTop: '20px' }}>
-                        <MDBStreak className='w-auto' size="sm" by="MOW ATL" overlayClass="white-text rgba-black-strong" photo={streakpic}>
-                            Our mission is to support senior independence through meals, shelter, education, and community.
-                        </MDBStreak>
-                    </div> */}
-
-                {/* <hr className='my-4' /> */}
 
                 <div>
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")", height: '220px' }}>
@@ -294,6 +188,112 @@ class VideoBackgroundPage extends React.Component {
                     </div>
                     {/* </MDBStreak> */}
                 </div>
+                {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
+
+                <section className='mx-5 my-5'>
+                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
+                        What We Do!
+                        </h2>
+                    <p className="lead grey-text w-responsive text-center mx-auto mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam.
+                        </p>
+
+                    <MDBRow>
+                        <MDBCol md="4">
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon
+                                        icon="truck"
+                                        size="2x"
+                                        className="blue-text"
+                                    />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Home Deliveries</h5>
+                                    <p className="text-muted">
+                                        Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
+                                            </p>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon icon="users" size="2x" className="blue-text" />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Congregate Meals</h5>
+                                    <p className="text-muted">
+                                        MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
+                                            </p>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon icon="carrot" size="2x" className="blue-text" />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">MOWA Fresh Food Partnership</h5>
+                                    <p className="text-muted">
+                                        MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
+                                            </p>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCol>
+                        <MDBCol md="4" className="text-center">
+                            <img
+                                className="img-fluid"
+                                src={feeding}
+                                alt=""
+                            />
+                        </MDBCol>
+                        <MDBCol md="4">
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon icon="hammer" size="2x" className="blue-text" />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Home Repair</h5>
+                                    <p className="text-muted">
+                                        Home repair is essential to homeowners as it prevents seniors from being displaced from their homes
+                                        and being forced into transitional housing or shelters because of code violations.
+                                    </p>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon icon="shopping-cart" size="2x" className="blue-text" />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Food Pantry</h5>
+                                    <p className="text-muted">
+                                        MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items
+                                            </p>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow className="mb-3">
+                                <MDBCol size="2">
+                                    <MDBIcon icon="dog" size="2x" className="blue-text" />
+                                </MDBCol>
+                                <MDBCol size="10">
+                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Pet Food Program</h5>
+                                    <p className="text-muted">
+                                        For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
+                                            </p>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCol>
+                    </MDBRow>
+                </section>
+
+                {/* <div style={{ marginTop: '20px' }}>
+                        <MDBStreak className='w-auto' size="sm" by="MOW ATL" overlayClass="white-text rgba-black-strong" photo={streakpic}>
+                            Our mission is to support senior independence through meals, shelter, education, and community.
+                        </MDBStreak>
+                    </div> */}
+
+                {/* <hr className='my-4' /> */}
+
 
                 {/* </div> */}
                 <footer>

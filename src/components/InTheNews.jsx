@@ -15,7 +15,7 @@ const InTheNews = () => {
                 <Nav />
             </header>
 
-            <MDBCard className="my-5 px-5 pb-5">
+            <MDBCard className="mt-5 px-5 pb-5">
                 <MDBCardBody>
                     <h2 className="h1-responsive font-weight-bold text-center my-5">
                         MOWA In the News!
@@ -157,7 +157,7 @@ const InTheNews = () => {
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
-            <footer>
+            <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>
         </div>

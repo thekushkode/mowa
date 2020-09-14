@@ -15,7 +15,7 @@ const Events = () => {
                 <Nav />
             </header>
 
-            <MDBCard className="my-5 px-5 pb-5">
+            <MDBCard className="mt-5 px-5 pb-5">
                 <MDBCardBody>
                     <h2 className="h1-responsive font-weight-bold text-center my-5">
                         MOWA Events
@@ -56,11 +56,7 @@ const Events = () => {
                                 officiis debitis.
                             </p>
                             <p>
-                                by&nbsp;
-                                <a href="#!">
-                                    <strong>Carine Fox</strong>
-                                </a>
-                                , 19/08/2018
+                                Event Date: 11/08/2018
                             </p>
                             <MDBBtn color="success" size="md" className="waves-light ">
                                 Get Tickets
@@ -86,11 +82,7 @@ const Events = () => {
                                 non provident.
                             </p>
                             <p>
-                                by&nbsp;
-                                <a href="#!">
-                                    <strong>Carine Fox</strong>
-                                </a>
-                                , 14/08/2018
+                                Event Date: 11/08/2018
                             </p>
                             <MDBBtn
                                 color="pink"
@@ -144,11 +136,7 @@ const Events = () => {
                                 sit amet.
                             </p>
                             <p>
-                                by&nbsp;
-                                <a href="#!">
-                                    <strong>Carine Fox</strong>
-                                </a>
-                                , 11/08/2018
+                                Event Date: 11/08/2018
                             </p>
                             <MDBBtn color="indigo" size="md" className="waves-light ">
                                 Get Tickets
@@ -157,7 +145,7 @@ const Events = () => {
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
-            <footer>
+            <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>
         </div>
