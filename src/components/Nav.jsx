@@ -64,7 +64,7 @@ class Nav extends Component {
                                     <MDBNavLink to="/contact">Contact</MDBNavLink>
                                 </MDBNavItem>
                             </MDBNavbarNav>
-                            {/* <MDBNavbarNav right>
+                            <MDBNavbarNav right>
                                 <MDBNavItem>
                                     <a className='mx-2' style={{ color: 'white' }} href="https://www.facebook.com/MealsOnWheelsAtlanta/">
                                         <MDBIcon fab icon="facebook-f" />
@@ -80,7 +80,7 @@ class Nav extends Component {
                                         <MDBIcon fab icon="instagram" />
                                     </a>
                                 </MDBNavItem>
-                            </MDBNavbarNav> */}
+                            </MDBNavbarNav>
                         </MDBCollapse>
                     </MDBContainer>
                 </MDBNavbar>
