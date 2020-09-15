@@ -30,10 +30,19 @@ class Nav extends Component {
                         <MDBCollapse id="navbarCollapse" isOpen={this.state.collapseID} navbar>
                             <MDBNavbarNav left>
                                 <MDBNavItem>
-                                    <MDBNavLink to="/donate">Donate</MDBNavLink>
+                                    <MDBNavLink to="/donate">Get Involved</MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink to="/donate">Get Meals</MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink to="/donate">Our Kitchen</MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink to="/donate">Dinner is Served</MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink to="/donate">1705</MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBDropdown>
@@ -49,16 +58,13 @@ class Nav extends Component {
                                     </MDBDropdown>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink to="/team">Our Team</MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
                                     <MDBNavLink to="/faq">FAQ</MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink to="/contact">Contact</MDBNavLink>
                                 </MDBNavItem>
                             </MDBNavbarNav>
-                            <MDBNavbarNav right>
+                            {/* <MDBNavbarNav right>
                                 <MDBNavItem>
                                     <a className='mx-2' style={{ color: 'white' }} href="https://www.facebook.com/MealsOnWheelsAtlanta/">
                                         <MDBIcon fab icon="facebook-f" />
@@ -74,7 +80,7 @@ class Nav extends Component {
                                         <MDBIcon fab icon="instagram" />
                                     </a>
                                 </MDBNavItem>
-                            </MDBNavbarNav>
+                            </MDBNavbarNav> */}
                         </MDBCollapse>
                     </MDBContainer>
                 </MDBNavbar>

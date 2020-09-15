@@ -53,7 +53,7 @@ class Faq extends Component {
                                                         className="m-3 black-text"
                                                     />
                                                 </div>
-                                                Item #1
+                                                How to Qualify
                                             </MDBCollapseHeader>
 
                                             <MDBCollapse id="collapse1" isOpen={this.state.collapseID}>
