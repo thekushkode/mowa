@@ -47,6 +47,9 @@ const Footer = () => {
                                 <MDBNavLink to='/faq'>FAQ</MDBNavLink>
                             </li>
                             <li className="list-unstyled py-0">
+                                <MDBNavLink to='/team'>Our Team</MDBNavLink>
+                            </li>
+                            <li className="list-unstyled py-0">
                                 <MDBNavLink to="#!">Terms & Conditions</MDBNavLink>
                             </li>
                             <li className="list-unstyled py-0">

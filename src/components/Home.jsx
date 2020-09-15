@@ -14,6 +14,7 @@ import streakpic from '../assets/oldladyandwoman.jpg';
 import oldguy from '../assets/oldguy.jpg';
 import oldpeople from '../assets/oldpeople.png';
 import feeding from '../assets/feed.png';
+import Team from "./Team";
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -38,7 +39,7 @@ class VideoBackgroundPage extends React.Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                <div id="videobackground">
+                <div id="videobackground" style={{ marginTop: '-200px', marginBottom: '-200px' }}>
                     <MDBView>
                         <video className="video-intro" playsInline autoPlay muted loop>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />
@@ -50,7 +51,7 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBRow>
                                     <MDBCol md="12" className="mb-4 mt-3 white-text text-center">
                                         <h3 className="display-3 font-weight-bold mb-0 pt-md-3">
-                                            Meals on Wheels ATL{" "}
+                                            Meals on Wheels ATL
                                         </h3>
                                         <hr className="hr-light my-4 w-75" />
                                         <h4 className="subtext-header mt-2 mb-4">
@@ -155,39 +156,6 @@ class VideoBackgroundPage extends React.Component {
                     </MDBCard>
                 </section>
 
-                <div>
-                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")", height: '220px' }}>
-                        <div className='mask flex-center rgba-black-strong'>
-                            <MDBContainer>
-                                <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
-                                <MDBRow className='cyan-text text-center'>
-                                    <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="utensils" size="2x" className="cyan-text" />
-                                        <h1 className='mx-2 font-weight-bold'>514,765</h1>
-                                        <p className='font-weight-bold'>Meals Served</p>
-                                    </MDBCol>
-                                    <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="clock" size="2x" className="cyan-text" />
-                                        <h1 className='mx-2 font-weight-bold'>21,914</h1>
-                                        <p className='font-weight-bold'>Volunteer Hours</p>
-                                    </MDBCol>
-                                    <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="dollar-sign" size="2x" className="cyan-text" />
-                                        <h1 className='mx-2 font-weight-bold'>557,273</h1>
-                                        <p className='font-weight-bold'>Dollars Saved</p>
-                                    </MDBCol>
-                                    <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="home" size="2x" className="cyan-text" />
-                                        <h1 className='mx-2 font-weight-bold'>372</h1>
-                                        <p className='font-weight-bold'>Homes Repaired</p>
-                                    </MDBCol>
-                                </MDBRow>
-                                <figcaption className='figure-caption text-center cyan-text mb-2'>**2019 Results</figcaption>
-                            </MDBContainer>
-                        </div>
-                    </div>
-                    {/* </MDBStreak> */}
-                </div>
                 {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
 
                 <section className='mx-5 my-5'>
@@ -286,16 +254,47 @@ class VideoBackgroundPage extends React.Component {
                     </MDBRow>
                 </section>
 
-                {/* <div style={{ marginTop: '20px' }}>
-                        <MDBStreak className='w-auto' size="sm" by="MOW ATL" overlayClass="white-text rgba-black-strong" photo={streakpic}>
-                            Our mission is to support senior independence through meals, shelter, education, and community.
-                        </MDBStreak>
-                    </div> */}
+                <div>
+                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")", height: '220px' }}>
+                        <div className='mask flex-center rgba-black-strong'>
+                            <MDBContainer>
+                                <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
+                                <MDBRow className='cyan-text text-center'>
+                                    <MDBCol md='3' className='mb-2'>
+                                        <MDBIcon icon="utensils" size="2x" className="cyan-text" />
+                                        <h1 className='mx-2 font-weight-bold'>514,765</h1>
+                                        <p className='font-weight-bold'>Meals Served</p>
+                                    </MDBCol>
+                                    <MDBCol md='3' className='mb-2'>
+                                        <MDBIcon icon="clock" size="2x" className="cyan-text" />
+                                        <h1 className='mx-2 font-weight-bold'>21,914</h1>
+                                        <p className='font-weight-bold'>Volunteer Hours</p>
+                                    </MDBCol>
+                                    <MDBCol md='3' className='mb-2'>
+                                        <MDBIcon icon="dollar-sign" size="2x" className="cyan-text" />
+                                        <h1 className='mx-2 font-weight-bold'>557,273</h1>
+                                        <p className='font-weight-bold'>Dollars Saved</p>
+                                    </MDBCol>
+                                    <MDBCol md='3' className='mb-2'>
+                                        <MDBIcon icon="home" size="2x" className="cyan-text" />
+                                        <h1 className='mx-2 font-weight-bold'>372</h1>
+                                        <p className='font-weight-bold'>Homes Repaired</p>
+                                    </MDBCol>
+                                </MDBRow>
+                                <figcaption className='figure-caption text-center cyan-text mb-2'>**2019 Results</figcaption>
+                            </MDBContainer>
+                        </div>
+                    </div>
+                    {/* </MDBStreak> */}
+                </div>
 
                 {/* <hr className='my-4' /> */}
 
 
                 {/* </div> */}
+
+                <Team />    
+
                 <footer>
                     <Footer />
                 </footer>

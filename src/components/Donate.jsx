@@ -18,6 +18,8 @@ import DonationModal from './DonationModal';
 import ladies from '../assets/donatesample.png';
 import Footer from "./Footer";
 import peeps from '../assets/oldladyandwoman.jpg';
+import kitchen from '../assets/kitchen.png';
+import nuts from '../assets/purposenuts.png';
 
 class Donate extends Component {
 
@@ -57,7 +59,7 @@ class Donate extends Component {
                             backgroundImage: "url(" + peeps + ")"
                         }}
                     >
-                        <div className="rgba-black-strong py-5 px-2 text-center">
+                        <div className="rgba-black-strong pb-5 px-2 text-center">
 
                             <div className="my-5 px-1 text-center">
                                 <h2 className="h1-responsive white-text font-weight-bold my-5">
@@ -82,7 +84,12 @@ class Donate extends Component {
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "3"} onClick={this.toggleJustified("3")} role="tab" >
-                                            <MDBIcon className='mr-1' icon="blender" /> Supplies
+                                            <MDBIcon className='mr-1' icon="blender" /> Our Kitchen
+                                        </MDBNavLink>
+                                    </MDBNavItem>
+                                    <MDBNavItem>
+                                        <MDBNavLink link to="#" active={this.state.activeItemJustified === "4"} onClick={this.toggleJustified("4")} role="tab" >
+                                            <MDBIcon className='mr-1' icon="hand-holding-heart" /> Purposeful Foods
                                         </MDBNavLink>
                                     </MDBNavItem>
                                 </MDBNav>
@@ -91,11 +98,11 @@ class Donate extends Component {
                                     activeItem={this.state.activeItemJustified}
                                 >
                                     <MDBTabPane tabId="1" role="tabpanel">
-                                        <p className="mt-2">
+                                        <p className="mt-2 font-weight-bold text-justify">
                                             Thank you for helping Meals On Wheels Atlanta fight senior hunger in our community.
                                             Your generosity means the world to us and to those we serve.
                                             For just $9 per day, we can provide a senior in need with breakfast and lunch, home-delivered by our friendly volunteers.
-                                            Please consider signing up for a monthly gift to help sustain and grow our impact
+                                            Please consider signing up for a monthly gift to help sustain and grow our impact!
                                         </p>
                                         <div className='d-flex text-center'>
                                             <DonationModal />
@@ -156,6 +163,7 @@ class Donate extends Component {
                                         </div>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
+                                        <img src={kitchen} alt='our kitchen logo' />
                                         <p className="mt-2">
                                             Would you like to donate new kitchen supplies or commercial appliances to “OUR Kitchen”? How about hosting a virtual Kitchen shower in support of “Our Kitchen”? If so, please submit the form below and somebody will reach out to you to discuss your options!
                                         </p>
@@ -186,6 +194,21 @@ class Donate extends Component {
                                             <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
                                             <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
                                         </div>
+                                    </MDBTabPane>
+                                    <MDBTabPane tabId="4" role="tabpanel">
+                                        <MDBRow>
+                                            <MDBCol md='6'>
+                                                <img src={nuts} alt='purposeful foods'/>
+                                            </MDBCol>
+                                            <MDBCol md='6'>
+                                                <p className='text-justify mt-4 pr-5'>
+                                                When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
+                                                </p>
+                                            </MDBCol>
+                                            <div className='text-center'>
+                                                <MDBBtn className='btn-rounded blue-gradient'>Shop Now</MDBBtn>
+                                            </div>
+                                        </MDBRow>
                                     </MDBTabPane>
                                 </MDBTabContent>
                             </MDBContainer>

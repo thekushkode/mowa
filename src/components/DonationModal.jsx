@@ -15,7 +15,7 @@ class DonationModal extends Component {
     render() {
         return (
             <MDBContainer>
-                <MDBBtn className='aqua-gradient btn-rounded' onClick={this.toggle}>Donate Now!</MDBBtn>
+                <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>Donate Now!</b></MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
                     <MDBModalBody>
