@@ -35,7 +35,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
-                                            <div className="d-none d-md-inline"><b>Support Us</b></div>
+                                            <span className=""><b>Support Us</b></span>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/donate'>Donate</MDBNavLink></MDBDropdownItem>
@@ -51,7 +51,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
-                                            <div className="d-none d-md-inline"><b>Events & News</b></div>
+                                        <span className=""><b>Events & News</b></span>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem> 

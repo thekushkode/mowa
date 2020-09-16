@@ -15,6 +15,7 @@ import oldguy from '../assets/oldguy.jpg';
 import oldpeople from '../assets/oldpeople.png';
 import feeding from '../assets/feed.png';
 import Team from "./Team";
+import logo from '../assets/mowaaa.png';
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -50,9 +51,10 @@ class VideoBackgroundPage extends React.Component {
                             <MDBContainer className="px-sm-0">
                                 <MDBRow>
                                     <MDBCol md="12" className="mb-4 mt-3 white-text text-center">
-                                        <h3 className="display-3 font-weight-bold mb-0 pt-md-3">
+                                        {/* <h3 className="display-3 font-weight-bold mb-0 pt-md-3">
                                             Meals on Wheels ATL
-                                        </h3>
+                                        </h3> */}
+                                        <img src={logo} alt='text mowa logo' className='w-75 mx-auto' />
                                         <hr className="hr-light my-4 w-75" />
                                         <h4 className="subtext-header mt-2 mb-4">
                                             Supporting senior independence through meals, shelter, education, and community.
@@ -255,7 +257,7 @@ class VideoBackgroundPage extends React.Component {
                 </section>
 
                 <div>
-                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")", height: '220px' }}>
+                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
                                 <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
@@ -293,7 +295,7 @@ class VideoBackgroundPage extends React.Component {
 
                 {/* </div> */}
 
-                <Team />    
+                <Team />
 
                 <footer>
                     <Footer />

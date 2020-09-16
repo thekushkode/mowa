@@ -12,10 +12,10 @@ const Team = () => {
 
     return (
         <div>
-            <header>
+            {/* <header>
                 <Nav />
-            </header>
-            <MDBCard className="my-5 px-1 pb-5 text-center">
+            </header> */}
+            <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
                     <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
                         Our Amazing Team
@@ -30,7 +30,7 @@ const Team = () => {
                             <MDBAvatar
                                 tag="img"
                                 src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                                className="rounded z-depth-1-half img-fluid"
+                                className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
@@ -57,7 +57,7 @@ const Team = () => {
                             <MDBAvatar
                                 tag="img"
                                 src={Kush}
-                                className="rounded z-depth-1-half img-fluid"
+                                className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">Robert Kushner</h4>
@@ -84,7 +84,7 @@ const Team = () => {
                             <MDBAvatar
                                 tag="img"
                                 src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
-                                className="rounded z-depth-1-half img-fluid"
+                                className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
@@ -104,9 +104,9 @@ const Team = () => {
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
-            <footer>
+            {/* <footer>
                 <Footer />
-            </footer>
+            </footer> */}
         </div>
     );
 }
