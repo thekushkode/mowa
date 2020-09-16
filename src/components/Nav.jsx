@@ -75,7 +75,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <a className='mx-2' href="https://www.purposefulgourmetfoods.org">
                                         {/* <img style={{ width: '25px', marginTop: '7px' }} src={nuts} alt='purposeful foods link' /> */}
-                                        <MDBBtn className='btn-rounded aqua-gradient' size='sm'><b>Purposeful Foods</b></MDBBtn>
+                                        <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Purposeful Foods</b></MDBBtn>
                                     </a>
                                 </MDBNavItem>
                                 {/* <MDBNavItem>
