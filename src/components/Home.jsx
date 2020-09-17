@@ -16,6 +16,7 @@ import oldpeople from '../assets/oldpeople.png';
 import feeding from '../assets/feed.png';
 import Team from "./Team";
 import logo from '../assets/mowaaa.png';
+import Celebs from "./Celebs";
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -122,6 +123,8 @@ class VideoBackgroundPage extends React.Component {
 
                         </MDBCol>
                     </MDBRow> */}
+
+                    {/* OUR STORY */}
                     <MDBCard className="px-5 pb-5">
                         <MDBCardBody>
                             <h2 className="h1-responsive font-weight-bold mdb-color-text text-center mb-5 mt-2">
@@ -160,6 +163,7 @@ class VideoBackgroundPage extends React.Component {
 
                 {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
 
+                {/* WHAT WE DO */}
                 <section className='mx-5 my-5'>
                     <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
                         What We Do!
@@ -256,6 +260,7 @@ class VideoBackgroundPage extends React.Component {
                     </MDBRow>
                 </section>
 
+                {/* STREAK */}
                 <div>
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
@@ -290,7 +295,19 @@ class VideoBackgroundPage extends React.Component {
                     {/* </MDBStreak> */}
                 </div>
 
-                {/* <hr className='my-4' /> */}
+
+                {/* CELEBRITY ENDORSEMENTS */}
+                <section>
+                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
+                        Celebrity Endorsements
+                    </h2>
+                    <p className="lead grey-text w-responsive text-center mx-auto mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam.
+                    </p>
+                    <Celebs />
+                </section>
 
 
                 {/* </div> */}

@@ -15,11 +15,13 @@ import {
 } from "mdbreact";
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
+import MonthlyDonationModal from './MonthlyDonationModal';
 import ladies from '../assets/donatesample.png';
 import Footer from "./Footer";
 import peeps from '../assets/oldladyandwoman.jpg';
 import kitchen from '../assets/kitchen.png';
 import nuts from '../assets/purposenuts.png';
+import nuts1 from '../assets/nuts1.jpeg';
 
 class Donate extends Component {
 
@@ -104,8 +106,9 @@ class Donate extends Component {
                                             For just $9 per day, we can provide a senior in need with breakfast and lunch, home-delivered by our friendly volunteers.
                                             Please consider signing up for a monthly gift to help sustain and grow our impact!
                                         </p>
-                                        <div className='d-flex text-center'>
+                                        <div className='d-flex justify-content-center'>
                                             <DonationModal />
+                                            <MonthlyDonationModal />
                                         </div>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="2" role="tabpanel">
@@ -198,16 +201,17 @@ class Donate extends Component {
                                     <MDBTabPane tabId="4" role="tabpanel">
                                         <MDBRow>
                                             <MDBCol md='6'>
-                                                <img src={nuts} alt='purposeful foods'/>
+                                                <img src={nuts1} className='rounded fluid' style={{ width: '350px' }} alt='purposeful foods' />
                                             </MDBCol>
                                             <MDBCol md='6'>
-                                                <p className='text-justify mt-4 pr-5'>
+                                                <p className='text-justify mt-4 pr-5 font-weight-bold'>
                                                 When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
                                                 </p>
+                                                <div className='d-flex justify-content-center'>
+                                                    <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
+                                                    <MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn>
+                                                </div>
                                             </MDBCol>
-                                            <div className='text-center'>
-                                                <MDBBtn className='btn-rounded blue-gradient'>Shop Now</MDBBtn>
-                                            </div>
                                         </MDBRow>
                                     </MDBTabPane>
                                 </MDBTabContent>

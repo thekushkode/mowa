@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 
-class DonationModal extends Component {
+class MonthlyDonationModal extends Component {
     state = {
         modal: false
     }
@@ -15,9 +15,9 @@ class DonationModal extends Component {
     render() {
         return (
             <div>
-                <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>One-Time Donation</b></MDBBtn>
+                <MDBBtn className='aqua-gradient btn-rounded' onClick={this.toggle}><b>Donate Monthly</b></MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
-                    <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
+                    <MDBModalHeader toggle={this.toggle}>Donate Monthly</MDBModalHeader>
                     <MDBModalBody>
                         (Insert Donation Script Here)
                     </MDBModalBody>
@@ -30,4 +30,4 @@ class DonationModal extends Component {
     }
 }
 
-export default DonationModal;
+export default MonthlyDonationModal;

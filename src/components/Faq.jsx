@@ -48,12 +48,12 @@ class Faq extends Component {
                                                     style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
-                                                        icon="cloud"
+                                                        icon="utensils"
                                                         size="2x"
                                                         className="m-3 black-text"
                                                     />
                                                 </div>
-                                                How to Qualify
+                                                How to Qualify for Meals
                                             </MDBCollapseHeader>
 
                                             <MDBCollapse id="collapse1" isOpen={this.state.collapseID}>
@@ -82,12 +82,12 @@ class Faq extends Component {
                                                     style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
-                                                        icon="comment-alt"
+                                                        icon="hands-helping"
                                                         size="2x"
                                                         className="m-3 black-text"
                                                     />
                                                 </div>
-                                                Item #2
+                                                Volunteering With MOWA
                                             </MDBCollapseHeader>
 
                                             <MDBCollapse id="collapse2" isOpen={this.state.collapseID}>
@@ -116,15 +116,81 @@ class Faq extends Component {
                                                     style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
-                                                        icon="cogs"
+                                                        icon="donate"
                                                         size="2x"
                                                         className="m-3 black-text"
                                                     />
                                                 </div>
-                                                Item #3
+                                                Donations
                                             </MDBCollapseHeader>
 
                                             <MDBCollapse id="collapse3" isOpen={this.state.collapseID}>
+                                                <MDBCardBody className="rgba-black-light white-text z-depth-1">
+                                                    <p className="p-md-4 mb-0">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                                                        life accusamus terry richardson ad squid. 3 wolf moon
+                                                        officia aute, non cupidatat skateboard dolor brunch.
+                                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                                        wolf moon tempor, sunt aliqua put a bird on it squid
+                                                        single-origin coffee nulla assumenda shoreditch et.
+                                                    </p>
+                                                </MDBCardBody>
+                                            </MDBCollapse>
+                                        </MDBCard>
+                                        <MDBCard className="mb-4">
+                                            <MDBCollapseHeader
+                                                onClick={this.toggleCollapse("collapse4")}
+                                                className="p-0 z-depth-1"
+                                                tag="h4"
+                                                tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
+                                            >
+                                                <div
+                                                    className="d-flex justify-content-center align-items-center mr-4"
+                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                >
+                                                    <MDBIcon
+                                                        icon="gift"
+                                                        size="2x"
+                                                        className="m-3 black-text"
+                                                    />
+                                                </div>
+                                                Purposeful Foods
+                                            </MDBCollapseHeader>
+
+                                            <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
+                                                <MDBCardBody className="rgba-black-light white-text z-depth-1">
+                                                    <p className="p-md-4 mb-0">
+                                                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                                                        life accusamus terry richardson ad squid. 3 wolf moon
+                                                        officia aute, non cupidatat skateboard dolor brunch.
+                                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                                        wolf moon tempor, sunt aliqua put a bird on it squid
+                                                        single-origin coffee nulla assumenda shoreditch et.
+                                                    </p>
+                                                </MDBCardBody>
+                                            </MDBCollapse>
+                                        </MDBCard>
+                                        <MDBCard className="mb-4">
+                                            <MDBCollapseHeader
+                                                onClick={this.toggleCollapse("collapse5")}
+                                                className="p-0 z-depth-1"
+                                                tag="h4"
+                                                tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
+                                            >
+                                                <div
+                                                    className="d-flex justify-content-center align-items-center mr-4"
+                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                >
+                                                    <MDBIcon
+                                                        icon="info"
+                                                        size="2x"
+                                                        className="m-3 black-text"
+                                                    />
+                                                </div>
+                                                Annual Report & Financials
+                                            </MDBCollapseHeader>
+
+                                            <MDBCollapse id="collapse5" isOpen={this.state.collapseID}>
                                                 <MDBCardBody className="rgba-black-light white-text z-depth-1">
                                                     <p className="p-md-4 mb-0">
                                                         Anim pariatur cliche reprehenderit, enim eiusmod high
