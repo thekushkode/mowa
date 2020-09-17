@@ -11,12 +11,13 @@ import videoOgg from '../assets/elder1.ogg';
 import videoWebm from '../assets/elder1.webm';
 import Footer from "./Footer";
 import streakpic from '../assets/oldladyandwoman.jpg';
-import oldguy from '../assets/oldguy.jpg';
+import old2 from '../assets/old2.jpg';
 import oldpeople from '../assets/oldpeople.png';
 import feeding from '../assets/feed.png';
 import Team from "./Team";
 import logo from '../assets/mowaaa.png';
 import Celebs from "./Celebs";
+import SeniorStories from "./SeniorStories";
 
 class VideoBackgroundPage extends React.Component {
     state = {
@@ -61,7 +62,7 @@ class VideoBackgroundPage extends React.Component {
                                             Supporting senior independence through meals, shelter, education, and community.
                                     </h4>
                                         <MDBBtn size='lg' outline rounded color="white" href="/donate">
-                                            <MDBIcon size='lg' className='mr-1' icon="heart" /> Donate
+                                            <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
                                         </MDBBtn>
                                     </MDBCol>
                                 </MDBRow>
@@ -138,12 +139,12 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                         <img
                                             className="img-fluid"
-                                            src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                                            src={old2}
                                             alt=""
                                         />
-                                        <a href="#!">
+                                        {/* <a href="#!">
                                             <MDBMask overlay="white-slight" />
-                                        </a>
+                                        </a> */}
                                     </MDBView>
                                 </MDBCol>
                                 <MDBCol lg="7">
@@ -297,7 +298,7 @@ class VideoBackgroundPage extends React.Component {
 
 
                 {/* CELEBRITY ENDORSEMENTS */}
-                <section>
+                <div className='mb-5'>
                     <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
                         Celebrity Endorsements
                     </h2>
@@ -306,13 +307,21 @@ class VideoBackgroundPage extends React.Component {
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                         ad minim veniam.
                     </p>
-                    <Celebs />
-                </section>
+                    <div>
+                        <Celebs />
+                    </div>
+                </div>
 
+                <div className='my-5'>
+                    <SeniorStories className='py-3' />
+                </div>
 
                 {/* </div> */}
+                <div>
 
-                <Team />
+                    <Team />
+                </div>
+
 
                 <footer>
                     <Footer />

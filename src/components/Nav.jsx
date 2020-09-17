@@ -35,13 +35,22 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
-                                            <span className=""><b>Support Us</b></span>
+                                            <span className=""><b>Get Involved</b></span>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/donate'>Donate</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='!#'>Volunteer With Us</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/dinnerserved'>Dinner is Served</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='!#'>1705: Gather With Purpose</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdown>
+                                                <MDBDropdownToggle nav caret>
+                                                    <span className="black-text"><b>Events & News</b></span>
+                                                </MDBDropdownToggle>
+                                                <MDBDropdownMenu className="dropdown-default">
+                                                    <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
+                                                    <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
+                                                </MDBDropdownMenu>
+                                            </MDBDropdown>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
                                 </MDBNavItem>
@@ -49,33 +58,52 @@ class Nav extends Component {
                                     <MDBNavLink to="/donate"><b>Get Meals</b></MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
+                                    <MDBNavLink to="/donate"><b>Home Repair</b></MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
-                                        <span className=""><b>Events & News</b></span>
+                                            <span className=""><b>Events & News</b></span>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem> 
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
                                 </MDBNavItem>
                                 <MDBNavItem>
+                                    <MDBDropdown>
+                                        <MDBDropdownToggle nav caret>
+                                            <span className=""><b>About</b></span>
+                                        </MDBDropdownToggle>
+                                        <MDBDropdownMenu className="dropdown-default">
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Home Repairs</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Meal Services</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>FAQ</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>Contact</MDBNavLink></MDBDropdownItem>
+                                        </MDBDropdownMenu>
+                                    </MDBDropdown>
+                                </MDBNavItem>
+                                {/* <MDBNavItem>
                                     <MDBNavLink to="/faq"><b>FAQ</b></MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink to="/contact"><b>Contact</b></MDBNavLink>
-                                </MDBNavItem>
+                                </MDBNavItem> */}
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
-                                    <MDBNavLink className='mx-2' style={{ color: 'white' }} to="/donate">
-                                        <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" />
+                                    <MDBNavLink style={{ color: 'white' }} to="/donate">
+                                        <MDBBtn size='sm' outline rounded color="white" href="/donate">
+                                            <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
+                                        </MDBBtn>
+                                        {/* <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" /> */}
                                     </MDBNavLink>
                                 </MDBNavItem>
-                                <MDBNavItem>
-                                    <a className='mx-2' href="https://www.purposefulgourmetfoods.org">
+                                <MDBNavItem style={{ marginTop: '7px' }} >
+                                    <a href="https://www.purposefulgourmetfoods.org">
                                         {/* <img style={{ width: '25px', marginTop: '7px' }} src={nuts} alt='purposeful foods link' /> */}
-                                        <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Purposeful Foods</b></MDBBtn>
+                                        <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Shop Purposeful</b></MDBBtn>
                                     </a>
                                 </MDBNavItem>
                                 {/* <MDBNavItem>
