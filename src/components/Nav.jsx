@@ -39,7 +39,7 @@ class Nav extends Component {
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/donate'>Donate</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='!#'>Volunteer With Us</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/volunteer'>Volunteer With Us</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/dinnerserved'>Dinner is Served</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='!#'>1705: Gather With Purpose</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdown>
@@ -55,7 +55,7 @@ class Nav extends Component {
                                     </MDBDropdown>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink to="/donate"><b>Get Meals</b></MDBNavLink>
+                                    <MDBNavLink to="/getmeals"><b>Get Meals</b></MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink to="/donate"><b>Home Repair</b></MDBNavLink>
@@ -106,21 +106,6 @@ class Nav extends Component {
                                         <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Shop Purposeful</b></MDBBtn>
                                     </a>
                                 </MDBNavItem>
-                                {/* <MDBNavItem>
-                                    <a className='mx-2' style={{ color: 'white' }} href="https://www.facebook.com/MealsOnWheelsAtlanta/">
-                                        <MDBIcon fab icon="facebook-f" />
-                                    </a>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <a className='mx-2' style={{ color: 'white' }} href="https://twitter.com/MOWAtlanta">
-                                        <MDBIcon fab icon="twitter" />
-                                    </a>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <a className='mx-2' style={{ color: 'white' }} href="https://www.instagram.com/mealsonwheelsatlanta/?hl=en">
-                                        <MDBIcon fab icon="instagram" />
-                                    </a>
-                                </MDBNavItem> */}
                             </MDBNavbarNav>
                         </MDBCollapse>
                     </MDBContainer>

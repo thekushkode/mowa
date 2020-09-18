@@ -9,6 +9,8 @@ import ContactPage from './components/Contact';
 import Events from './components/Events';
 import Faq from './components/Faq';
 import InTheNews from './components/InTheNews';
+import GetMeals from './components/GetMeals';
+import Volunteer from './components/Volunteer';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/donate' component={Donate} />
+      <Route exact path='/getmeals' component={GetMeals} />
+      <Route exact path='/volunteer' component={Volunteer} />
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/events' component={Events} />
