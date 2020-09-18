@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, Redirect, useHistory } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import Home from './components/Home';
 import Donate from './components/Donate';
 import Team from './components/Team';
@@ -11,6 +12,18 @@ import Faq from './components/Faq';
 import InTheNews from './components/InTheNews';
 import GetMeals from './components/GetMeals';
 import Volunteer from './components/Volunteer';
+
+ReactGA.initialize('UA-178438543-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.pageview('/');
+ReactGA.pageview('/donate');
+ReactGA.pageview('/getmeals');
+ReactGA.pageview('/volunteer');
+ReactGA.pageview('/team');
+ReactGA.pageview('/contact');
+ReactGA.pageview('/events');
+ReactGA.pageview('/inthenews');
+ReactGA.pageview('/faq');
 
 function App() {
   return (
