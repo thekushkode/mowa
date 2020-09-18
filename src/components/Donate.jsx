@@ -81,16 +81,11 @@ class Donate extends Component {
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "2"} onClick={this.toggleJustified("2")} role="tab" >
-                                            <MDBIcon className='mr-1' icon="clock" /> Volunteer
-                                        </MDBNavLink>
-                                    </MDBNavItem>
-                                    <MDBNavItem>
-                                        <MDBNavLink link to="#" active={this.state.activeItemJustified === "3"} onClick={this.toggleJustified("3")} role="tab" >
                                             <MDBIcon className='mr-1' icon="blender" /> Our Kitchen
                                         </MDBNavLink>
                                     </MDBNavItem>
                                     <MDBNavItem>
-                                        <MDBNavLink link to="#" active={this.state.activeItemJustified === "4"} onClick={this.toggleJustified("4")} role="tab" >
+                                        <MDBNavLink link to="#" active={this.state.activeItemJustified === "3"} onClick={this.toggleJustified("3")} role="tab" >
                                             <MDBIcon className='mr-1' icon="hand-holding-heart" /> Purposeful Foods
                                         </MDBNavLink>
                                     </MDBNavItem>
@@ -111,64 +106,14 @@ class Donate extends Component {
                                             <MonthlyDonationModal />
                                         </div>
                                     </MDBTabPane>
+                                    
                                     <MDBTabPane tabId="2" role="tabpanel">
-                                        <p className="mt-2">
-                                            You’ll find that there are a number of different types of volunteer opportunities at MOWA, all of which are vital in supporting our work with local seniors. Some opportunities include delivering meals, preparing shelf stable meal options, and stocking our food pantry. Regardless of what opportunity speaks to you, you will be making a world of difference to our senior neighbors here in Atlanta!.
-                                        </p>
-                                        <h2 className='text-center red-text darken-4'>Volunteer Requirements</h2>
-                                        <ol>
-                                            <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.</li>
-                                            <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
-                                            <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
-                                            <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
-                                            <li>Due to the nature of volunteer opportunities, volunteering at Meals On Wheels Atlanta may require periods of standing, walking, and lifting boxes up to 10 pounds.</li>
-                                            <li>Volunteers must be able to stay for the entire duration of the event that you register for.</li>
-                                        </ol>
-                                        <p>
-                                            After completing the online application form, your account is subject to review. Once approved, you will be contacted by a member of our Community Engagement Team who will provide you with instructions on completing all required paperwork and waivers as well as creating your VolunteerHub account!
-                                        </p>
-                                        <h4 className='font-weight-bold'>Community Service Eligibility:</h4>
-                                        <ul>
-                                            <li>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b></li>
-                                            <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org'>Alissa Robbins</a>.</li>
-                                        </ul>
-                                        <h2 className='text-center red-text darken-4'>Additional Information</h2>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Volunteer Waiver</b></h4>
-                                        <p>
-                                            All volunteers will ﬁll out a volunteer waiver during the volunteer orientation with MOWA.
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Background Checks</b></h4>
-                                        <p>
-                                            All individual volunteers will need a volunteer background check that can be ﬁlled out at orientation.
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Group Volunteers</b></h4>
-                                        <p>
-                                            Corporate Volunteers will not need to ﬁll out a background check. Faith-based groups, civic groups and school groups will still need all members to ﬁll out a background check prior to their scheduled volunteer date. The completed forms may be mailed, scanned or faxed for your convenience.
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Parking</b></h4>
-                                        <p>
-                                            Parking can be found on either side of the building. Due to limited parking, carpooling is recommended for ease and convenience.
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Arriving</b></h4>
-                                        <p>
-                                            Ask for a MOWA Volunteer Representative in the reception area so your group can be directed to the volunteer orientation.
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Confirmation</b></h4>
-                                        <p>
-                                            We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
-                                        </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
-                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org'>Contact us!</a></p>
-                                        
-                                        <div className='d-flex justify-content-center'>
-                                            <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
-                                            <MDBBtn className='btn-rounded blue-gradient'><MDBNavLink className='p-0' to='/contact' style={{ color: 'white' }}>Contact Us</MDBNavLink></MDBBtn>
-                                        </div>
-                                    </MDBTabPane>
-                                    <MDBTabPane tabId="3" role="tabpanel">
                                         <img src={kitchen} alt='our kitchen logo' />
-                                        <p className="mt-2">
-                                            Would you like to donate new kitchen supplies or commercial appliances to “OUR Kitchen”? How about hosting a virtual Kitchen shower in support of “Our Kitchen”? If so, please submit the form below and somebody will reach out to you to discuss your options!
+                                        <p className="mt-2 mdb-color-text text-left font-weight-bold">
+                                        Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) wait list.  Could you imagine your mother, grandmother or grandfather just waiting for food?
+                                        </p><br/>
+                                        <p className="mt-2 mdb-color-text text-left font-weight-bold">
+                                            We are thrilled to announce OUR new project called “Our Kitchen”.  It’s a community collaboration of designers, architects, builders, chefs, gardeners, and more.  We’re getting ready to build OUR answer to ending senior hunger in OUR community. We will convert more than 10,000 square feet of existing space into a new state-of-the- art commercial kitchen that will enable us to triple OUR meal production. We’ll add a gourmet demo kitchen for cooking classes, an organic garden and a beautiful community event space.
                                         </p>
                                         <MDBContainer className='px-5 py-5'>
                                             <MDBRow>
@@ -193,12 +138,8 @@ class Donate extends Component {
                                                 </MDBCol>
                                             </MDBRow>
                                         </MDBContainer>
-                                        <div className='d-flex justify-content-center'>
-                                            <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
-                                            <MDBBtn className='btn-rounded blue-gradient'>Contact Us</MDBBtn>
-                                        </div>
                                     </MDBTabPane>
-                                    <MDBTabPane tabId="4" role="tabpanel">
+                                    <MDBTabPane tabId="3" role="tabpanel">
                                         <MDBRow>
                                             <MDBCol md='6'>
                                                 <img src={nuts1} className='rounded fluid' style={{ width: '350px' }} alt='purposeful foods' />
@@ -209,7 +150,7 @@ class Donate extends Component {
                                                 </p>
                                                 <div className='d-flex justify-content-center'>
                                                     <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
-                                                    <MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn>
+                                                    <a href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
                                                 </div>
                                             </MDBCol>
                                         </MDBRow>

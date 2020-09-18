@@ -145,7 +145,7 @@ class Volunteer extends Component {
                                             We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
                                         </p>
                                         <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
-                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org'>Contact us!</a></p>
+                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=Volunteer with MOWA'>Contact us!</a></p>
 
                                         <div className='d-flex justify-content-center'>
                                             <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
