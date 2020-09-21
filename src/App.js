@@ -12,6 +12,7 @@ import Faq from './components/Faq';
 import InTheNews from './components/InTheNews';
 import GetMeals from './components/GetMeals';
 import Volunteer from './components/Volunteer';
+import HomeRepair from './components/HomeRepair';
 
 ReactGA.initialize('UA-178438543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -33,6 +34,7 @@ function App() {
       <Route exact path='/donate' component={Donate} />
       <Route exact path='/getmeals' component={GetMeals} />
       <Route exact path='/volunteer' component={Volunteer} />
+      <Route exact path='/homerepairs' component={HomeRepair} />
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/events' component={Events} />

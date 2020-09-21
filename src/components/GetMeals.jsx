@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer, MDBIcon, MDBBtn, MDBInput, MDBIframe } from "mdbreact";
+import "./GetMeals.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import old2 from '../assets/old2.jpg';
@@ -23,13 +24,17 @@ const GetMeals = () => {
                 <p className="text-center w-responsive mx-auto mb-3">
                     Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='/contact'>Contact us!</a></b>
                 </p>
-                <MDBRow>
-                    <MDBCol lg="12" className="lg-0 mb-4 px-4">
-                        <div style={{ width: '100%', height: '1415px', position: 'relative', overflow: 'scroll' }}>
-                            <iframe title='find your local meals on wheels office' style={{ position: 'absolute', top: '-200px', left: '0px', width: '100%', height: '1600px', marginLeft: '10px' }} scrolling='no' src="https://www.mealsonwheelsamerica.org/findmeals"></iframe>
-                        </div>
-                    </MDBCol>
-                </MDBRow>
+
+                <div className='mealsiframe' style={{ height: '950px', position: 'relative', overflow: 'hidden' }}>
+                    <iframe frameborder="0" title='find your local meals on wheels office' style={{ position: 'absolute', top: '-200px', left: '0px', width: '100%', height: '1010px' }} scrolling='no' src="https://www.mealsonwheelsamerica.org/findmeals"></iframe>
+                </div>
+                {/* <MDBContainer style={{ position: 'relative', overflow: 'hidden' }}>
+                            <MDBIframe style={{ position: 'absolute', top: '-200px', left: '0px', width: '100%', height: '900px', overflow: 'hidden' }} title='find your local meals on wheels office' src='https://www.mealsonwheelsamerica.org/findmeals' scrolling='no'></MDBIframe>
+                        </MDBContainer> */}
+                {/* <div className="embed-responsive embed-responsive-1by1">
+                            <iframe style={{ top: '-190px' }} scrolling='no' title='find your local meals on wheels office' className="embed-responsive-item" src='https://www.mealsonwheelsamerica.org/findmeals' allowfullscreen></iframe>
+                        </div> */}
+
             </section>
             <section>
                 <h2 className="h1-responsive font-weight-bold mdb-color-text text-center mb-5">
