@@ -13,43 +13,40 @@ const Celebs = () => {
                         <MDBCarouselItem itemId="1">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    {/* <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" /> */}
-                                    <MDBIframe src="https://www.youtube.com/embed/Es2CNTUYpmk" />
+                                    <MDBIframe src="https://www.youtube.com/embed/schI2sYisNs" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Matt Ryan</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            NFL QB, Atlanta Falcons
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded'href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    {/* <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" /> */}
-                                    <MDBIframe src="https://www.youtube.com/embed/Z7-97Poye7U" />
+                                    <MDBIframe src="https://www.youtube.com/embed/sDGHl9atGSs" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Keisha Lance Bottoms</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Mayor of Atlanta
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    {/* <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" /> */}
-                                    <MDBIframe src="https://www.youtube.com/embed/TOYkPyRFx-c" />
+                                    <MDBIframe src="https://www.youtube.com/embed/zIRs-vWoUcQ" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Warrick Dunn</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            NFL RB, Atlanta Falcons
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -57,40 +54,40 @@ const Celebs = () => {
                         <MDBCarouselItem itemId="2">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(60).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/oQtR5QhZCVM" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Cynthia Bailey</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Model, RHOA Cast Member
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/Es2CNTUYpmk" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>MOWA Celeb Endorsements</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            From movie stars to entertainers, Atlanta's elite stand with Meals on Wheels Atlanta!
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(48).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/y1spvP6vasg" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>MOWA Instructional Video</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Everything you need to know about MOWA!
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -98,43 +95,44 @@ const Celebs = () => {
                         <MDBCarouselItem itemId="3">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/TOYkPyRFx-c" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Staff Video</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            At MOWA, WE ARE FAMILY! Join us in our efforts to put an end to hunger for our Atlanta Seniors!
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/Z7-97Poye7U" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>Thank you!</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Without the unbelievable support from volunteers in our community, all of this wouldn't be possible!
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(41).jpg" />
+                                    <MDBIframe src="https://www.youtube.com/embed/u8I3iIiXK2s" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MDBCard title</MDBCardTitle>
+                                        <MDBCardTitle>We Need YOU!</MDBCardTitle>
                                         <MDBCardText>
-                                            Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.
+                                            Now more than ever we need the support of our amazing Atlanta community. Your help means an Atlanta Senior won't go hungry.
                                         </MDBCardText>
-                                        <MDBBtn color="primary">MDBBtn</MDBBtn>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
+                            
                         </MDBCarouselItem>
                     </MDBRow>
                 </MDBCarouselInner>

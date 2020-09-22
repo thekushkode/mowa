@@ -170,7 +170,7 @@ class VideoBackgroundPage extends React.Component {
                 {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
 
                 {/* WHAT WE DO */}
-                <section className='mx-5 my-5'>
+                {/* <section className='mx-5 my-5'>
                     <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
                         What We Do!
                         </h2>
@@ -264,11 +264,11 @@ class VideoBackgroundPage extends React.Component {
                             </MDBRow>
                         </MDBCol>
                     </MDBRow>
-                </section>
+                </section> */}
 
                 {/* STREAK */}
                 <div>
-                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
+                    <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
                                 <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
@@ -307,28 +307,21 @@ class VideoBackgroundPage extends React.Component {
                     <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
                         Celebrity Endorsements
                     </h2>
-                    <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam.
+                    <p className="lead text-muted w-responsive text-center mx-auto mb-5">
+                        Atlanta's most well-known residence know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders stadning behind us in the fight to end Senior hunger!
                     </p>
                     <div>
                         <Celebs />
                     </div>
                 </div>
 
-                <div className='my-5'>
-                    <SeniorStories className='py-3' />
-                </div>
-
                 {/* </div> */}
                 <div>
-
                     <Team />
                 </div>
 
 
-                <footer>
+                <footer style={{ marginTop: '-25px' }}>
                     <Footer />
                 </footer>
             </div>
