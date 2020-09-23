@@ -60,7 +60,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBNavLink to="/homerepairs"><b>Home Repair</b></MDBNavLink>
                                 </MDBNavItem>
-                                <MDBNavItem>
+                                {/* <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
                                             <span className=""><b>Events & News</b></span>
@@ -70,17 +70,16 @@ class Nav extends Component {
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
-                                </MDBNavItem>
+                                </MDBNavItem> */}
                                 <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
                                             <span className=""><b>About</b></span>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu className="dropdown-default">
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Home Repairs</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Meal Services</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>FAQ</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>Contact</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/faq'>FAQ</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/contact'>Contact</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/team'>Our Team</MDBNavLink></MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
                                 </MDBNavItem>

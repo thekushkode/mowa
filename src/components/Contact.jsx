@@ -93,16 +93,16 @@ const ContactPage = () => {
                         <MDBRow className="text-center">
                             <MDBCol md="4">
                                 <MDBBtn tag="a" floating className="accent-1 blue-gradient">
-                                    <MDBIcon icon="map-marker-alt" />
+                                    <MDBIcon icon="phone" />
                                 </MDBBtn>
-                                <p>Atlanta, Ga 30318</p>
+                                <p>404.351.3889</p>
 
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBBtn tag="a" floating className="accent-1 blue-gradient">
-                                    <MDBIcon icon="phone" />
+                                    <MDBIcon icon="fax" />
                                 </MDBBtn>
-                                <p>404.351.3889</p>
+                                <p>404.352.0595</p>
 
                             </MDBCol>
                             <MDBCol md="4">

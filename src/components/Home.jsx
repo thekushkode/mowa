@@ -271,30 +271,30 @@ class VideoBackgroundPage extends React.Component {
                     <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
-                                <h1 className='text-center cyan-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
-                                <MDBRow className='cyan-text text-center'>
+                                <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
+                                <MDBRow className='white-text text-center'>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="utensils" size="2x" className="cyan-text" />
+                                        <MDBIcon icon="utensils" size="2x" className="white-text" />
                                         <h1 className='mx-2 font-weight-bold'>514,765</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="clock" size="2x" className="cyan-text" />
+                                        <MDBIcon icon="clock" size="2x" className="white-text" />
                                         <h1 className='mx-2 font-weight-bold'>21,914</h1>
                                         <p className='font-weight-bold'>Volunteer Hours</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="dollar-sign" size="2x" className="cyan-text" />
+                                        <MDBIcon icon="dollar-sign" size="2x" className="white-text" />
                                         <h1 className='mx-2 font-weight-bold'>557,273</h1>
                                         <p className='font-weight-bold'>Dollars Saved</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="home" size="2x" className="cyan-text" />
+                                        <MDBIcon icon="home" size="2x" className="white-text" />
                                         <h1 className='mx-2 font-weight-bold'>372</h1>
                                         <p className='font-weight-bold'>Homes Repaired</p>
                                     </MDBCol>
                                 </MDBRow>
-                                <figcaption className='figure-caption text-center cyan-text mb-2'>**2019 Results</figcaption>
+                                <figcaption className='figure-caption text-center white-text mb-2'>**2019 Results</figcaption>
                             </MDBContainer>
                         </div>
                     </div>
@@ -318,6 +318,47 @@ class VideoBackgroundPage extends React.Component {
                 {/* </div> */}
                 <div>
                     <Team />
+                </div>
+
+                <div>
+                    <MDBCard className="px-1 pb-5 text-center">
+                        <MDBCardBody>
+                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                                MOWA Board of Trustees
+                            </h2>
+                            <p className="grey-text w-responsive mx-auto mb-5">
+                                MOWA would like to recognize our Board of Trustees. Our trustees are charged with making sure our organization runs at the highest levels and maximizes the full potential of our fundraising efforts.
+                            </p>
+                            <MDBRow>
+
+                                <MDBCol md='6' className='text-left'>
+                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Angela Blank,</b> Community Organizer</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Rusty Bowers,</b> Owner at Pine Street Market</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
+                                </MDBCol>
+                                <MDBCol md='6' className='text-left'>
+                                    <p className='blue-text'><b className='mdb-color-text'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Sean Hyslop,</b> President at Sysco Atlanta</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Jovita Moore,</b> News Anchor at WSB-TV</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                                    <p className='blue-text'><b className='mdb-color-text'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCardBody>
+                    </MDBCard>
                 </div>
 
 
