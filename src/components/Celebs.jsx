@@ -39,6 +39,21 @@ const Celebs = () => {
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
+                                    <MDBIframe src="https://www.youtube.com/embed/uE-Tr_cR5aM" />
+                                    <MDBCardBody>
+                                        <MDBCardTitle>Ed Helms</MDBCardTitle>
+                                        <MDBCardText>
+                                            Actor, The Office, The Hangover
+                                        </MDBCardText>
+                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                    </MDBCardBody>
+                                </MDBCard>
+                            </MDBCol>
+                        </MDBCarouselItem>
+                        <MDBCarouselItem itemId="2">
+                            <MDBCol md="4">
+                                <MDBCard className="mb-2">
                                     <MDBIframe src="https://www.youtube.com/embed/zIRs-vWoUcQ" />
                                     <MDBCardBody>
                                         <MDBCardTitle>Warrick Dunn</MDBCardTitle>
@@ -50,8 +65,6 @@ const Celebs = () => {
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
-                        </MDBCarouselItem>
-                        <MDBCarouselItem itemId="2">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
                                     <MDBIframe src="https://www.youtube.com/embed/oQtR5QhZCVM" />
@@ -67,17 +80,19 @@ const Celebs = () => {
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
-                                    <MDBIframe src="https://www.youtube.com/embed/Es2CNTUYpmk" />
+                                    <MDBIframe src="https://www.youtube.com/embed/aQoIn7aY4_w" />
                                     <MDBCardBody>
-                                        <MDBCardTitle>MOWA Celeb Endorsements</MDBCardTitle>
+                                        <MDBCardTitle>Lil Jon</MDBCardTitle>
                                         <MDBCardText>
-                                            From movie stars to entertainers, Atlanta's elite stand with Meals on Wheels Atlanta!
+                                            Entertainer, Producer
                                         </MDBCardText>
                                         <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
                                         <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
+                        </MDBCarouselItem>
+                        <MDBCarouselItem itemId="3">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
                                     <MDBIframe src="https://www.youtube.com/embed/y1spvP6vasg" />
@@ -91,8 +106,6 @@ const Celebs = () => {
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
-                        </MDBCarouselItem>
-                        <MDBCarouselItem itemId="3">
                             <MDBCol md="4">
                                 <MDBCard className="mb-2">
                                     <MDBIframe src="https://www.youtube.com/embed/TOYkPyRFx-c" />
@@ -113,19 +126,6 @@ const Celebs = () => {
                                         <MDBCardTitle>Thank you!</MDBCardTitle>
                                         <MDBCardText>
                                             Without the unbelievable support from volunteers in our community, all of this wouldn't be possible!
-                                        </MDBCardText>
-                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
-                                    </MDBCardBody>
-                                </MDBCard>
-                            </MDBCol>
-                            <MDBCol md="4">
-                                <MDBCard className="mb-2">
-                                    <MDBIframe src="https://www.youtube.com/embed/u8I3iIiXK2s" />
-                                    <MDBCardBody>
-                                        <MDBCardTitle>We Need YOU!</MDBCardTitle>
-                                        <MDBCardText>
-                                            Now more than ever we need the support of our amazing Atlanta community. Your help means an Atlanta Senior won't go hungry.
                                         </MDBCardText>
                                         <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
                                         <MDBBtn className='purple-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>

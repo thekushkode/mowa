@@ -316,7 +316,7 @@ class VideoBackgroundPage extends React.Component {
                 </div>
 
                 {/* </div> */}
-                <div>
+                {/* <div>
                     <Team />
                 </div>
 
@@ -329,7 +329,7 @@ class VideoBackgroundPage extends React.Component {
                             <p className="grey-text w-responsive mx-auto mb-5">
                                 MOWA would like to recognize our Board of Trustees. Our trustees are charged with making sure our organization runs at the highest levels and maximizes the full potential of our fundraising efforts.
                             </p>
-                            <MDBRow>
+                            <MDBRow className='px-1'>
 
                                 <MDBCol md='6' className='text-left'>
                                     <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
@@ -359,7 +359,7 @@ class VideoBackgroundPage extends React.Component {
                             </MDBRow>
                         </MDBCardBody>
                     </MDBCard>
-                </div>
+                </div> */}
 
 
                 <footer style={{ marginTop: '-25px' }}>

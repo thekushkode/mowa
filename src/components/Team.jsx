@@ -3,6 +3,13 @@ import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from
 import Nav from "./Nav";
 import Kush from '../assets/kush250x250.png';
 import Footer from "./Footer";
+import team1 from '../assets/Team/team1.png';
+import team2 from '../assets/Team/team2.png';
+import team3 from '../assets/Team/team3.png';
+import team4 from '../assets/Team/team4.png';
+import team5 from '../assets/Team/team5.png';
+import team6 from '../assets/Team/team6.png';
+
 
 const Team = () => {
 
@@ -12,9 +19,9 @@ const Team = () => {
 
     return (
         <div>
-            {/* <header>
+            <header style={{ marginBottom: '56px' }}>
                 <Nav />
-            </header> */}
+            </header>
             <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
                     <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
@@ -23,86 +30,127 @@ const Team = () => {
                     <p className="grey-text w-responsive mx-auto mb-5">
                         We're honored to introduce the Meals on Wheels Atlanta team! This amazing group of people are the backbone of the MOWA organization. From fielding calls and emails to creating engaging fundraising events to preparing Senior meals, they are always ready to carry the load to fulfill our mission!
                     </p>
+                    <MDBRow className='mb-5'>
+                        <MDBCol md="4" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={team1}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Charlene Crusoe-Ingram
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Chief Executive Officer</h6>
+                            <MDBBtn href='tel:4043513889p222' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:ccrusoeingram@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        
+                        </MDBCol>
+
+                        <MDBCol md="4" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={team6}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">Vona Cox</h4>
+                            <h6 className="text-uppercase grey-text mb-3">
+                                Chief Process Improvement Officer
+                            </h6>
+                            <MDBBtn href='tel:4043513889p233' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:vcox@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+
+                        <MDBCol md="4" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={team5}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Laura Ernst
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Grants & Institutional Giving</h6>
+                            <MDBBtn href='tel:4043513889p232' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                    </MDBRow>
                     <MDBRow>
                         <MDBCol md="4" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
-                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                                src={team4}
                                 className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
+                                style={{ height: '250px', width: '250px' }}
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
-                                Maria Kate
+                                Joshua Rumohr
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Photographer</h6>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-fb">
-                                <MDBIcon fab icon="facebook-f" />
+                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Operations & Veteran Affairs</h6>
+                            <MDBBtn href='tel:4043513889p249' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn
-                                tag="a"
-                                floating
-                                size="sm"
-                                className="mx-1 mb-0 btn-dribbble"
-                            >
-                                <MDBIcon fab icon="dribbble" />
-                            </MDBBtn>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-tw">
-                                <MDBIcon fab icon="twitter" />
-                            </MDBBtn>
-                        </MDBCol>
-
-                        <MDBCol md="4" className="mb-md-0 mb-5">
-                            <MDBAvatar
-                                tag="img"
-                                src={Kush}
-                                className="rounded-circle z-depth-1-half img-fluid"
-                                alt="Sample avatar"
-                            />
-                            <h4 className="font-weight-bold dark-grey-text my-4">Robert Kushner</h4>
-                            <h6 className="text-uppercase grey-text mb-3">
-                                Full-Stack Developer
-                            </h6>
-                            <MDBBtn
-                                tag="a"
-                                floating
-                                size="sm"
-                                className="mx-1 mb-0 btn-email"
-                            >
+                            <MDBBtn href='mailto:jrumohr@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-fb">
-                                <MDBIcon fab icon="facebook-f" />
+                        </MDBCol>
+
+                        <MDBCol md="4" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={team3}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">Elisha Silvera</h4>
+                            <h6 className="text-uppercase grey-text mb-3">
+                                Sr. Director of Special Events & Community Engagement
+                            </h6>
+                            <MDBBtn href='tel:4043513889p224' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-git">
-                                <MDBIcon fab icon="github" />
+                            <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
 
                         <MDBCol md="4" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
-                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+                                src={team2}
                                 className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
-                                Sarah Melyah
+                                Jason Tucker
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Web Developer</h6>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-li">
-                                <MDBIcon fab icon="linkedin-in" />
+                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Meal Services</h6>
+                            <MDBBtn href='tel:4043513889p308' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-tw">
-                                <MDBIcon fab icon="twitter" />
-                            </MDBBtn>
-                            <MDBBtn tag="a" floating size="sm" className="mx-1 mb-0 btn-pin">
-                                <MDBIcon fab icon="pinterest" />
+                            <MDBBtn href='mailto:jtucker@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
-            {/* <MDBCard className="px-1 pb-5 text-center">
+            <MDBCard className="px-1 pb-5 text-center">
                         <MDBCardBody>
                             <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
                                 MOWA Board of Trustees
@@ -139,10 +187,10 @@ const Team = () => {
                                 </MDBCol>
                             </MDBRow>
                         </MDBCardBody>
-                    </MDBCard> */}
-            {/* <footer>
+                    </MDBCard>
+            <footer style={{ marginTop: '-25px' }}>
                 <Footer />
-            </footer> */}
+            </footer>
         </div>
     );
 }

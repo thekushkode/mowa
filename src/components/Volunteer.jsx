@@ -26,6 +26,15 @@ import volback from '../assets/volbackground.jpg';
 import kitchen from '../assets/kitchen.png';
 import nuts from '../assets/purposenuts.png';
 import nuts1 from '../assets/nuts1.jpeg';
+import vol1 from '../assets/Volunteers/vol1.png';
+import vol2 from '../assets/Volunteers/vol2.png';
+import vol3 from '../assets/Volunteers/vol3.png';
+import vol4 from '../assets/Volunteers/vol4.png';
+import vol5 from '../assets/Volunteers/vol5.png';
+import vol6 from '../assets/Volunteers/vol6.png';
+import vol7 from '../assets/Volunteers/vol7.png';
+import vol8 from '../assets/Volunteers/vol8.png';
+import vol9 from '../assets/Volunteers/vol9.png';
 
 class Volunteer extends Component {
 
@@ -147,13 +156,13 @@ class Volunteer extends Component {
                                         <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
                                         <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Iternship'>Contact us!</a></p>
 
-                                        <div className='d-flex justify-content-center'>
+                                        {/* <div className='d-flex justify-content-center'>
                                             <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
                                             <MDBBtn className='btn-rounded blue-gradient'><MDBNavLink className='p-0' to='/contact' style={{ color: 'white' }}>Contact Us</MDBNavLink></MDBBtn>
-                                        </div>
+                                        </div> */}
                                     </MDBTabPane>
                                     <MDBTabPane tabId="2" role="tabpanel">
-                                        <p className='font-weight-bold'>
+                                        <p className='font-weight-bolder'>
                                             At Meals On Wheels Atlanta, we’re dedicated to supporting senior independence through meals, shelter, education, and community. An easy way to double your contribution is through employee giving programs.
                                             <br />
                                             <br />
@@ -165,7 +174,10 @@ class Volunteer extends Component {
                                         </div>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
-
+                                        <div className='text-center'>
+                                            <a href='mailto:arobbins@mowatl.org?subject=New Volunteer&body=Name:%0APhone:%0AEmail:%0AWhat%20type%20of%20volunteer%20work%20are%20you%20interested%20in?' ><MDBBtn size='md' className='btn-rounded blue-gradient'>New Volunteers</MDBBtn></a>
+                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded blue-gradient'>Returning Volunteers</MDBBtn></a>
+                                        </div>
                                     </MDBTabPane>
                                 </MDBTabContent>
                             </MDBContainer>
@@ -175,7 +187,7 @@ class Volunteer extends Component {
                                 </h2>
                                 <MDBCarousel
                                     activeItem={1}
-                                    length={3}
+                                    length={9}
                                     showControls={true}
                                     showIndicators={false}
                                     className="z-depth-1"
@@ -186,8 +198,8 @@ class Volunteer extends Component {
                                             <MDBView>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
-                                                    alt="First slide"
+                                                    src={vol1}
+                                                    alt="Volunteer in Action"
                                                 />
                                             </MDBView>
                                         </MDBCarouselItem>
@@ -195,8 +207,8 @@ class Volunteer extends Component {
                                             <MDBView>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
-                                                    alt="Second slide"
+                                                    src={vol2}
+                                                    alt="Volunteer in Action"
                                                 />
                                             </MDBView>
                                         </MDBCarouselItem>
@@ -204,8 +216,62 @@ class Volunteer extends Component {
                                             <MDBView>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
-                                                    alt="Third slide"
+                                                    src={vol3}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="4">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol4}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="5">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol5}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="6">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol6}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="7">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol7}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="8">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol8}
+                                                    alt="Volunteer in Action"
+                                                />
+                                            </MDBView>
+                                        </MDBCarouselItem>
+                                        <MDBCarouselItem itemId="9">
+                                            <MDBView>
+                                                <img
+                                                    className="d-block w-100"
+                                                    src={vol9}
+                                                    alt="Volunteer in Action"
                                                 />
                                             </MDBView>
                                         </MDBCarouselItem>
