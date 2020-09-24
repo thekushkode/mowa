@@ -35,6 +35,7 @@ import vol6 from '../assets/Volunteers/vol6.png';
 import vol7 from '../assets/Volunteers/vol7.png';
 import vol8 from '../assets/Volunteers/vol8.png';
 import vol9 from '../assets/Volunteers/vol9.png';
+import newform from '../assets/Forms/newvolunteerform.pdf';
 
 class Volunteer extends Component {
 
@@ -154,7 +155,7 @@ class Volunteer extends Component {
                                             We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
                                         </p>
                                         <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
-                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Iternship'>Contact us!</a></p>
+                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
 
                                         {/* <div className='d-flex justify-content-center'>
                                             <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
@@ -162,7 +163,7 @@ class Volunteer extends Component {
                                         </div> */}
                                     </MDBTabPane>
                                     <MDBTabPane tabId="2" role="tabpanel">
-                                        <p className='font-weight-bolder'>
+                                        <p className='px-2'>
                                             At Meals On Wheels Atlanta, we’re dedicated to supporting senior independence through meals, shelter, education, and community. An easy way to double your contribution is through employee giving programs.
                                             <br />
                                             <br />
@@ -170,13 +171,23 @@ class Volunteer extends Component {
                                             If you volunteer with us, your employer may also provide us with a grant as a way to recognize your ongoing support.
                                         </p>
                                         <div className='text-center'>
-                                            <a href='https://doublethedonation.com/mealsonwheelsatlanta' ><MDBBtn size='md' className='btn-rounded blue-gradient'>Click Here To See If Your Company Matches</MDBBtn></a>
+                                            <a href='https://doublethedonation.com/mealsonwheelsatlanta' ><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold'>Click Here To See If Your Company Matches</MDBBtn></a>
                                         </div>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
+                                        <h4 className='mdb-color-text font-weight-bold'>New Volunteers</h4>
+                                        <p>
+                                            Please download and complete the New Volunteer form & return to <a href='mailto:arobbins@mowatl.org?subject=New Volunteer'>arobbins@mowatl.org</a>.
+                                        </p>
                                         <div className='text-center'>
-                                            <a href='mailto:arobbins@mowatl.org?subject=New Volunteer&body=Name:%0APhone:%0AEmail:%0AWhat%20type%20of%20volunteer%20work%20are%20you%20interested%20in?' ><MDBBtn size='md' className='btn-rounded blue-gradient'>New Volunteers</MDBBtn></a>
-                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded blue-gradient'>Returning Volunteers</MDBBtn></a>
+                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold mb-4'>New Volunteer Form</MDBBtn></a>
+                                        </div>
+                                        <h4 className='mdb-color-text font-weight-bold'>Returning Volunteers</h4>
+                                        <p>
+                                            Please use the button below to login to our Volunteer portal!.
+                                        </p>
+                                        <div className='text-center'>
+                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded purple-gradient font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
                                         </div>
                                     </MDBTabPane>
                                 </MDBTabContent>

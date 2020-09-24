@@ -11,7 +11,8 @@ import {
     MDBTabContent,
     MDBBtn,
     MDBInput,
-    MDBCard
+    MDBCard,
+    MDBAvatar
 } from "mdbreact";
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
@@ -22,6 +23,10 @@ import peeps from '../assets/oldladyandwoman.jpg';
 import kitchen from '../assets/kitchen.png';
 import nuts from '../assets/purposenuts.png';
 import nuts1 from '../assets/nuts1.jpeg';
+import ga from '../assets/ga.png';
+import meal from '../assets/meal.png';
+import chefrob from '../assets/chefrob.png';
+
 
 class Donate extends Component {
 
@@ -95,7 +100,7 @@ class Donate extends Component {
                                     activeItem={this.state.activeItemJustified}
                                 >
                                     <MDBTabPane tabId="1" role="tabpanel">
-                                        <p className="mt-2 font-weight-bold text-justify">
+                                        <p className="mt-2 text-justify">
                                             Thank you for helping Meals On Wheels Atlanta fight senior hunger in our community.
                                             Your generosity means the world to us and to those we serve.
                                             For just $9 per day, we can provide a senior in need with breakfast and lunch, home-delivered by our friendly volunteers.
@@ -140,7 +145,7 @@ class Donate extends Component {
                                         </MDBContainer>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
-                                        <MDBRow>
+                                        {/* <MDBRow>
                                             <MDBCol md='6'>
                                                 <img src={nuts1} className='rounded fluid' style={{ width: '350px' }} alt='purposeful foods' />
                                             </MDBCol>
@@ -151,6 +156,66 @@ class Donate extends Component {
                                                 <div className='d-flex justify-content-center'>
                                                     <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
                                                     <a href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
+                                                </div>
+                                            </MDBCol>
+                                        </MDBRow> */}
+                                        <MDBRow>
+                                            <MDBCol md='12'>
+                                                <div className="text-center my-5">
+                                                    <h2 className="h1-responsive font-weight-bold mdb-color-text my-5">
+                                                    Why Purposeful Products?
+                                                    </h2>
+                                                    <p className="lead text-muted w-responsive mx-auto mb-5">
+                                                    When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
+                                                    </p>
+                                                    <MDBRow>
+                                                        <MDBCol md="4">
+                                                            {/* <MDBIcon icon="seedling" size="3x" className="red-text" /> */}
+                                                            <MDBAvatar
+                                                                tag="img"
+                                                                src={ga}
+                                                                className="rounded-circle z-depth-1-half img-fluid"
+                                                                alt="Sample avatar"
+                                                                style={{ width: '100px' }}
+                                                            />
+                                                            <h5 className="font-weight-bold my-4">Homegrown</h5>
+                                                            <p className="text-muted mb-md-0 mb-5">
+                                                            Georgia-grown, gluten free, and prepared in the Meals on Wheels Atlanta kitchen.
+                                                            </p>
+                                                        </MDBCol>
+                                                        <MDBCol md="4">
+                                                            {/* <MDBIcon icon="book" size="3x" className="cyan-text" /> */}
+                                                            <MDBAvatar
+                                                                tag="img"
+                                                                src={chefrob}
+                                                                className="rounded-circle z-depth-1-half img-fluid"
+                                                                alt="Sample avatar"
+                                                                style={{ width: '100px' }}
+                                                            />
+                                                            <h5 className="font-weight-bold my-4">Gourmet</h5>
+                                                            <p className="text-muted mb-md-0 mb-5">
+                                                            Gourmet recipes by Chef Robert Gerstenecker, former executive chef at the Four Seasons Atlanta.
+                                                            </p>
+                                                        </MDBCol>
+                                                        <MDBCol md="4">
+                                                            {/* <MDBIcon far icon="comments" size="3x" className="orange-text" /> */}
+                                                            <MDBAvatar
+                                                                tag="img"
+                                                                src={meal}
+                                                                className="rounded-circle z-depth-1-half img-fluid"
+                                                                alt="Sample avatar"
+                                                                style={{ width: '100px' }}
+                                                            />
+                                                            <h5 className="font-weight-bold my-4">Support</h5>
+                                                            <p className="text-muted mb-md-0 mb-5">
+                                                            All proceeds help the Meals on Wheels Atlanta team deliver nutritious meals to seniors.
+                                                            </p>
+                                                        </MDBCol>
+                                                    </MDBRow>
+                                                    <div className='d-flex justify-content-center mt-4'>
+                                                        <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
+                                                        <a href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods' className='mt-1'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
+                                                    </div>
                                                 </div>
                                             </MDBCol>
                                         </MDBRow>

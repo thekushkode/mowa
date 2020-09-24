@@ -22,7 +22,7 @@ const GetMeals = () => {
                     Meal Services
                 </h2>
                 <p className="text-center w-responsive mx-auto mb-3">
-                    Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='/contact'>Contact us!</a></b>
+                    Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='/contact'>Contact us</a> or visit our <a href='/faq'>FAQ</a> page!</b>
                 </p>
 
                 <div className='mealsiframe' style={{ height: '950px', position: 'relative', overflow: 'hidden' }}>
