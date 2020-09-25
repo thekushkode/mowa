@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from "mdbreact";
-import Nav from "./Nav";
-import Footer from "./Footer";
+import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody } from "mdbreact";
 import hd from '../assets/hd.png';
 import invest from '../assets/investatl.png';
 import fulton from '../assets/fulton.png';
@@ -14,9 +12,6 @@ const Partners = () => {
 
     return (
         <div>
-            {/* <header>
-                <Nav />
-            </header> */}
             <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
                     <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
@@ -71,9 +66,6 @@ const Partners = () => {
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>
-            {/* <footer>
-                <Footer />
-            </footer> */}
         </div>
     );
 }

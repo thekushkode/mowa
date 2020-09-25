@@ -4,7 +4,6 @@ import {
     MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle
 } from "mdbreact";
 import logo from '../assets/mowaaa.png';
-import nuts from '../assets/purposenuts.png';
 
 
 class Nav extends Component {

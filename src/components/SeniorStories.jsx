@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBBtn, MDBNavLink, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
-import mary from '../assets/mary.jpeg';
+import mary from '../assets/oldladyandwoman.jpg';
 
 class SeniorStories extends Component {
 

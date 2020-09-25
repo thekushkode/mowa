@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer, MDBIcon, MDBBtn, MDBInput, MDBIframe } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import "./GetMeals.css";
 import Nav from "./Nav";
 import Footer from "./Footer";

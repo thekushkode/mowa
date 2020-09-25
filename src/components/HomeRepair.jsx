@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
-import logo from '../assets/mowaaa.png';
 import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.png';
 import butlerafter from '../assets/HomeRepairs/ButlerBath-after.png';
 import clarkbefore from '../assets/HomeRepairs/clarkoven-before.png';

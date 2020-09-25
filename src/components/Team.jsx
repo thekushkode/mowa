@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from "mdbreact";
 import Nav from "./Nav";
-import Kush from '../assets/kush250x250.png';
 import Footer from "./Footer";
 import team1 from '../assets/Team/team1.png';
 import team2 from '../assets/Team/team2.png';

@@ -17,12 +17,10 @@ import {
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import MonthlyDonationModal from './MonthlyDonationModal';
-import ladies from '../assets/donatesample.png';
 import Footer from "./Footer";
 import peeps from '../assets/oldladyandwoman.jpg';
 import kitchen from '../assets/kitchen.png';
 import nuts from '../assets/purposenuts.png';
-import nuts1 from '../assets/nuts1.jpeg';
 import ga from '../assets/ga.png';
 import meal from '../assets/meal.png';
 import chefrob from '../assets/chefrob.png';

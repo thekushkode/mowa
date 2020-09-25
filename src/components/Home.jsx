@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import {
     MDBCollapse, MDBMask,
-    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBNavLink, MDBCard, MDBCardBody
+    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBNavLink, MDBCard, MDBCardBody
 } from "mdbreact";
 import "./Home.css";
 import Nav from "./Nav";
@@ -12,12 +12,9 @@ import videoWebm from '../assets/elder1.webm';
 import Footer from "./Footer";
 import streakpic from '../assets/oldladyandwoman.jpg';
 import old2 from '../assets/old2.jpg';
-import oldpeople from '../assets/oldpeople.png';
-import feeding from '../assets/feed.png';
-import Team from "./Team";
 import logo from '../assets/mowaaa.png';
 import Celebs from "./Celebs";
-import SeniorStories from "./SeniorStories";
+
 
 class VideoBackgroundPage extends React.Component {
     state = {

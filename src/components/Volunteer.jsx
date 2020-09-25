@@ -20,12 +20,8 @@ import {
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import MonthlyDonationModal from './MonthlyDonationModal';
-import ladies from '../assets/donatesample.png';
 import Footer from "./Footer";
 import volback from '../assets/volbackground.jpg';
-import kitchen from '../assets/kitchen.png';
-import nuts from '../assets/purposenuts.png';
-import nuts1 from '../assets/nuts1.jpeg';
 import vol1 from '../assets/Volunteers/vol1.png';
 import vol2 from '../assets/Volunteers/vol2.png';
 import vol3 from '../assets/Volunteers/vol3.png';
@@ -156,6 +152,10 @@ class Volunteer extends Component {
                                         </p>
                                         <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
                                         <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
+                                        <div className='text-center'>
+                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold'>New Volunteer Form</MDBBtn></a>
+                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded purple-gradient font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                        </div>
 
                                         {/* <div className='d-flex justify-content-center'>
                                             <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
