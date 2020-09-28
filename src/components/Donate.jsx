@@ -12,7 +12,8 @@ import {
     MDBBtn,
     MDBInput,
     MDBCard,
-    MDBAvatar
+    MDBAvatar,
+    MDBIframe
 } from "mdbreact";
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
@@ -111,8 +112,15 @@ class Donate extends Component {
                                     </MDBTabPane>
                                     
                                     <MDBTabPane tabId="2" role="tabpanel">
-                                        <img src={kitchen} alt='our kitchen logo' />
-                                        <p className="mt-2 mdb-color-text text-left font-weight-bold">
+                                        <MDBRow>
+                                            <MDBCol md='6'>
+                                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
+                                            </MDBCol>
+                                            <MDBCol md='6'>
+                                                <img src={kitchen} className='d-block img-fluid mt-2' alt='our kitchen logo' />
+                                            </MDBCol>
+                                        </MDBRow>
+                                        <p className="mt-5 mdb-color-text text-left font-weight-bold">
                                         Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) wait list.  Could you imagine your mother, grandmother or grandfather just waiting for food?
                                         </p><br/>
                                         <p className="mt-2 mdb-color-text text-left font-weight-bold">

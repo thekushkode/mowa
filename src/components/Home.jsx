@@ -149,7 +149,7 @@ class VideoBackgroundPage extends React.Component {
                                     <p>
                                         Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry.
                                     </p>
-                                    <div className='d-flex'>
+                                    <div className='d-flex flex-column'>
 
                                         <MDBBtn size="md" className="waves-light btn-rounded blue-gradient">
                                             <MDBNavLink className='p-0' style={{ color: 'white', fontSize: '20px' }} to='/donate'>Donate Now</MDBNavLink>
@@ -265,7 +265,7 @@ class VideoBackgroundPage extends React.Component {
 
                 {/* STREAK */}
                 <div>
-                    <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + streakpic + ")" }}>
+                    <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
                                 <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
