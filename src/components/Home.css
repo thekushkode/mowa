@@ -5,9 +5,9 @@
 } */
 
 #videobackground .gradient {
-    background: -moz-linear-gradient(45deg, rgba(40, 60, 100, 0.69), rgba(221, 155, 66, 0.69) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(40, 60, 100, 0.69), rgba(221, 155, 66, 0.69) 100%);
-    background: linear-gradient(45deg, rgba(40, 60, 100, 0.69), rgba(221, 155, 66, 0.69) 100%);
+    background: -moz-linear-gradient(45deg, rgba(40, 60, 100, 0.8), rgba(221, 155, 66, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(40, 60, 100, 0.8), rgba(221, 155, 66, 0.69) 100%);
+    background: linear-gradient(45deg, rgba(40, 60, 100, 0.8), rgba(221, 155, 66, 0.69) 100%);
 }
 
 #videobackground .view video {
