@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBCol, MDBRow, MDBCollapse, MDBCollapseHeader, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBCol, MDBRow, MDBCollapse, MDBCollapseHeader, MDBCard, MDBBtn, MDBCardBody, MDBIcon } from "mdbreact";
 import peeps from '../assets/oldladyandwoman.jpg';
 import Nav from "./Nav";
 import Footer from "./Footer";
+import fiveohone from '../assets/financials/501c3.pdf';
+import nineninezero from '../assets/financials/form990.pdf';
+import reportcard from '../assets/financials/reportcard.png';
+
 
 class Faq extends Component {
     state = {
@@ -245,13 +249,19 @@ class Faq extends Component {
                                             <MDBCollapse id="collapse3" isOpen={this.state.collapseID}>
                                                 <MDBCardBody className="rgba-black-light white-text z-depth-1">
                                                     <p className="p-md-4 mb-0">
-                                                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                                                        life accusamus terry richardson ad squid. 3 wolf moon
-                                                        officia aute, non cupidatat skateboard dolor brunch.
-                                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                                                        wolf moon tempor, sunt aliqua put a bird on it squid
-                                                        single-origin coffee nulla assumenda shoreditch et.
+                                                        Donations can be made in numerous ways:
                                                     </p>
+                                                    <ul>
+                                                        <li><b>Money</b>: to provide meals for Atlanta Seniors</li>
+                                                        <li><b>Time:</b> volunteer with MOWA to help pack meals, deliver meals, & more</li>
+                                                        <li><b>Our Kitchen:</b> make financial donations or donate commercial kitchen equipment to Our Kitchen</li>
+                                                        <li><b>Purposeful Products:</b> purchasing any of our purposeful products make a great gift and proceeds go directly towards our mission of ending hunger for Atlanta's seniors</li>
+                                                    </ul>
+                                                    <div className='text-center'>
+                                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
+                                                        <MDBBtn className='peach-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                                        <MDBBtn className='purple-gradient btn-rounded' href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'>Shop Purposeful</MDBBtn>
+                                                    </div>
                                                 </MDBCardBody>
                                             </MDBCollapse>
                                         </MDBCard>
@@ -278,13 +288,11 @@ class Faq extends Component {
                                             <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
                                                 <MDBCardBody className="rgba-black-light white-text z-depth-1">
                                                     <p className="p-md-4 mb-0">
-                                                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                                                        life accusamus terry richardson ad squid. 3 wolf moon
-                                                        officia aute, non cupidatat skateboard dolor brunch.
-                                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                                                        wolf moon tempor, sunt aliqua put a bird on it squid
-                                                        single-origin coffee nulla assumenda shoreditch et.
+                                                        When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
                                                     </p>
+                                                    <div className='text-center'>
+                                                        <MDBBtn href="https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods" className='blue-gradient btn-rounded'>Shop Purposeful</MDBBtn>
+                                                    </div>
                                                 </MDBCardBody>
                                             </MDBCollapse>
                                         </MDBCard>
@@ -310,14 +318,18 @@ class Faq extends Component {
 
                                             <MDBCollapse id="collapse5" isOpen={this.state.collapseID}>
                                                 <MDBCardBody className="rgba-black-light white-text z-depth-1">
-                                                    <p className="p-md-4 mb-0">
-                                                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                                                        life accusamus terry richardson ad squid. 3 wolf moon
-                                                        officia aute, non cupidatat skateboard dolor brunch.
-                                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                                                        wolf moon tempor, sunt aliqua put a bird on it squid
-                                                        single-origin coffee nulla assumenda shoreditch et.
-                                                    </p>
+                                                    <h2 className="p-md-4 mb-0">
+                                                        Annual Report Card
+                                                    </h2>
+                                                    <img className='d-block img-fluid' src={reportcard} alt='form 990'/>
+                                                    <h2 className="p-md-4 mb-0">
+                                                        Form 990
+                                                    </h2>
+                                                    <img src={nineninezero} alt='form 990'/>
+                                                    <h2 className="p-md-4 mb-0">
+                                                        501(c)3
+                                                    </h2>
+                                                    <img src={fiveohone} alt='form 990'/>
                                                 </MDBCardBody>
                                             </MDBCollapse>
                                         </MDBCard>
