@@ -113,11 +113,13 @@ class Donate extends Component {
                                     
                                     <MDBTabPane tabId="2" role="tabpanel">
                                         <MDBRow>
-                                            <MDBCol md='6'>
-                                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
+                                            <MDBCol md='12'>
+                                                <img src={kitchen} className='d-block w-75 mx-auto img-fluid mt-2' alt='our kitchen logo' />
                                             </MDBCol>
-                                            <MDBCol md='6'>
-                                                <img src={kitchen} className='d-block img-fluid mt-2' alt='our kitchen logo' />
+                                        </MDBRow>
+                                        <MDBRow>
+                                            <MDBCol md='12'>
+                                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
                                             </MDBCol>
                                         </MDBRow>
                                         <p className="mt-5 mdb-color-text text-left font-weight-bold">
@@ -129,7 +131,7 @@ class Donate extends Component {
                                         <MDBContainer className='px-5 py-5'>
                                             <MDBRow>
                                                 <MDBCol md="12">
-                                                    <form>
+                                                    {/* <form>
                                                         <p className="h5 text-center mb-4">Get In Touch</p>
                                                         <div className="grey-text">
                                                         <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
@@ -140,12 +142,12 @@ class Donate extends Component {
                                                         <MDBInput type="textarea" rows="2" label="Your message" icon="pencil-alt" />
                                                         </div>
                                                         <div className="text-center">
-                                                        <MDBBtn className='purple-gradient btn-rounded'>
-                                                            Submit
-                                                            <MDBIcon far icon="paper-plane" className="ml-1" />
-                                                        </MDBBtn>
                                                         </div>
-                                                    </form>
+                                                    </form> */}
+                                                        <MDBBtn className='purple-gradient btn-rounded'>
+                                                            Contact Us
+                                                            <MDBIcon far icon="envelope" className="ml-1" />
+                                                        </MDBBtn>
                                                 </MDBCol>
                                             </MDBRow>
                                         </MDBContainer>

@@ -8,6 +8,17 @@ import team3 from '../assets/Team/team3.png';
 import team4 from '../assets/Team/team4.png';
 import team5 from '../assets/Team/team5.png';
 import team6 from '../assets/Team/team6.png';
+import alissa from '../assets/AdditionalTeam/Alissa.png';
+import chefchris from '../assets/AdditionalTeam/chefchris.png';
+import chefrobert from '../assets/AdditionalTeam/chefrobert.png';
+import digitalteam from '../assets/AdditionalTeam/digitalteam.png';
+import hillary from '../assets/AdditionalTeam/hillary.png';
+import karen from '../assets/AdditionalTeam/karen.png';
+import kassidy from '../assets/AdditionalTeam/kassidy.png';
+import kitchen from '../assets/AdditionalTeam/kitchen.png';
+import kristy from '../assets/AdditionalTeam/kristy.png';
+import nicole from '../assets/AdditionalTeam/nicole.png';
+import volunteerteam from '../assets/AdditionalTeam/volunteerteam.png';
 
 
 const Team = () => {
@@ -30,7 +41,7 @@ const Team = () => {
                         We're honored to introduce the Meals on Wheels Atlanta team! This amazing group of people are the backbone of the MOWA organization. From fielding calls and emails to creating engaging fundraising events to preparing Senior meals, they are always ready to carry the load to fulfill our mission!
                     </p>
                     <MDBRow className='mb-5'>
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team1}
@@ -41,16 +52,16 @@ const Team = () => {
                                 Charlene Crusoe-Ingram
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Chief Executive Officer</h6>
-                            <MDBBtn href='tel:4043513889p222' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p222' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:ccrusoeingram@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:ccrusoeingram@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
-                        
+
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team6}
@@ -61,15 +72,15 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Chief Process Improvement Officer
                             </h6>
-                            <MDBBtn href='tel:4043513889p233' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p233' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:vcox@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:vcox@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team5}
@@ -80,16 +91,34 @@ const Team = () => {
                                 Laura Ernst
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Sr. Director of Grants & Institutional Giving</h6>
-                            <MDBBtn href='tel:4043513889p232' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p232' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={hillary}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Hillary Baker
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Chief Marketing <br/>Officer</h6>
+                            <MDBBtn href='tel:4048190334' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:hbaker@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
                     </MDBRow>
-                    <MDBRow>
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                    <MDBRow className='mb-5'>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team4}
@@ -101,15 +130,15 @@ const Team = () => {
                                 Joshua Rumohr
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Sr. Director of Operations & Veteran Affairs</h6>
-                            <MDBBtn href='tel:4043513889p249' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p249' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:jrumohr@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:jrumohr@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team3}
@@ -120,15 +149,15 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Sr. Director of Special Events & Community Engagement
                             </h6>
-                            <MDBBtn href='tel:4043513889p224' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p224' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team2}
@@ -138,11 +167,106 @@ const Team = () => {
                             <h4 className="font-weight-bold dark-grey-text my-4">
                                 Jason Tucker
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Meal Services</h6>
-                            <MDBBtn href='tel:4043513889p308' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <h6 className="text-uppercase grey-text mb-3">Senior Director of Meal Services</h6>
+                            <MDBBtn href='tel:4043513889p308' tag="a" floating gradient='blue' className="mx-1 mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:jtucker@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:jtucker@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={karen}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Karen Kraemer
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Senior Director of <br/>Finance</h6>
+                            <MDBBtn href='tel:4043513889p309' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:kkraemer@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={kassidy}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                                style={{ height: '250px', width: '250px' }}
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Kassidy Jackson
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Home Repair <br/>Consultant</h6>
+                            <MDBBtn href='tel:4043513889p361' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:kjackson@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={nicole}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">Nicole McIntosh</h4>
+                            <h6 className="text-uppercase grey-text mb-3">
+                                Client Services <br/>Coordinator
+                            </h6>
+                            <MDBBtn href='tel:4043513889p362' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:nmcintosh@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={alissa}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Alissa Robbins
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Community Engagement Manager</h6>
+                            <MDBBtn href='tel:4043513889p245' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:arobbins@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={kristy}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Kristy Prox
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Registered Dietitian Nutritionist, LD</h6>
+                            <MDBBtn href='tel:4043513889p310' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:kprox@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -150,43 +274,124 @@ const Team = () => {
                 </MDBCardBody>
             </MDBCard>
             <MDBCard className="px-1 pb-5 text-center">
-                        <MDBCardBody>
-                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
-                                MOWA Board of Trustees
-                            </h2>
-                            <p className="grey-text w-responsive mx-auto mb-5">
-                                MOWA would like to recognize our Board of Trustees. Our trustees are charged with making sure our organization runs at the highest levels and maximizes the full potential of our fundraising efforts.
-                            </p>
-                            <MDBRow>
+                <MDBCardBody>
+                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                        Chefs & Kitchen Staff
+                    </h2>
+                    {/* <p className="grey-text w-responsive mx-auto mb-5">
+                        We're honored to introduce the Meals on Wheels Atlanta team! This amazing group of people are the backbone of the MOWA organization. From fielding calls and emails to creating engaging fundraising events to preparing Senior meals, they are always ready to carry the load to fulfill our mission!
+                    </p> */}
+                    <MDBRow className='mb-5'>
+                        <MDBCol md="6" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={chefrobert}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Robert Gerstenecker
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Executive Chef, Culinary Consultant</h6>
+                            <MDBBtn href='tel:4043513889p317' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:rgerstenecker@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
 
-                                <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Angela Blank,</b> Community Organizer</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Rusty Bowers,</b> Owner at Pine Street Market</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
-                                </MDBCol>
-                                <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mdb-color-text'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Jovita Moore,</b> News Anchor at WSB-TV</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCardBody>
-                    </MDBCard>
+                        </MDBCol>
+
+                        <MDBCol md="6" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={chefchris}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">Christopher Kelly</h4>
+                            <h6 className="text-uppercase grey-text mb-3">
+                                Executive Sous Chef
+                            </h6>
+                            <MDBBtn href='tel:4043513889p310' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:ckelly@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md='12'>
+                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                                Kitchen Support Staff
+                            </h2>
+                            <img src={kitchen} className='d-block img-fluid mx-auto w-50' alt='MOWA kitchen support staff' />
+                            <figcaption className="figure-caption">
+                                From left: RaShonda E., Akheim C., Ameshia K.,Tyrell M., Hajji J., Tony W.
+                            </figcaption>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md='6'>
+                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                                Digital Team
+                            </h2>
+                            <img src={digitalteam} alt='MOWA digital team' />
+                            <figcaption className="figure-caption">
+                                From left: Hillary B., Isabella P., Brandon J., Jamie M.
+                            </figcaption>
+                        </MDBCol>
+                        <MDBCol md='6'>
+                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                                Volunteer Services
+                            </h2>
+                            <img src={volunteerteam} alt='MOWA Volunteer Services Team' />
+                            <figcaption className="figure-caption">
+                                From left: Jasmine D., Alissa R.
+                            </figcaption>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBCardBody>
+            </MDBCard>
+            <MDBCard className="px-1 pb-5 text-center">
+                <MDBCardBody>
+                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                        MOWA Board of Trustees
+                            </h2>
+                    <p className="grey-text w-responsive mx-auto mb-5">
+                        MOWA would like to recognize our Board of Trustees. Our trustees are charged with making sure our organization runs at the highest levels and maximizes the full potential of our fundraising efforts.
+                            </p>
+                    <MDBRow>
+
+                        <MDBCol md='6' className='text-left'>
+                            <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Angela Blank,</b> Community Organizer</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Rusty Bowers,</b> Owner at Pine Street Market</p>
+                            <p className='blue-text'><b className='mdb-color-text'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
+                        </MDBCol>
+                        <MDBCol md='6' className='text-left'>
+                            <p className='blue-text'><b className='mdb-color-text'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Sean Hyslop,</b> President at Sysco Atlanta</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Jovita Moore,</b> News Anchor at WSB-TV</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                            <p className='blue-text'><b className='mdb-color-text'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBCardBody>
+            </MDBCard>
             <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>

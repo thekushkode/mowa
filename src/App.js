@@ -14,6 +14,8 @@ import GetMeals from './components/GetMeals';
 import Volunteer from './components/Volunteer';
 import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
+import ThankYou from './components/ThankYou';
+import FormsPage from './components/Form';
 
 ReactGA.initialize('UA-178438543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -26,6 +28,7 @@ ReactGA.pageview('/contact');
 ReactGA.pageview('/events');
 ReactGA.pageview('/inthenews');
 ReactGA.pageview('/faq');
+ReactGA.pageview('/thankyou');
 
 function App() {
   return (
@@ -42,6 +45,8 @@ function App() {
       <Route exact path='/inthenews' component={InTheNews} />
       <Route exact path='/faq' component={Faq} />
       <Route exact path='/dinnerserved' component={DinnerServed} />
+      <Route exact path='/thankyou' component={ThankYou} />
+      <Route exact path='/form' component={FormsPage} />
     </Switch>
   );
 }

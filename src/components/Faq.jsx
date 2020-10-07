@@ -255,7 +255,7 @@ class Faq extends Component {
                                                         <li><b>Money</b>: to provide meals for Atlanta Seniors</li>
                                                         <li><b>Time:</b> volunteer with MOWA to help pack meals, deliver meals, & more</li>
                                                         <li><b>Our Kitchen:</b> make financial donations or donate commercial kitchen equipment to Our Kitchen</li>
-                                                        <li><b>Purposeful Products:</b> purchasing any of our purposeful products make a great gift and proceeds go directly towards our mission of ending hunger for Atlanta's seniors</li>
+                                                        <li><b>Purposeful Gourmet Products:</b> purchasing any of our purposeful products make a great gift and proceeds go directly towards our mission of ending hunger for Atlanta's seniors</li>
                                                     </ul>
                                                     <div className='text-center'>
                                                         <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
@@ -282,7 +282,7 @@ class Faq extends Component {
                                                         className="m-3 black-text"
                                                     />
                                                 </div>
-                                                Purposeful Foods
+                                                Purposeful Gourmet Foods
                                             </MDBCollapseHeader>
 
                                             <MDBCollapse id="collapse4" isOpen={this.state.collapseID}>
@@ -325,11 +325,11 @@ class Faq extends Component {
                                                     <h2 className="p-md-4 mb-0">
                                                         Form 990
                                                     </h2>
-                                                    <img src={nineninezero} alt='form 990'/>
+                                                    <MDBBtn className='btn-rounded blue-gradient' href={require("../assets/financials/form990.pdf")} download={nineninezero}>Download Form 990</MDBBtn>
                                                     <h2 className="p-md-4 mb-0">
                                                         501(c)3
                                                     </h2>
-                                                    <img src={fiveohone} alt='form 990'/>
+                                                    <MDBBtn className='btn-rounded blue-gradient' href={require("../assets/financials/501c3.pdf")} download={fiveohone}>Download Form 990</MDBBtn>
                                                 </MDBCardBody>
                                             </MDBCollapse>
                                         </MDBCard>
