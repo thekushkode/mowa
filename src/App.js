@@ -16,6 +16,7 @@ import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
 import ThankYou from './components/ThankYou';
 import FormsPage from './components/Form';
+import Script from './components/Script';
 
 ReactGA.initialize('UA-178438543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -47,6 +48,7 @@ function App() {
       <Route exact path='/dinnerserved' component={DinnerServed} />
       <Route exact path='/thankyou' component={ThankYou} />
       <Route exact path='/form' component={FormsPage} />
+      <Route exact path='/script' component={Script} />
     </Switch>
   );
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import DonationForm from './DonationForm';
+import Script from './Script';
 //import $ from '$';
 
 class DonationModal extends Component {
@@ -15,7 +16,17 @@ class DonationModal extends Component {
         modal: false
     }
 
+    // getScript = () => {
+    //     const modal = document.getElementById("modal");
+    //     const script = document.createElement("script");
+    //     script.id = "mowaScript";
+    //     script.src =
+    //         "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24879104.js";
+    //     modal.appendChild(script);
+    // };
+
     toggle = () => {
+        // this.getScript();
         this.setState({
             modal: !this.state.modal
         });
@@ -56,13 +67,14 @@ class DonationModal extends Component {
                 <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>One-Time Donation</b></MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
-                    <MDBModalBody>
+                    <MDBModalBody id='modal'>
                         {/* <form>
                             <div id='myscriptcontainer'></div>
                         </form> */}
                         {/* <div dangerouslySetInnerHTML={{__html: myScript }}>
                         </div> */}
                         {/* <DonationForm /> */}
+                        <Script />
                     </MDBModalBody>
                     <MDBModalFooter>
                         <MDBBtn className="btn-rounded purple-gradient" onClick={this.toggle}>Close</MDBBtn>
