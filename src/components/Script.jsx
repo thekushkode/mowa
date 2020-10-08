@@ -18,7 +18,7 @@ class Script extends Component {
     render() {
         return (
             <div>
-                <div id="donationScript"></div>
+                <div id="donationScript" style={{ zIndex: '999' }}></div>
             </div>
         )
     }
