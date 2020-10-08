@@ -107,7 +107,6 @@ class Donate extends Component {
                                         </p>
                                         <div className='d-flex justify-content-center'>
                                             <DonationModal />
-                                            <MonthlyDonationModal />
                                         </div>
                                     </MDBTabPane>
                                     
