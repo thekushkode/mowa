@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import Loading from './Loading';
 
 class Script extends Component {
     // constructor(props) {
     //     super(props);
     // };
+
+    state = {
+        loading: []
+    }
+
     getScript = () => {
         const targetDiv = document.getElementById("donationScript");
         const script = document.createElement("script");
@@ -12,13 +18,22 @@ class Script extends Component {
             "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24879104.js";
         targetDiv.appendChild(script);
     };
+
+    // isLoading = () => {
+    //     this.setState({
+    //         loading: [...this.state.loading, <Loading />]
+    //     })
+    // }
+
+
     componentDidMount() {
         this.getScript();
-    }
+    };
+
     render() {
         return (
             <div>
-                <div id="donationScript" style={{ zIndex: '999' }}></div>
+                <div id="donationScript"></div>
             </div>
         )
     }
