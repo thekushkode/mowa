@@ -4,6 +4,7 @@ import {
     MDBCollapse, MDBMask,
     MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBNavLink, MDBCard, MDBCardBody
 } from "mdbreact";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import Nav from "./Nav";
 import videoMp4 from '../assets/elder1.mp4';
@@ -58,9 +59,11 @@ class VideoBackgroundPage extends React.Component {
                                         <h4 className="subtext-header mt-2 mb-4">
                                             Supporting senior independence through meals, shelter, education, and community.
                                     </h4>
-                                        <MDBBtn size='lg' outline rounded color="white" href="/donate">
-                                            <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
-                                        </MDBBtn>
+                                        <Link to='/donate'>
+                                            <MDBBtn size='lg' outline rounded color="white" >
+                                                <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
+                                            </MDBBtn>
+                                        </Link>
                                     </MDBCol>
                                 </MDBRow>
                             </MDBContainer>
