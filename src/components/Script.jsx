@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import Loading from './Loading';
 
 class Script extends Component {
-    // constructor(props) {
-    //     super(props);
-    // };
 
-    state = {
-        loading: []
-    }
+
+    // state = {
+    //     loading: true
+    // }
 
     getScript = () => {
         const targetDiv = document.getElementById("donationScript");

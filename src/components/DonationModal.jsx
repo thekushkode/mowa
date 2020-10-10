@@ -1,18 +1,27 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import Script from './Script';
+import Loading from './Loading';
 
 class DonationModal extends Component {
 
     state = {
-        modal: false
+        modal: false,
+        loading: ''
     }
 
     toggle = () => {
         this.setState({
-            modal: !this.state.modal
+            modal: !this.state.modal,
+            loading: true
         });
     }
+
+    componentDidMount() {
+        this.setState({
+            loading: false
+        })
+    };
 
 
     render() {
@@ -23,7 +32,7 @@ class DonationModal extends Component {
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
                     <MDBModalBody id='modal'>
-                        <Script />
+                        { this.state.loading ? <Loading/> : <Script /> }
                     </MDBModalBody>
                     <MDBModalFooter>
                         <MDBBtn className="btn-rounded purple-gradient" onClick={this.toggle}>Close</MDBBtn>
