@@ -4,9 +4,9 @@ import Loading from './Loading';
 class Script extends Component {
 
 
-    // state = {
-    //     loading: true
-    // }
+    state = {
+        loading: true
+    }
 
     getScript = () => {
         const targetDiv = document.getElementById("donationScript");
@@ -25,13 +25,20 @@ class Script extends Component {
 
 
     componentDidMount() {
-        this.getScript();
+        this.setState({
+            loading: false
+        })
     };
+
+    componentDidUpdate() {
+        this.getScript();
+
+    }
 
     render() {
         return (
             <div>
-                <div id="donationScript"></div>
+                { this.state.loading ? <Loading /> : <div id="donationScript"></div>}
             </div>
         )
     }
