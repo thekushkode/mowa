@@ -20,7 +20,7 @@ class DonationModal extends Component {
         return (
             <div>
                 <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>One-Time Donation</b></MDBBtn>
-                <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
+                <MDBModal isOpen={this.state.modal} toggle={this.toggle} size="lg">
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
                     <MDBModalBody id='modal'>
                         <Script />

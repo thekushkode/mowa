@@ -5,7 +5,8 @@ class Script extends Component {
 
 
     state = {
-        loading: true
+        loading: '',
+        show: ''
     }
 
     getScript = () => {
@@ -14,31 +15,39 @@ class Script extends Component {
         script.id = "MOWscript";
         script.src =
             "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24879104.js";
+        script.type = 'text/javascript'
         targetDiv.appendChild(script);
     };
 
     // isLoading = () => {
-    //     this.setState({
-    //         loading: [...this.state.loading, <Loading />]
-    //     })
+    //     // this.setState({
+    //     //     loading: [...this.state.loading, <Loading />]
+    //     // })
+    //     const timer = setTimeout(() => this.setState({ show: true }), 3000)
+    //     return () => clearTimeout(timer);
     // }
 
 
     componentDidMount() {
-        this.setState({
-            loading: false
-        })
+        // this.isLoading();
+        this.getScript();
+        // this.setState({
+        //     loading: false
+        // })
+        // setTimeout(() => this.setState({ show: true }), 3000)
     };
 
-    componentDidUpdate() {
-        this.getScript();
+    // componentDidUpdate() {
+    //     this.getScript();
 
-    }
+    // }
 
     render() {
         return (
             <div>
-                { this.state.loading ? <Loading /> : <div id="donationScript"></div>}
+                {/* { this.show && <Loading /> } */}
+                <div id="donationScript"></div>
+                {/* { this.state.show ? <Loading /> : <div id="donationScript"></div>} */}
             </div>
         )
     }
