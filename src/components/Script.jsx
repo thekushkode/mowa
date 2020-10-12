@@ -14,7 +14,9 @@ class Script extends Component {
         const script = document.createElement("script");
         script.id = "MOWscript";
         script.src =
-            "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24879104.js";
+            "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24979456.js";
+        // script.src =
+        //     "https://s3-us-west-2.amazonaws.com/bloomerang-public-cdn/mealsonwheelsatlanta/.widget-js/24879104.js";
         script.type = 'text/javascript'
         targetDiv.appendChild(script);
     };
