@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import Script from './Script';
+import Loading from './Loading';
 
 class DonationModal extends Component {
 
     state = {
-        modal: false
+        modal: false,
+        hidden: false
     }
 
     toggle = () => {
@@ -14,15 +16,32 @@ class DonationModal extends Component {
         });
     }
 
+    // isLoading() {
+
+    // }
+
+    // componentDidMount() {
+    //     setTimeout = (() => {
+    //         document.getElementById('loading').fadeOut().empty();
+    //     }, 3000)
+    // };
+    componentDidUpdate() {
+        setTimeout(() => {
+            this.setState({
+                hidden: true
+            })
+        }, 3000);
+    };
+
 
     render() {
-
         return (
             <div>
                 <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>One-Time Donation</b></MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle} size="lg">
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
                     <MDBModalBody id='modal'>
+                        { this.state.hidden ? null : <Loading /> }
                         <Script />
                     </MDBModalBody>
                     <MDBModalFooter>
