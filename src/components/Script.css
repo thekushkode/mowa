@@ -1,25 +1,15 @@
 input[type=radio]:checked, input[type=radio]:not(:checked) {
-    pointer-events: none;
     opacity: 1;
 }
 
 .field, .radio, .required {
-    pointer-events: none;
     opacity: 1;
-    position: relative;
-    right: 10px;
 }
 
-#frequency, .required {
-    pointer-events: none;
+#recurring {
     opacity: 1;
-    position: relative;
-    right: 10px;
 }
 
 #true-impact {
-    pointer-events: none;
     opacity: 1;
-    position: relative;
-    right: 10px;
 }
