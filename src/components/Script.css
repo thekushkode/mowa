@@ -4,18 +4,52 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
 
 .field, .radio, .required {
     opacity: 1;
-    padding-right: 20px;
-    margin-top: 5px;
 }
 
 #recurring {
     opacity: 1;
-    padding-right: 20px;
-    margin-top: 5px;
 }
 
 #true-impact {
     opacity: 1;
-    padding-right: 20px;
-    margin-top: 5px;
+}
+
+label[for='24881152'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='24881153'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='24881154'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='24881155'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='24881156'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='other-option'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='recurring'] {
+    display: flex;
+    justify-content: space-between;
+}
+
+label[for='true-impact'] {
+    display: flex;
+    justify-content: space-between;
 }
