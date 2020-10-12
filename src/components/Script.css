@@ -1,3 +1,9 @@
-[type=radio]:checked, [type=radio]:not(:checked) {
+input[type=radio]:checked, input[type=radio]:not(:checked) {
     pointer-events: none;
+    opacity: 1;
+}
+
+.field, .radio, .required {
+    pointer-events: none;
+    opacity: 1;
 }

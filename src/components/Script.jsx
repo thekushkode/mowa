@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Loading from './Loading';
 import './Script.css';
 
 class Script extends Component {
