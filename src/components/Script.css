@@ -4,18 +4,18 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
 
 .field, .radio, .required {
     opacity: 1;
-    margin-right: 10px;
+    left: -20px;
     margin-top: 5px;
 }
 
 #recurring {
     opacity: 1;
-    margin-right: 10px;
+    left: -20px;
     margin-top: 5px;
 }
 
 #true-impact {
     opacity: 1;
-    margin-right: 10px;
+    left: -20px;
     margin-top: 5px;
 }
