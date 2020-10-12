@@ -15,28 +15,23 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
 }
 
 #24881152 {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px
 }
 
 #24881153 {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px
 }
 
 #24881154 {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px
 }
 
 #24881155 {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px
 }
 
 #24881156 {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px
 }
 
 /* label[for=other-option] {
