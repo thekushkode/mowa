@@ -1,5 +1,11 @@
-input[type=radio]:checked, input[type=radio]:not(:checked) {
+[type=radio]:checked, [type=radio]:not(:checked) {
     opacity: 1;
+    position: static;
+
+}
+[type=radio]:checked, [type=radio]:not(:checked) {
+    opacity: 1;
+    position: static;
 }
 
 /* .field, .radio, .required {
@@ -9,7 +15,7 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
 
 } */
 
-#recurring {
+/* #recurring {
     opacity: 1;
     margin-top: 5px;
     left: 50px;
@@ -49,7 +55,7 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
     opacity: 1;
     margin-top: 5px;
     left: 50px;
-}
+} */
 
 /* label[for=other-option] {
     display: flex;
