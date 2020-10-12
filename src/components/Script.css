@@ -14,32 +14,32 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
     opacity: 1;
 }
 
-label[for=24881152] {
+#24881152 {
     display: flex;
     justify-content: space-between;
 }
 
-label[for=24881153] {
+#24881153 {
     display: flex;
     justify-content: space-between;
 }
 
-label[for=24881154] {
+#24881154 {
     display: flex;
     justify-content: space-between;
 }
 
-label[for=24881155] {
+#24881155 {
     display: flex;
     justify-content: space-between;
 }
 
-label[for=24881156] {
+#24881156 {
     display: flex;
     justify-content: space-between;
 }
 
-label[for=other-option] {
+/* label[for=other-option] {
     display: flex;
     justify-content: space-between;
 }
@@ -52,4 +52,4 @@ label[for=recurring] {
 label[for=true-impact] {
     display: flex;
     justify-content: space-between;
-}
+} */
