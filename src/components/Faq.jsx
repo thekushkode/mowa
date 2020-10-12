@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { MDBContainer, MDBCol, MDBRow, MDBCollapse, MDBCollapseHeader, MDBCard, MDBBtn, MDBCardBody, MDBIcon } from "mdbreact";
 import peeps from '../assets/oldladyandwoman.jpg';
 import Nav from "./Nav";
@@ -258,9 +259,13 @@ class Faq extends Component {
                                                         <li><b>Purposeful Gourmet Products:</b> purchasing any of our purposeful products make a great gift and proceeds go directly towards our mission of ending hunger for Atlanta's seniors</li>
                                                     </ul>
                                                     <div className='text-center'>
-                                                        <MDBBtn className='blue-gradient btn-rounded' href='/donate'>Donate</MDBBtn>
-                                                        <MDBBtn className='peach-gradient btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
-                                                        <MDBBtn className='purple-gradient btn-rounded' href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'>Shop Purposeful</MDBBtn>
+                                                        <Link to='/donate'>
+                                                            <MDBBtn className='blue-gradient btn-rounded'>Donate</MDBBtn>
+                                                        </Link>
+                                                        <Link to='/volunteer'>
+                                                            <MDBBtn className='peach-gradient btn-rounded'>Volunteer</MDBBtn>
+                                                        </Link>
+                                                        <MDBBtn className='purple-gradient btn-rounded' target='_blank' href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'>Shop Purposeful</MDBBtn>
                                                     </div>
                                                 </MDBCardBody>
                                             </MDBCollapse>
@@ -321,7 +326,7 @@ class Faq extends Component {
                                                     <h2 className="p-md-4 mb-0">
                                                         Annual Report Card
                                                     </h2>
-                                                    <img className='d-block img-fluid' src={reportcard} alt='form 990'/>
+                                                    <img className='d-block img-fluid' src={reportcard} alt='form 990' />
                                                     <h2 className="p-md-4 mb-0">
                                                         Form 990
                                                     </h2>

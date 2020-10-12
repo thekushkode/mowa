@@ -221,7 +221,7 @@ class Donate extends Component {
                                                     </MDBRow>
                                                     <div className='d-flex justify-content-center mt-4'>
                                                         <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
-                                                        <a href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods' className='mt-1'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
+                                                        <a target='_blank' rel="noopener noreferrer" href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods' className='mt-1'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
                                                     </div>
                                                 </div>
                                             </MDBCol>
