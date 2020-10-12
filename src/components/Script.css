@@ -2,12 +2,12 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
     opacity: 1;
 }
 
-.field, .radio, .required {
+/* .field, .radio, .required {
     opacity: 1;
     margin-top: 5px;
     left: 50px;
 
-}
+} */
 
 #recurring {
     opacity: 1;
@@ -21,25 +21,35 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
     left: 50px;
 }
 
-/* #24881152 {
-    margin-right: 20px
+#24881152 {
+    opacity: 1;
+    margin-top: 5px;
+    left: 50px;
 }
 
 #24881153 {
-    margin-right: 20px
+    opacity: 1;
+    margin-top: 5px;
+    left: 50px;
 }
 
 #24881154 {
-    margin-right: 20px
+    opacity: 1;
+    margin-top: 5px;
+    left: 50px;
 }
 
 #24881155 {
-    margin-right: 20px
+    opacity: 1;
+    margin-top: 5px;
+    left: 50px;
 }
 
 #24881156 {
-    margin-right: 20px
-} */
+    opacity: 1;
+    margin-top: 5px;
+    left: 50px;
+}
 
 /* label[for=other-option] {
     display: flex;
