@@ -3,11 +3,21 @@
     position: static;
 
 }
+
 [type=checkbox]:checked, [type=checkbox]:not(:checked) {
     opacity: 1;
     position: static;
 }
 
+#recurring {
+    opacity: 1;
+    position: static;
+}
+
+#true-impact {
+    opacity: 1;
+    position: static;
+}
 /* .field, .radio, .required {
     opacity: 1;
     margin-top: 5px;
