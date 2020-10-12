@@ -3,7 +3,7 @@
     position: static;
 
 }
-[type=radio]:checked, [type=radio]:not(:checked) {
+[type=checkbox]:checked, [type=checkbox]:not(:checked) {
     opacity: 1;
     position: static;
 }
