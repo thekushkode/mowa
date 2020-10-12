@@ -6,17 +6,20 @@ input[type=radio]:checked, input[type=radio]:not(:checked) {
 .field, .radio, .required {
     pointer-events: none;
     opacity: 1;
-    position: absolute;
+    position: relative;
+    right: 10px;
 }
 
 #frequency, .required {
     pointer-events: none;
     opacity: 1;
-    position: absolute;
+    position: relative;
+    right: 10px;
 }
 
 #true-impact {
     pointer-events: none;
     opacity: 1;
-    position: absolute;
+    position: relative;
+    right: 10px;
 }
