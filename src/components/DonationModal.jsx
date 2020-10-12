@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
+import './Script.css';
 import Script from './Script';
 import Loading from './Loading';
 

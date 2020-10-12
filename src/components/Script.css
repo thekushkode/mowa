@@ -1,0 +1,3 @@
+[type=radio]:checked, [type=radio]:not(:checked) {
+    pointer-events: none;
+}
