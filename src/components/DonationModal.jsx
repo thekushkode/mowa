@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
-//import './Script.css';
 import Script from './Script';
 import Loading from './Loading';
 
@@ -17,15 +16,6 @@ class DonationModal extends Component {
         });
     }
 
-    // isLoading() {
-
-    // }
-
-    // componentDidMount() {
-    //     setTimeout = (() => {
-    //         document.getElementById('loading').fadeOut().empty();
-    //     }, 3000)
-    // };
     componentDidUpdate() {
         setTimeout(() => {
             this.setState({
@@ -38,7 +28,7 @@ class DonationModal extends Component {
     render() {
         return (
             <div>
-                <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>One-Time Donation</b></MDBBtn>
+                <MDBBtn className='blue-gradient btn-rounded' onClick={this.toggle}><b>Donate Now!</b></MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Donations</MDBModalHeader>
                     <MDBModalBody id='modal'>

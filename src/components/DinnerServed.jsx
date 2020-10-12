@@ -41,7 +41,7 @@ const DinnerServed = () => {
                                 </a> */}
                                 <MDBCardTitle>
                                     <strong>
-                                        <a href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' rel="noopener noreferrer">Mangiamo Dinner</a>
+                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Mangiamo Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
                                 <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
@@ -50,7 +50,7 @@ const DinnerServed = () => {
                                         $1000
                                     </span>
                                     <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
@@ -70,7 +70,7 @@ const DinnerServed = () => {
                                 </a> */}
                                 <MDBCardTitle>
                                     <strong>
-                                        <a href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' rel="noopener noreferrer">Thanksgiving Dinner</a>
+                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Thanksgiving Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
                                 <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
@@ -79,7 +79,7 @@ const DinnerServed = () => {
                                         $500
                                     </span>
                                     <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
@@ -99,7 +99,7 @@ const DinnerServed = () => {
                                 </a> */}
                                 <MDBCardTitle>
                                     <strong>
-                                        <a href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' rel="noopener noreferrer">Christmas Dinner</a>
+                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Christmas Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
                                 <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
@@ -108,7 +108,7 @@ const DinnerServed = () => {
                                         $500
                                     </span>
                                     <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/donate/meals-on-wheels-atlanta/dinner-is-served' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
