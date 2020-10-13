@@ -34,7 +34,7 @@ const Team = () => {
             </header>
             <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
-                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                    <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                         Meet Our Amazing Team
                     </h2>
                     <p className="grey-text w-responsive mx-auto mb-5">
@@ -275,7 +275,7 @@ const Team = () => {
             </MDBCard>
             <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
-                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                    <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                         Chefs & Kitchen Staff
                     </h2>
                     {/* <p className="grey-text w-responsive mx-auto mb-5">
@@ -323,7 +323,7 @@ const Team = () => {
                     </MDBRow>
                     <MDBRow>
                         <MDBCol md='12'>
-                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                            <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 Kitchen Support Staff
                             </h2>
                             <img src={kitchen} className='d-block img-fluid mx-auto w-50' alt='MOWA kitchen support staff' />
@@ -334,7 +334,7 @@ const Team = () => {
                     </MDBRow>
                     <MDBRow>
                         <MDBCol md='6'>
-                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                            <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 Digital Team
                             </h2>
                             <img src={digitalteam} alt='MOWA digital team' />
@@ -343,7 +343,7 @@ const Team = () => {
                             </figcaption>
                         </MDBCol>
                         <MDBCol md='6'>
-                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                            <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 Volunteer Services
                             </h2>
                             <img src={volunteerteam} alt='MOWA Volunteer Services Team' />
@@ -356,7 +356,7 @@ const Team = () => {
             </MDBCard>
             <MDBCard className="px-1 pb-5 text-center">
                 <MDBCardBody>
-                    <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                    <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                         MOWA Board of Trustees
                             </h2>
                     <p className="grey-text w-responsive mx-auto mb-5">
@@ -365,29 +365,29 @@ const Team = () => {
                     <MDBRow>
 
                         <MDBCol md='6' className='text-left'>
-                            <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Angela Blank,</b> Community Organizer</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Rusty Bowers,</b> Owner at Pine Street Market</p>
-                            <p className='blue-text'><b className='mdb-color-text'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
+                            <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                            <p className='blue-text'><b className='mowabluetext'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
+                            <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
+                            <p className='blue-text'><b className='mowabluetext'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
+                            <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
+                            <p className='blue-text'><b className='mowabluetext'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
+                            <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
+                            <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
+                            <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
+                            <p className='blue-text'><b className='mowabluetext'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
+                            <p className='blue-text'><b className='mowabluetext'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
                         </MDBCol>
                         <MDBCol md='6' className='text-left'>
-                            <p className='blue-text'><b className='mdb-color-text'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Jovita Moore,</b> News Anchor at WSB-TV</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                            <p className='blue-text'><b className='mdb-color-text'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
+                            <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
+                            <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
+                            <p className='blue-text'><b className='mowabluetext'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
+                            <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
+                            <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
+                            <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
+                            <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
+                            <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
+                            <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                            <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBCardBody>

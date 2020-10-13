@@ -15,19 +15,17 @@ const ContactPage = () => {
                 <Nav />
             </header>
             <section className="my-5">
-                <h2 className="h1-responsive font-weight-bold text-center my-5">
+                <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
                     Contact us
                 </h2>
                 <p className="text-center w-responsive mx-auto pb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                    error amet numquam iure provident voluptate esse quasi, veritatis
-                    totam voluptas nostrum quisquam eum porro a pariatur veniam.
+                    Have Questions? Need to get in touch with us? Shoot us a message and we will get back in touch with shortly. <br/>Thanks for visiting Meals on Wheels Atlanta!
                 </p>
                 <MDBRow>
                     <MDBCol lg="5" className="lg-0 mb-4">
                         <MDBCard>
                             <MDBCardBody>
-                                <div className="form-header blue-gradient">
+                                <div className="form-header mowablue">
                                     <h3 className="mt-2">
                                         <MDBIcon icon="envelope" /> Get In Touch:
                                     </h3>
@@ -69,7 +67,7 @@ const ContactPage = () => {
                                     />
                                 </div>
                                 <div className="text-center">
-                                    <MDBBtn className="blue-gradient btn-rounded">Submit</MDBBtn>
+                                    <MDBBtn className="mowablue btn-rounded">Submit</MDBBtn>
                                 </div>
                             </MDBCardBody>
                         </MDBCard>
@@ -92,21 +90,21 @@ const ContactPage = () => {
                         <br />
                         <MDBRow className="text-center">
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
+                                <MDBBtn tag="a" href='tel:4043513889' floating className="mowablue">
                                     <MDBIcon icon="phone" />
                                 </MDBBtn>
                                 <p>404.351.3889</p>
 
                             </MDBCol>
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
+                                <MDBBtn tag="a" floating className="mowablue">
                                     <MDBIcon icon="fax" />
                                 </MDBBtn>
                                 <p>404.352.0595</p>
 
                             </MDBCol>
                             <MDBCol md="4">
-                                <MDBBtn tag="a" floating className="accent-1 blue-gradient">
+                                <MDBBtn tag="a" href='mailto:info@mowatl.org' floating className="mowablue">
                                     <MDBIcon icon="envelope" />
                                 </MDBBtn>
                                 <p>info@mowatl.org</p>

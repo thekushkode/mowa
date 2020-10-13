@@ -22,7 +22,7 @@ class Nav extends Component {
         );
         return (
             <div>
-                <MDBNavbar color='blue-gradient' dark expand="md" fixed="top">
+                <MDBNavbar style={{ backgroundColor: "#283c64" }} dark expand="md" fixed="top">
                     <MDBContainer>
                         <MDBNavbarBrand>
                             <span><a href='/' style={{ color: "white" }}><img src={logo} alt='MOWA logo' style={{ width: '100px', padding: '0px' }}></img></a></span>
@@ -90,6 +90,14 @@ class Nav extends Component {
                                 </MDBNavItem> */}
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
+                                <MDBNavItem>
+                                    <MDBNavLink style={{ color: 'white' }} to="/volunteer">
+                                        <MDBBtn size='sm' className='mowaorange btn-rounded'>
+                                            <MDBIcon size='lg' className='mr-1 animated jello infinite' icon="hand-holding-heart" /> Volunteer
+                                        </MDBBtn>
+                                        {/* <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" /> */}
+                                    </MDBNavLink>
+                                </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink style={{ color: 'white' }} to="/donate">
                                         <MDBBtn size='sm' outline rounded color="white" href="/donate">

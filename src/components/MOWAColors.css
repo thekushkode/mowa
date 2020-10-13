@@ -1,0 +1,29 @@
+.mowablue {
+    background: rgb(40, 60, 100) !important;
+}
+
+.mowaorange {
+    background: rgb(221, 154, 66) !important;
+}
+
+.mowalightblue {
+    background: rgb(134, 204, 199) !important;
+}
+
+.mowabluetext {
+    color: rgb(40, 60, 100) !important;
+}
+
+.mowalightbluetext {
+    color: rgb(134, 204, 199) !important;
+}
+
+.mowaorangetext {
+    color: rgb(221, 154, 66) !important;
+}
+
+.mowagradient {
+    background: -moz-linear-gradient(45deg, rgba(134, 204, 199, 1.0), rgba(40, 60, 100, 1.0) 100%) !important;
+    background: -webkit-linear-gradient(45deg, rgba(134, 204, 199, 1.0), rgba(40, 60, 100, 1.0) 100%) !important;
+    background: linear-gradient(45deg, rgba(134, 204, 199, 1.0), rgba(40, 60, 100, 1.0) 100%) !important;
+}

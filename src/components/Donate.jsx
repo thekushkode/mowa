@@ -15,6 +15,7 @@ import {
     MDBAvatar,
     MDBIframe
 } from "mdbreact";
+import './MOWAColors.css';
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import MonthlyDonationModal from './MonthlyDonationModal';
@@ -77,7 +78,7 @@ class Donate extends Component {
                                 </p>
                             </div>
                             <MDBContainer>
-                                <MDBNav tabs className="nav-justified" color='primary'>
+                                <MDBNav tabs className="nav-justified mowablue">
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "1"} onClick={this.toggleJustified("1")} role="tab" >
                                             <MDBIcon className='mr-1' icon="utensils" /> Meals
@@ -121,10 +122,10 @@ class Donate extends Component {
                                                 <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
                                             </MDBCol>
                                         </MDBRow>
-                                        <p className="mt-5 mdb-color-text text-left font-weight-bold">
+                                        <p className="mt-5 mowabluetext text-left font-weight-bold">
                                         Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) wait list.  Could you imagine your mother, grandmother or grandfather just waiting for food?
                                         </p><br/>
-                                        <p className="mt-2 mdb-color-text text-left font-weight-bold">
+                                        <p className="mt-2 mowabluetext text-left font-weight-bold">
                                             We are thrilled to announce OUR new project called “Our Kitchen”.  It’s a community collaboration of designers, architects, builders, chefs, gardeners, and more.  We’re getting ready to build OUR answer to ending senior hunger in OUR community. We will convert more than 10,000 square feet of existing space into a new state-of-the- art commercial kitchen that will enable us to triple OUR meal production. We’ll add a gourmet demo kitchen for cooking classes, an organic garden and a beautiful community event space.
                                         </p>
                                         <MDBContainer className='px-5 py-5'>
@@ -169,7 +170,7 @@ class Donate extends Component {
                                         <MDBRow>
                                             <MDBCol md='12'>
                                                 <div className="text-center my-5">
-                                                    <h2 className="h1-responsive font-weight-bold mdb-color-text my-5">
+                                                    <h2 className="h1-responsive font-weight-bold mowabluetext my-5">
                                                     Why Purposeful Products?
                                                     </h2>
                                                     <p className="lead text-muted w-responsive mx-auto mb-5">

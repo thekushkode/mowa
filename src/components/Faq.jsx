@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MDBContainer, MDBCol, MDBRow, MDBCollapse, MDBCollapseHeader, MDBCard, MDBBtn, MDBCardBody, MDBIcon } from "mdbreact";
+import './MOWAColors.css';
 import peeps from '../assets/oldladyandwoman.jpg';
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -49,13 +50,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex mowablue justify-content-center align-items-center mr-4"
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="utensils"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Qualifying for Meals
@@ -116,13 +117,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex justify-content-center align-items-center mr-4 mowablue"
+                                                    style={{minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="home"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Qualifying for Home Repairs
@@ -161,13 +162,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex justify-content-center align-items-center mr-4 mowablue"
+                                                    style={{minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="hands-helping"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Volunteering With MOWA
@@ -235,13 +236,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex justify-content-center align-items-center mr-4 mowablue"
+                                                    style={{minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="donate"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Donations
@@ -260,12 +261,12 @@ class Faq extends Component {
                                                     </ul>
                                                     <div className='text-center'>
                                                         <Link to='/donate'>
-                                                            <MDBBtn className='blue-gradient btn-rounded'>Donate</MDBBtn>
+                                                            <MDBBtn className='mowalightblue btn-rounded font-weight-bold'>Donate</MDBBtn>
                                                         </Link>
                                                         <Link to='/volunteer'>
-                                                            <MDBBtn className='peach-gradient btn-rounded'>Volunteer</MDBBtn>
+                                                            <MDBBtn className='mowablue btn-rounded font-weight-bold'>Volunteer</MDBBtn>
                                                         </Link>
-                                                        <MDBBtn className='purple-gradient btn-rounded' target='_blank' href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'>Shop Purposeful</MDBBtn>
+                                                        <MDBBtn className='mowaorange btn-rounded font-weight-bold' target='_blank' href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'>Shop Purposeful</MDBBtn>
                                                     </div>
                                                 </MDBCardBody>
                                             </MDBCollapse>
@@ -278,13 +279,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex justify-content-center align-items-center mr-4 mowablue"
+                                                    style={{minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="gift"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Purposeful Gourmet Foods
@@ -309,13 +310,13 @@ class Faq extends Component {
                                                 tagClassName="text-uppercase blue-gradient white-text mb-0 d-flex justify-content-start align-items-center"
                                             >
                                                 <div
-                                                    className="d-flex justify-content-center align-items-center mr-4"
-                                                    style={{ backgroundColor: "#0B42FF", minWidth: "100px" }}
+                                                    className="d-flex justify-content-center align-items-center mr-4 mowablue"
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="info"
                                                         size="2x"
-                                                        className="m-3 black-text"
+                                                        className="m-3 white-text"
                                                     />
                                                 </div>
                                                 Annual Report & Financials

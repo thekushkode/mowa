@@ -49,7 +49,7 @@ class FormsPage extends React.Component {
                             </p>
                         </MDBCol>
                         <MDBCol md='6'>
-                            <h2 className='mdb-color-text ml-4'>Choose Donation Amount</h2>
+                            <h2 className='mowabluetext ml-4'>Choose Donation Amount</h2>
                             <MDBInput gap onClick={this.onClick(1)} checked={this.state.radio === 1 ? true : false} label="$100: Supports our dry goods pet & people pantry" type="radio"
                                 id="radio1" />
                             <MDBInput gap onClick={this.onClick(2)} checked={this.state.radio === 2 ? true : false} label="$500: Supports our Therapeutic Meal Program" type="radio"
@@ -62,7 +62,7 @@ class FormsPage extends React.Component {
                                 id="radio5" />
                             <MDBInput gap onClick={this.onClick(6)} checked={this.state.radio === 6 ? true : false} label="Other Amount:" type="radio"
                                 id="radio6" />
-                            <h4 className='mdb-color-text ml-4 mt-3'>Payment Information</h4>
+                            <h4 className='mowabluetext ml-4 mt-3'>Payment Information</h4>
                             <div className="d-flex">
                             <MDBInput
                                 value={this.state.cc}

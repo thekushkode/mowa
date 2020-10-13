@@ -7,9 +7,9 @@ import {
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Nav from "./Nav";
-import videoMp4 from '../assets/elder1.mp4';
-import videoOgg from '../assets/elder1.ogg';
-import videoWebm from '../assets/elder1.webm';
+import videoMp4 from '../assets/SlideshowVids/mowaslideshow.mp4';
+import videoOgg from '../assets/SlideshowVids/mowaslideshow.ogg';
+import videoWebm from '../assets/SlideshowVids/mowaslideshow.webm';
 import Footer from "./Footer";
 import streakpic from '../assets/oldladyandwoman.jpg';
 import old2 from '../assets/old2.jpg';
@@ -40,7 +40,7 @@ class VideoBackgroundPage extends React.Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                <div id="videobackground" style={{ marginTop: '-200px', marginBottom: '-200px' }}>
+                <div id="videobackground" style={{ marginTop: '-75px', marginBottom: '-75px' }}>
                     <MDBView>
                         <video className="video-intro" playsInline autoPlay muted loop>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />
@@ -128,7 +128,7 @@ class VideoBackgroundPage extends React.Component {
                     {/* OUR STORY */}
                     <MDBCard className="px-5 pb-5">
                         <MDBCardBody>
-                            <h2 className="h1-responsive font-weight-bold mdb-color-text text-center mb-5 mt-2">
+                            <h2 className="h1-responsive font-weight-bold mowabluetext text-center mb-5 mt-2">
                                 Our Story
                             </h2>
                             <p className="text-center text-muted w-responsive mx-auto mb-5">
@@ -171,7 +171,7 @@ class VideoBackgroundPage extends React.Component {
 
                 {/* WHAT WE DO */}
                 {/* <section className='mx-5 my-5'>
-                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
+                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
                         What We Do!
                         </h2>
                     <p className="lead grey-text w-responsive text-center mx-auto mb-5">
@@ -191,7 +191,7 @@ class VideoBackgroundPage extends React.Component {
                                     />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Home Deliveries</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">Home Deliveries</h5>
                                     <p className="text-muted">
                                         Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
                                             </p>
@@ -202,7 +202,7 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBIcon icon="users" size="2x" className="blue-text" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Congregate Meals</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">Congregate Meals</h5>
                                     <p className="text-muted">
                                         MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
                                             </p>
@@ -213,7 +213,7 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBIcon icon="carrot" size="2x" className="blue-text" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">MOWA Fresh Food Partnership</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">MOWA Fresh Food Partnership</h5>
                                     <p className="text-muted">
                                         MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
                                             </p>
@@ -233,7 +233,7 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBIcon icon="hammer" size="2x" className="blue-text" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Home Repair</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">Home Repair</h5>
                                     <p className="text-muted">
                                         Home repair is essential to homeowners as it prevents seniors from being displaced from their homes
                                         and being forced into transitional housing or shelters because of code violations.
@@ -245,7 +245,7 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBIcon icon="shopping-cart" size="2x" className="blue-text" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Food Pantry</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">Food Pantry</h5>
                                     <p className="text-muted">
                                         MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items.
                                             </p>
@@ -256,7 +256,7 @@ class VideoBackgroundPage extends React.Component {
                                     <MDBIcon icon="dog" size="2x" className="blue-text" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mdb-color-text">Pet Food Program</h5>
+                                    <h5 className="font-weight-bold mb-3 mowabluetext">Pet Food Program</h5>
                                     <p className="text-muted">
                                         For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
                                             </p>
@@ -275,7 +275,7 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBRow className='white-text text-center'>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="utensils" size="2x" className="white-text" />
-                                        <h1 className='mx-2 font-weight-bold'>514,765</h1>
+                                        <h1 className='mx-2 font-weight-bold'>519,000</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
@@ -304,11 +304,11 @@ class VideoBackgroundPage extends React.Component {
 
                 {/* CELEBRITY ENDORSEMENTS */}
                 <div className='mb-5'>
-                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
-                        Celebrity Endorsements
+                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
+                        MOWA Ambassadors
                     </h2>
                     <p className="lead text-muted w-responsive text-center mx-auto mb-5">
-                        Atlanta's most well-known residence know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders stadning behind us in the fight to end Senior hunger!
+                        Atlanta's most well-known residents know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders standing behind us in the fight to end Senior hunger!
                     </p>
                     <div>
                         <Celebs />
@@ -323,7 +323,7 @@ class VideoBackgroundPage extends React.Component {
                 <div>
                     <MDBCard className="px-1 pb-5 text-center">
                         <MDBCardBody>
-                            <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                            <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 MOWA Board of Trustees
                             </h2>
                             <p className="grey-text w-responsive mx-auto mb-5">
@@ -332,29 +332,29 @@ class VideoBackgroundPage extends React.Component {
                             <MDBRow className='px-1'>
 
                                 <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Angela Blank,</b> Community Organizer</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Rusty Bowers,</b> Owner at Pine Street Market</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
+                                    <p className='blue-text'><b className='mowabluetext'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
                                 </MDBCol>
                                 <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mdb-color-text'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Jovita Moore,</b> News Anchor at WSB-TV</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mdb-color-text'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                                    <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
                                 </MDBCol>
                             </MDBRow>
                         </MDBCardBody>

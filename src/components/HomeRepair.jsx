@@ -53,7 +53,7 @@ class HomeRepairs extends Component {
                     >
                         <div className="pb-5 px-2 text-center">
                             <div className="my-5 px-1 text-center">
-                                <h2 className="h1-responsive mdb-color-text font-weight-bold my-5">
+                                <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                     MOWA Home Repair Services
                                 </h2>
                                 <p className="black-text text-justify w-responsive mx-auto mb-3">
@@ -63,7 +63,7 @@ class HomeRepairs extends Component {
                                 <h4 className='white-text font-weight-bold mb-5'><a href='https://portal.neighborlysoftware.com/mowa/Participant/Login'>Get Pre-Qualified Now!</a></h4>
 
                                 <hr className='mx-5'/>
-                                <h2 className="h3-responsive black-text font-weight-bold mt-5 mb-3">
+                                <h2 className="h3-responsive mowabluetext font-weight-bold mt-5 mb-3">
                                     Checkout Some of Our Previous Home Repairs!
                                 </h2>
                                 <div className='d-flex justify-content-center'>
@@ -86,14 +86,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={butlerafter} alt='new bathroom' waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="bath" />New Bath & Toilet
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(1)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -116,14 +114,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={clarkafter} alt="new oven" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="fire" />New Oven
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(2)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -146,14 +142,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={curtisafter} alt="new ac unit" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="fan" />New A/C
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(3)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -178,14 +172,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={dobbinsafter} alt="new railing" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="shoe-prints" />New Railing
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(4)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -208,14 +200,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={elderafter} alt="new roof" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(5)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -238,14 +228,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={ellisonafter} alt="new roof" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(6)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -270,14 +258,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={farmerafter} alt="new HVAC" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(7)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -300,14 +286,12 @@ class HomeRepairs extends Component {
                                                                 </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={fordafter} alt="new sink" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon='sink' />New Sink
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(8)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -330,14 +314,12 @@ class HomeRepairs extends Component {
                                                                     </a>
                                                                 </MDBCardBody>
                                                             </MDBCard>
-                                                            <MDBCard className="face back" style={{ height: "400px" }}>
+                                                            <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={harrisafter} alt="new HVAC" waves />
                                                                 <MDBCardBody className='blue-gradient white-text rounded-bottom'>
-                                                                    <p>
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                                        Maxime quae, dolores dicta. Blanditiis rem amet repellat,
-                                                                        dolores nihil quae.
-                                                                    </p>
+                                                                    <h4 className="font-weight-bold mb-3">
+                                                                        <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
+                                                                    </h4>
                                                                     <a href="#!" className="rotate-btn white-text" data-card="card-1" onClick={this.handleFlipping(9)}>
                                                                         <MDBIcon icon='hand-point-left' /> See Before
                                                                     </a>
@@ -354,10 +336,10 @@ class HomeRepairs extends Component {
                         </div>
                     </MDBCard>
                     <div>
-                        <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + home + ")" }}>
+                        <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + home + ")" }}>
                             <div className='mask flex-center rgba-black-strong'>
                                 <MDBContainer>
-                                    <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Home Repair Stats</h1>
+                                    <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Home Repair</h1>
                                     <MDBRow className='white-text text-center'>
                                         <MDBCol md='3' className='mb-2'>
                                             <MDBIcon icon="blind" size="2x" className="white-text" />

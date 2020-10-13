@@ -19,7 +19,7 @@ const Events = () => {
 
             <MDBCard className="mt-5 px-5 pb-5">
                 <MDBCardBody>
-                    <h2 className="h1-responsive font-weight-bold mdb-color-text text-center my-5">
+                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
                         MOWA Events
                     </h2>
                     <p className="text-center w-responsive mx-auto mb-5">
@@ -45,7 +45,7 @@ const Events = () => {
                                     Sport
                                 </h6>
                             </a>
-                            <h3 className="font-weight-bold mdb-color-text mb-3 p-0">
+                            <h3 className="font-weight-bold mowabluetext mb-3 p-0">
                                 <strong>The Bentley Golf Classic</strong>
                             </h3>
                             <p>
@@ -71,7 +71,7 @@ const Events = () => {
                                     Lifestyle
                                 </h6>
                             </a>
-                            <h3 className="font-weight-bold mdb-color-text mb-3 p-0">
+                            <h3 className="font-weight-bold mowabluetext mb-3 p-0">
                                 <strong>Reelz on Wheels: Wonder Woman</strong>
                             </h3>
                             <p>

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink, MDBBtn, MDBIcon } from "mdbreact";
+import './MOWAColors.css';
 import seal from '../assets/sealoftransparency.png';
 import member from '../assets/mow2020member.png';
 
@@ -10,7 +11,7 @@ const Footer = () => {
     }, [])
 
     return (
-        <MDBFooter color="blue-gradient" className="font-small pt-4 mt-4">
+        <MDBFooter className="mowablue font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md='3' className='text-center'>
@@ -62,7 +63,7 @@ const Footer = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer className='d-flex justify-content-between' fluid>
                     <div>
-                        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MOW Atlanta </a>
+                        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Meals on Wheels Atlanta </a>
                     </div>
                     <div>
                         Powered By: <a href='https://www.goatwebdesigns.com'>Goat Web Designs</a>

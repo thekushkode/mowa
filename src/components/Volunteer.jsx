@@ -17,6 +17,8 @@ import {
     MDBCarouselItem,
     MDBView
 } from "mdbreact";
+import './MOWAColors.css';
+import { Link } from 'react-router-dom';
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import MonthlyDonationModal from './MonthlyDonationModal';
@@ -82,7 +84,7 @@ class Volunteer extends Component {
                                 </p>
                             </div>
                             <MDBContainer>
-                                <MDBNav tabs className="nav-justified" color='primary'>
+                                <MDBNav tabs className="nav-justified mowablue" >
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "1"} onClick={this.toggleJustified("1")} role="tab" >
                                             <MDBIcon className='mr-1' icon="hand-holding-heart" /> Volunteer Requirements
@@ -126,41 +128,37 @@ class Volunteer extends Component {
                                             <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org?subject=Community Service Eligibility'>Alissa Robbins</a>.</li>
                                         </ul>
                                         <h2 className='text-center red-text darken-4'>Additional Information</h2>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Volunteer Waiver</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Volunteer Waiver</b></h4>
                                         <p>
                                             All volunteers will ﬁll out a volunteer waiver during the volunteer orientation with MOWA.
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Background Checks</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Background Checks</b></h4>
                                         <p>
                                             All individual volunteers will need a volunteer background check that can be ﬁlled out at orientation.
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Group Volunteers</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Group Volunteers</b></h4>
                                         <p>
                                             Corporate Volunteers will not need to ﬁll out a background check. Faith-based groups, civic groups and school groups will still need all members to ﬁll out a background check prior to their scheduled volunteer date. The completed forms may be mailed, scanned or faxed for your convenience.
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Parking</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Parking</b></h4>
                                         <p>
                                             Parking can be found on either side of the building. Due to limited parking, carpooling is recommended for ease and convenience.
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Arriving</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Arriving</b></h4>
                                         <p>
                                             Ask for a MOWA Volunteer Representative in the reception area so your group can be directed to the volunteer orientation.
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Confirmation</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Confirmation</b></h4>
                                         <p>
                                             We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
                                         </p>
-                                        <h4 className='mdb-color-text font-weight-bold'><b>Internships</b></h4>
+                                        <h4 className='mowabluetext font-weight-bold'><b>Internships</b></h4>
                                         <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
                                         <div className='text-center'>
-                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold'>New Volunteer Form</MDBBtn></a>
-                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded purple-gradient font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded mowablue font-weight-bold'>New Volunteer Form</MDBBtn></a>
+                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
                                         </div>
 
-                                        {/* <div className='d-flex justify-content-center'>
-                                            <MDBBtn className='btn-rounded aqua-gradient'>Forms</MDBBtn>
-                                            <MDBBtn className='btn-rounded blue-gradient'><MDBNavLink className='p-0' to='/contact' style={{ color: 'white' }}>Contact Us</MDBNavLink></MDBBtn>
-                                        </div> */}
                                     </MDBTabPane>
                                     <MDBTabPane tabId="2" role="tabpanel">
                                         <p className='px-2'>
@@ -171,23 +169,23 @@ class Volunteer extends Component {
                                             If you volunteer with us, your employer may also provide us with a grant as a way to recognize your ongoing support.
                                         </p>
                                         <div className='text-center'>
-                                            <a href='https://doublethedonation.com/mealsonwheelsatlanta' ><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold'>Click Here To See If Your Company Matches</MDBBtn></a>
+                                            <a href='https://doublethedonation.com/mealsonwheelsatlanta' ><MDBBtn size='md' className='btn-rounded mowablue font-weight-bold'>Click Here To See If Your Company Matches</MDBBtn></a>
                                         </div>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
-                                        <h4 className='mdb-color-text font-weight-bold'>New Volunteers</h4>
+                                        <h4 className='mowabluetext font-weight-bold'>New Volunteers</h4>
                                         <p>
                                             Please download and complete the New Volunteer form & return to <a href='mailto:arobbins@mowatl.org?subject=New Volunteer'>arobbins@mowatl.org</a>.
                                         </p>
                                         <div className='text-center'>
-                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded blue-gradient font-weight-bold mb-4'>New Volunteer Form</MDBBtn></a>
+                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded mowablue font-weight-bold mb-4'>New Volunteer Form</MDBBtn></a>
                                         </div>
-                                        <h4 className='mdb-color-text font-weight-bold'>Returning Volunteers</h4>
+                                        <h4 className='mowabluetext font-weight-bold'>Returning Volunteers</h4>
                                         <p>
                                             Please use the button below to login to our Volunteer portal!.
                                         </p>
                                         <div className='text-center'>
-                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded purple-gradient font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
                                         </div>
                                     </MDBTabPane>
                                 </MDBTabContent>

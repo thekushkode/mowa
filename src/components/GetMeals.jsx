@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBIcon, MDBIframe } from "mdbreact";
 import { Link } from 'react-router-dom';
-import "./GetMeals.css";
+import "./MOWAColors.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import old2 from '../assets/old2.jpg';
@@ -19,7 +19,7 @@ const GetMeals = () => {
                 <Nav />
             </header>
             <section className="mt-5">
-                <h2 className="h1-responsive font-weight-bold text-center mdb-color-text my-5">
+                <h2 className="h1-responsive font-weight-bold text-center mowabluetext my-5">
                     Meal Services
                 </h2>
                 <p className="text-center w-responsive mx-auto mb-5">
@@ -42,7 +42,7 @@ const GetMeals = () => {
 
             </section>
             <section>
-                <h2 className="h1-responsive font-weight-bold mdb-color-text text-center mb-5">
+                <h2 className="h1-responsive font-weight-bold mowabluetext text-center mb-5">
                     Our Services
                 </h2>
                 <MDBRow>
@@ -61,10 +61,10 @@ const GetMeals = () => {
                     <MDBCol lg="7">
                         <MDBRow className="mb-3">
                             <MDBCol size="1">
-                                <MDBIcon icon="truck" size="lg" className="blue-text" />
+                                <MDBIcon icon="truck" size="lg" className="mowabluetext" />
                             </MDBCol>
                             <MDBCol xl="10" md="11" size="10">
-                                <h5 className="font-weight-bold mdb-color-text mb-3">Home Deliveries</h5>
+                                <h5 className="font-weight-bold mowabluetext mb-3">Home Deliveries</h5>
                                 <p className="text-muted">
                                     Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
                                 </p>
@@ -72,10 +72,10 @@ const GetMeals = () => {
                         </MDBRow>
                         <MDBRow className="mb-3">
                             <MDBCol size="1">
-                                <MDBIcon icon="users" size="lg" className="blue-text" />
+                                <MDBIcon icon="users" size="lg" className="mowabluetext" />
                             </MDBCol>
                             <MDBCol xl="10" md="11" size="10">
-                                <h5 className="font-weight-bold mdb-color-text mb-3">Congregate Meals</h5>
+                                <h5 className="font-weight-bold mowabluetext mb-3">Congregate Meals</h5>
                                 <p className="text-muted">
                                     MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
                                 </p>
@@ -83,10 +83,10 @@ const GetMeals = () => {
                         </MDBRow>
                         <MDBRow className="mb-3">
                             <MDBCol size="1">
-                                <MDBIcon icon="carrot" size="lg" className="blue-text" />
+                                <MDBIcon icon="carrot" size="lg" className="mowabluetext" />
                             </MDBCol>
                             <MDBCol xl="10" md="11" size="10">
-                                <h5 className="font-weight-bold mdb-color-text mb-3">MOWA Fresh Food Partnership</h5>
+                                <h5 className="font-weight-bold mowabluetext mb-3">MOWA Fresh Food Partnership</h5>
                                 <p className="text-muted">
                                     MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
                                 </p>
@@ -94,10 +94,10 @@ const GetMeals = () => {
                         </MDBRow>
                         <MDBRow className="mb-3">
                             <MDBCol size="1">
-                                <MDBIcon icon="shopping-cart" size="lg" className="blue-text" />
+                                <MDBIcon icon="shopping-cart" size="lg" className="mowabluetext" />
                             </MDBCol>
                             <MDBCol xl="10" md="11" size="10">
-                                <h5 className="font-weight-bold mdb-color-text mb-3">Food Pantry</h5>
+                                <h5 className="font-weight-bold mowabluetext mb-3">Food Pantry</h5>
                                 <p className="text-muted">
                                     MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items.
                                 </p>
@@ -105,10 +105,10 @@ const GetMeals = () => {
                         </MDBRow>
                         <MDBRow className="mb-3">
                             <MDBCol size="1">
-                                <MDBIcon icon="dog" size="lg" className="blue-text" />
+                                <MDBIcon icon="dog" size="lg" className="mowabluetext" />
                             </MDBCol>
                             <MDBCol xl="10" md="11" size="10">
-                                <h5 className="font-weight-bold mdb-color-text mb-3">Pet Food Program</h5>
+                                <h5 className="font-weight-bold mowabluetext mb-3">Pet Food Program</h5>
                                 <p className="text-muted">
                                     For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
                                 </p>

@@ -17,14 +17,14 @@ const DinnerServed = () => {
 
             <div className='text-center'>
 
-                {/* <h2 className='h1-responsive font-weight-bold mdb-color-text text-center mt-5'>Dinner is Served</h2> */}
+                {/* <h2 className='h1-responsive font-weight-bold mowabluetext text-center mt-5'>Dinner is Served</h2> */}
 
                 <img src={dinnerserved} style={{ width: '500px' }} className="img-fluid mb-4" alt="dinner is served poster" />
 
-                <p className='mdb-color-text text-center w-responsive mx-auto mb-3'>
+                <p className='mowabluetext text-center w-responsive mx-auto mb-3'>
                     DINNER IS SERVED is a unique series of culinary dinner experiences for two or more people. Meals are conveniently delivered right to your door or expertly prepared in your own kitchen.  Each experience includes a four-course meal and hand-selected wine pairings.  Just unpack, plate & enjoy!
                 </p>
-                <p className='mdb-color-text text-center w-responsive mx-auto mb-5'>All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
+                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
 
                 <MDBRow className='mx-3'>
                     <MDBCol lg='4' md='12' className='mb-lg-0 mb-4'>
