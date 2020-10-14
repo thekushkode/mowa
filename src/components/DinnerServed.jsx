@@ -3,7 +3,6 @@ import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBBtn,  MDBCardBody, MDBCardTit
 import Nav from './Nav';
 import Footer from './Footer';
 import dinnerserved from '../assets/dinnerserved.png';
-import dinnerservedsm from '../assets/dinnerservedsm.png';
 import mangiamo from '../assets/mangiamo.png';
 import thanksgiving from '../assets/thanksgiving.png';
 import christmas from '../assets/christmas.png';
@@ -16,8 +15,6 @@ const DinnerServed = () => {
             </header>
 
             <div className='text-center'>
-
-                {/* <h2 className='h1-responsive font-weight-bold mowabluetext text-center mt-5'>Dinner is Served</h2> */}
 
                 <img src={dinnerserved} style={{ width: '500px' }} className="img-fluid mb-4" alt="dinner is served poster" />
 

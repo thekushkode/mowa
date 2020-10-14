@@ -3,6 +3,7 @@ import {
     MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, 
     MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn, MDBIframe
 } from "mdbreact";
+import { Link } from 'react-router-dom';
 import './MOWAColors.css';
 
 const Celebs = () => {
@@ -20,8 +21,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             NFL QB, Atlanta Falcons
                                         </MDBCardText>
-                                        <MDBBtn  className='btn-rounded mowablue' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded'href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -33,8 +34,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Mayor of Atlanta
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -46,8 +47,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Actor, The Office, The Hangover
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -61,8 +62,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             NFL RB, Atlanta Falcons
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -74,8 +75,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Model, RHOA Cast Member
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -87,8 +88,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Entertainer, Producer
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -102,8 +103,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Everything you need to know about MOWA!
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -115,8 +116,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             At MOWA, WE ARE FAMILY! Join us in our efforts to put an end to hunger for our Atlanta Seniors!
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -128,8 +129,8 @@ const Celebs = () => {
                                         <MDBCardText>
                                             Without the unbelievable support from volunteers in our community, all of this wouldn't be possible!
                                         </MDBCardText>
-                                        <MDBBtn className='mowablue btn-rounded' href='/donate'>Donate</MDBBtn>
-                                        <MDBBtn  className='mowaorange btn-rounded' href='/volunteer'>Volunteer</MDBBtn>
+                                        <Link to='/donate'><MDBBtn  className='btn-rounded mowablue'>Donate</MDBBtn></Link>
+                                        <Link to='/volunteer'><MDBBtn  className='mowaorange btn-rounded'>Volunteer</MDBBtn></Link>
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>

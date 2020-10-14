@@ -6,13 +6,14 @@ import {
 } from "mdbreact";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import './MOWAColors.css';
 import Nav from "./Nav";
 import videoMp4 from '../assets/SlideshowVids/mowaslideshow.mp4';
 import videoOgg from '../assets/SlideshowVids/mowaslideshow.ogg';
 import videoWebm from '../assets/SlideshowVids/mowaslideshow.webm';
 import Footer from "./Footer";
-import streakpic from '../assets/oldladyandwoman.jpg';
-import old2 from '../assets/old2.jpg';
+import streakpic from '../assets/blackman1.png';
+import old2 from '../assets/blacklady1.jpeg';
 import logo from '../assets/mowaaa.png';
 import Celebs from "./Celebs";
 
@@ -150,14 +151,14 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBCol lg="7">
 
                                     <p>
-                                        Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry.
+                                        Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry for both seniors and their pets.
                                     </p>
                                     <div className='d-flex flex-column'>
 
-                                        <MDBBtn size="md" className="waves-light btn-rounded blue-gradient">
+                                        <MDBBtn size="md" className="waves-light btn-rounded mowablue">
                                             <MDBNavLink className='p-0' style={{ color: 'white', fontSize: '20px' }} to='/donate'>Donate Now</MDBNavLink>
                                         </MDBBtn>
-                                        <MDBBtn size="md" className="waves-light btn-rounded aqua-gradient">
+                                        <MDBBtn size="md" className="waves-light btn-rounded mowaorange">
                                             <MDBNavLink className='p-0' style={{ color: 'white', fontSize: '20px' }} to='/donate'>Volunteer</MDBNavLink>
                                         </MDBBtn>
                                     </div>
@@ -271,30 +272,30 @@ class VideoBackgroundPage extends React.Component {
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
-                                <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Our Impact</h1>
-                                <MDBRow className='white-text text-center'>
+                                <h1 className='text-center mowaorangetext my-3 text-uppercase font-weight-bold'>Our Impact</h1>
+                                <MDBRow className='mowaorangetext text-center'>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="utensils" size="2x" className="white-text" />
+                                        <MDBIcon icon="utensils" size="2x" className="mowaorangetext" />
                                         <h1 className='mx-2 font-weight-bold'>519,000</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="clock" size="2x" className="white-text" />
+                                        <MDBIcon icon="clock" size="2x" className="mowaorangetext" />
                                         <h1 className='mx-2 font-weight-bold'>21,914</h1>
                                         <p className='font-weight-bold'>Volunteer Hours</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="dollar-sign" size="2x" className="white-text" />
+                                        <MDBIcon icon="dollar-sign" size="2x" className="mowaorangetext" />
                                         <h1 className='mx-2 font-weight-bold'>557,273</h1>
                                         <p className='font-weight-bold'>Dollars Saved</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
-                                        <MDBIcon icon="home" size="2x" className="white-text" />
+                                        <MDBIcon icon="home" size="2x" className="mowaorangetext" />
                                         <h1 className='mx-2 font-weight-bold'>372</h1>
                                         <p className='font-weight-bold'>Homes Repaired</p>
                                     </MDBCol>
                                 </MDBRow>
-                                <figcaption className='figure-caption text-center white-text mb-2'>**2019 Results</figcaption>
+                                <figcaption className='figure-caption text-center mowaorangetext mb-2'>**2019 Results</figcaption>
                             </MDBContainer>
                         </div>
                     </div>

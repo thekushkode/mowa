@@ -23,7 +23,7 @@ import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import MonthlyDonationModal from './MonthlyDonationModal';
 import Footer from "./Footer";
-import volback from '../assets/volbackground.jpg';
+import volback from '../assets/delivery1.jpg';
 import vol1 from '../assets/Volunteers/vol1.png';
 import vol2 from '../assets/Volunteers/vol2.png';
 import vol3 from '../assets/Volunteers/vol3.png';
@@ -110,7 +110,7 @@ class Volunteer extends Component {
                                         <p className="mt-2">
                                             You’ll find that there are a number of different types of volunteer opportunities at MOWA, all of which are vital in supporting our work with local seniors. Some opportunities include delivering meals, preparing shelf stable meal options, and stocking our food pantry. Regardless of what opportunity speaks to you, you will be making a world of difference to our senior neighbors here in Atlanta!.
                                         </p>
-                                        <h2 className='text-center red-text darken-4'>Volunteer Requirements</h2>
+                                        <h2 className='text-center mowaorangetext'>Volunteer Requirements</h2>
                                         <ol>
                                             <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.</li>
                                             <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
@@ -127,7 +127,7 @@ class Volunteer extends Component {
                                             <li>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b></li>
                                             <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org?subject=Community Service Eligibility'>Alissa Robbins</a>.</li>
                                         </ul>
-                                        <h2 className='text-center red-text darken-4'>Additional Information</h2>
+                                        <h2 className='text-center mowaorangetext'>Additional Information</h2>
                                         <h4 className='mowabluetext font-weight-bold'><b>Volunteer Waiver</b></h4>
                                         <p>
                                             All volunteers will ﬁll out a volunteer waiver during the volunteer orientation with MOWA.

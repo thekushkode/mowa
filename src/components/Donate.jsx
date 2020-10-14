@@ -15,13 +15,13 @@ import {
     MDBAvatar,
     MDBIframe
 } from "mdbreact";
+import { Link } from 'react-router-dom';
 import './MOWAColors.css';
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
-import MonthlyDonationModal from './MonthlyDonationModal';
 import Footer from "./Footer";
-import peeps from '../assets/oldladyandwoman.jpg';
-import kitchen from '../assets/kitchen.png';
+import peeps from '../assets/ladyandpet.jpg';
+import kitchen from '../assets/ourkitchen.png';
 import nuts from '../assets/purposenuts.png';
 import ga from '../assets/ga.png';
 import meal from '../assets/meal.png';
@@ -52,13 +52,6 @@ class Donate extends Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                {/* <div>
-                    <MDBRow>
-                        <MDBCol md="12" className="mb-3">
-                            <img src={ladies} className="img-fluid z-depth-1" alt="" />
-                        </MDBCol>
-                    </MDBRow>
-                </div> */}
                 <div>
                     <MDBCard
                         className="card-image"
@@ -91,7 +84,8 @@ class Donate extends Component {
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "3"} onClick={this.toggleJustified("3")} role="tab" >
-                                            <MDBIcon className='mr-1' icon="hand-holding-heart" /> Purposeful Foods
+                                            {/* <MDBIcon className='mr-1' icon="hand-holding-heart" /> Purposeful Foods */}
+                                            <img src={nuts} style={{ width: '30px' }} alt='purposeful' className='mr-1' /> Purposeful Foods
                                         </MDBNavLink>
                                     </MDBNavItem>
                                 </MDBNav>
@@ -103,7 +97,7 @@ class Donate extends Component {
                                         <p className="mt-2 text-justify">
                                             Thank you for helping Meals On Wheels Atlanta fight senior hunger in our community.
                                             Your generosity means the world to us and to those we serve.
-                                            For just $9 per day, we can provide a senior in need with breakfast and lunch, home-delivered by our friendly volunteers.
+                                            For just $9 per day, we can provide a senior in need with breakfast, lunch, and pet food for their furry friend, home-delivered by our friendly volunteers.
                                             Please consider signing up for a monthly gift to help sustain and grow our impact!
                                         </p>
                                         <div className='d-flex justify-content-center'>
@@ -118,55 +112,33 @@ class Donate extends Component {
                                             </MDBCol>
                                         </MDBRow>
                                         <MDBRow>
-                                            <MDBCol md='12'>
+                                            <MDBCol md='7' className='mx-auto'>
                                                 <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
                                             </MDBCol>
                                         </MDBRow>
                                         <p className="mt-5 mowabluetext text-left font-weight-bold">
-                                        Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) wait list.  Could you imagine your mother, grandmother or grandfather just waiting for food?
-                                        </p><br/>
-                                        <p className="mt-2 mowabluetext text-left font-weight-bold">
-                                            We are thrilled to announce OUR new project called “Our Kitchen”.  It’s a community collaboration of designers, architects, builders, chefs, gardeners, and more.  We’re getting ready to build OUR answer to ending senior hunger in OUR community. We will convert more than 10,000 square feet of existing space into a new state-of-the- art commercial kitchen that will enable us to triple OUR meal production. We’ll add a gourmet demo kitchen for cooking classes, an organic garden and a beautiful community event space.
+                                        Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) waitlist.  Could you imagine your mother, grandmother or grandfather just waiting for food?
                                         </p>
-                                        <MDBContainer className='px-5 py-5'>
+                                        <p className="mt-2 mowabluetext text-left font-weight-bold">
+                                            We are thrilled to announce OUR new project called “Our Kitchen.” It’s a community collaboration of designers, architects, builders, chefs, gardeners, and more.  We’re getting ready to build OUR answer to ending senior hunger in OUR community. We will convert more than 10,000 square feet of existing space into a new state-of-the-art commercial kitchen that will enable us to triple OUR meal production. We’ll add a gourmet demo kitchen for cooking classes, an organic garden and a beautiful community event space.
+                                        </p>
+                                        <MDBContainer className='px-5 py-2'>
                                             <MDBRow>
                                                 <MDBCol md="12">
-                                                    {/* <form>
-                                                        <p className="h5 text-center mb-4">Get In Touch</p>
-                                                        <div className="grey-text">
-                                                        <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
-                                                            success="right" />
-                                                        <MDBInput label="Your email" icon="envelope" group type="email" validate error="wrong"
-                                                            success="right" />
-                                                        <MDBInput label="Subject" icon="tag" group type="text" validate error="wrong" success="right" />
-                                                        <MDBInput type="textarea" rows="2" label="Your message" icon="pencil-alt" />
-                                                        </div>
-                                                        <div className="text-center">
-                                                        </div>
-                                                    </form> */}
-                                                        <MDBBtn className='purple-gradient btn-rounded'>
-                                                            Contact Us
-                                                            <MDBIcon far icon="envelope" className="ml-1" />
-                                                        </MDBBtn>
+                                                    <div className='d-flex justify-content-center'>
+                                                        <DonationModal />
+                                                        <Link to='/contact'>
+                                                            <MDBBtn className='mowaorange btn-rounded'>
+                                                                Contact Us
+                                                                <MDBIcon far icon="envelope" className="ml-1" />
+                                                            </MDBBtn>
+                                                        </Link>
+                                                    </div>
                                                 </MDBCol>
                                             </MDBRow>
                                         </MDBContainer>
                                     </MDBTabPane>
                                     <MDBTabPane tabId="3" role="tabpanel">
-                                        {/* <MDBRow>
-                                            <MDBCol md='6'>
-                                                <img src={nuts1} className='rounded fluid' style={{ width: '350px' }} alt='purposeful foods' />
-                                            </MDBCol>
-                                            <MDBCol md='6'>
-                                                <p className='text-justify mt-4 pr-5 font-weight-bold'>
-                                                When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
-                                                </p>
-                                                <div className='d-flex justify-content-center'>
-                                                    <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
-                                                    <a href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
-                                                </div>
-                                            </MDBCol>
-                                        </MDBRow> */}
                                         <MDBRow>
                                             <MDBCol md='12'>
                                                 <div className="text-center my-5">
@@ -174,7 +146,7 @@ class Donate extends Component {
                                                     Why Purposeful Products?
                                                     </h2>
                                                     <p className="lead text-muted w-responsive mx-auto mb-5">
-                                                    When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our elderly neighbors. We even wrap, ship, customize and deliver for FREE in the Atlanta area.
+                                                    When you purchase from Purposeful Gourmet Foods, 100% of the proceeds support Meals On Wheels Atlanta. Buy them as a gift or enjoy them for yourself. We make the perfect corporate gift. Your clients will appreciate your continued commitment in giving back to the community, especially the most vulnerable, our senior neighbors. We even wrap, ship, customize and deliver anywhere in the world!
                                                     </p>
                                                     <MDBRow>
                                                         <MDBCol md="4">
@@ -220,10 +192,10 @@ class Donate extends Component {
                                                             </p>
                                                         </MDBCol>
                                                     </MDBRow>
-                                                    <div className='d-flex justify-content-center mt-4'>
-                                                        <img src={nuts} alt='purposeful foods' style={{ width: '75px' }} />
-                                                        <a target='_blank' rel="noopener noreferrer" href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods' className='mt-1'><MDBBtn className='btn-rounded mdb-color border text-warning border-warning font-weight-bold'>Shop Now</MDBBtn></a>
+                                                    <div className='mx-auto mt-4'>
+                                                        <a target='_blank' rel="noopener noreferrer" href='https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods' className='mt-1'><MDBBtn className='btn-rounded mowablue border mowaorangetext border-warning font-weight-bold'>Shop Now</MDBBtn></a>
                                                     </div>
+                                                    <img className='mx-auto mt-2' src={nuts} alt='purposeful foods' style={{ width: '150px' }} />
                                                 </div>
                                             </MDBCol>
                                         </MDBRow>

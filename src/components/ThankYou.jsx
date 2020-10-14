@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBCol, MDBRow, MDBCard } from "mdbreact";
-import peeps from '../assets/oldladyandwoman.jpg';
+import peeps from '../assets/esther.jpeg';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import mowa from '../assets/mowaaa.png';

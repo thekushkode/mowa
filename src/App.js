@@ -16,7 +16,8 @@ import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
 import ThankYou from './components/ThankYou';
 import FormsPage from './components/Form';
-import Script from './components/Script';
+import Slideshow from './components/Slideshow';
+import OurKitchen from './components/OurKitchen';
 
 ReactGA.initialize('UA-178438543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -29,6 +30,9 @@ ReactGA.pageview('/contact');
 ReactGA.pageview('/events');
 ReactGA.pageview('/inthenews');
 ReactGA.pageview('/faq');
+ReactGA.pageview('/homerepairs');
+ReactGA.pageview('/ourkitchen');
+ReactGA.pageview('/dinnerisserved');
 ReactGA.pageview('/thankyou');
 
 function App() {
@@ -45,10 +49,11 @@ function App() {
       <Route exact path='/events' component={Events} />
       <Route exact path='/inthenews' component={InTheNews} />
       <Route exact path='/faq' component={Faq} />
-      <Route exact path='/dinnerserved' component={DinnerServed} />
+      <Route exact path='/dinnerisserved' component={DinnerServed} />
+      <Route exact path='/ourkitchen' component={OurKitchen} />
       <Route exact path='/thankyou' component={ThankYou} />
       <Route exact path='/form' component={FormsPage} />
-      <Route exact path='/script' component={Script} />
+      <Route exact path='/slide' component={Slideshow} />
     </Switch>
   );
 }

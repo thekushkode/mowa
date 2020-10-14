@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBIcon, MDBIframe } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBIframe, MDBContainer } from "mdbreact";
 import { Link } from 'react-router-dom';
 import "./MOWAColors.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import old2 from '../assets/old2.jpg';
-import old3 from '../assets/oldladyandwoman.jpg';
+import old2 from '../assets/esther.jpeg';
+import old3 from '../assets/blackman1.png';
+import volback from '../assets/delivery1.jpg';
 
 const GetMeals = () => {
 
@@ -41,25 +42,13 @@ const GetMeals = () => {
                         </div> */}
 
             </section>
-            <section>
+            <MDBContainer>
                 <h2 className="h1-responsive font-weight-bold mowabluetext text-center mb-5">
                     Our Services
                 </h2>
-                <MDBRow>
-                    <MDBCol lg="5" className="text-center text-lg-left">
-                        <img
-                            className="img-fluid pl-4 rounded"
-                            src={old2}
-                            alt=""
-                        />
-                        <img
-                            className="img-fluid pl-4 mt-4 rounded"
-                            src={old3}
-                            alt=""
-                        />
-                    </MDBCol>
-                    <MDBCol lg="7">
-                        <MDBRow className="mb-3">
+                <MDBRow >
+                    <MDBCol md="7">
+                        <MDBRow className="mb-3 mt-2">
                             <MDBCol size="1">
                                 <MDBIcon icon="truck" size="lg" className="mowabluetext" />
                             </MDBCol>
@@ -115,8 +104,25 @@ const GetMeals = () => {
                             </MDBCol>
                         </MDBRow>
                     </MDBCol>
+                    <MDBCol md="5">
+                        <img
+                            className="img-fluid rounded"
+                            src={old2}
+                            alt=""
+                        />
+                        <img
+                            className="img-fluid mt-4 rounded"
+                            src={old3}
+                            alt=""
+                        />
+                        <img
+                            className="img-fluid mt-4 rounded"
+                            src={volback}
+                            alt=""
+                        />
+                    </MDBCol>
                 </MDBRow>
-            </section>
+            </MDBContainer>
             <footer>
                 <Footer />
             </footer>

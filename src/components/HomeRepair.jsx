@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
+import './MOWAColors.css';
 import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.png';
 import butlerafter from '../assets/HomeRepairs/ButlerBath-after.png';
 import clarkbefore from '../assets/HomeRepairs/clarkoven-before.png';
@@ -57,7 +58,7 @@ class HomeRepairs extends Component {
                                     MOWA Home Repair Services
                                 </h2>
                                 <p className="black-text text-justify w-responsive mx-auto mb-3">
-                                    Through our Home Repair Services program, we work to ensure our senior clients’ homes are safe, warm, dry, and accessible. Our skilled technicians and licensed general contractors complete rehabilitation and handyman projects on both the interior and exterior of homes, to enable senior and veteran homeowners to maintain their independence and continue living at home as they age.
+                                    Through our Home Repair Services program, we work to ensure our senior client's homes are safe, warm, dry, and accessible. Our skilled technicians and licensed general contractors complete rehabilitation and handyman projects on both the interior and exterior of homes, to enable senior and veteran homeowners to maintain their independence and continue living at home as they age.
                                     
                                 </p>
                                 <h4 className='white-text font-weight-bold mb-5'><a href='https://portal.neighborlysoftware.com/mowa/Participant/Login'>Get Pre-Qualified Now!</a></h4>
@@ -77,7 +78,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={butlerbefore} alt="old bathroom" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="bath" />New Bath & Toilet
                                                                     </h4>
@@ -88,7 +89,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={butlerafter} alt='new bathroom' waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="bath" />New Bath & Toilet
                                                                     </h4>
@@ -105,7 +106,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={clarkbefore} alt="old oven" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="fire" />New Oven
                                                                     </h4>
@@ -116,7 +117,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={clarkafter} alt="new oven" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="fire" />New Oven
                                                                     </h4>
@@ -133,7 +134,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={curtisbefore} alt="old ac unit" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="fan" />New A/C
                                                                     </h4>
@@ -144,7 +145,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={curtisafter} alt="new ac unit" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="fan" />New A/C
                                                                     </h4>
@@ -163,7 +164,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={dobbinsbefore} alt="old railing" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="shoe-prints" />New Railing
                                                                     </h4>
@@ -174,7 +175,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={dobbinsafter} alt="new railing" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="shoe-prints" />New Railing
                                                                     </h4>
@@ -191,7 +192,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={elderbefore} alt="old roof" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
                                                                     </h4>
@@ -202,7 +203,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={elderafter} alt="new roof" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
                                                                     </h4>
@@ -219,7 +220,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={ellisonbefore} alt="old roof" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
                                                                     </h4>
@@ -230,7 +231,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={ellisonafter} alt="new roof" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="home" />New Roof
                                                                     </h4>
@@ -249,7 +250,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={farmerbefore} alt="old HVAC" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
                                                                     </h4>
@@ -260,7 +261,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={farmerafter} alt="new HVAC" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
                                                                     </h4>
@@ -277,7 +278,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={fordbefore} alt="old sink" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon='sink' />New Sink
                                                                     </h4>
@@ -288,7 +289,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={fordafter} alt="new sink" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon='sink' />New Sink
                                                                     </h4>
@@ -305,7 +306,7 @@ class HomeRepairs extends Component {
                                                                 <MDBCardUp>
                                                                     <img className="card-img-top" src={harrisbefore} alt="old HVAC" />
                                                                 </MDBCardUp>
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
                                                                     </h4>
@@ -316,7 +317,7 @@ class HomeRepairs extends Component {
                                                             </MDBCard>
                                                             <MDBCard className="face back" style={{ height: "300px" }}>
                                                                 <MDBCardImage className="img-fluid" src={harrisafter} alt="new HVAC" waves />
-                                                                <MDBCardBody className='blue-gradient white-text rounded-bottom'>
+                                                                <MDBCardBody className='mowablue white-text rounded-bottom'>
                                                                     <h4 className="font-weight-bold mb-3">
                                                                         <MDBIcon size='lg' className='mr-2' icon="wind" />New HVAC
                                                                     </h4>
@@ -339,25 +340,25 @@ class HomeRepairs extends Component {
                         <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + home + ")" }}>
                             <div className='mask flex-center rgba-black-strong'>
                                 <MDBContainer>
-                                    <h1 className='text-center white-text my-3 text-uppercase font-weight-bold'>Home Repair</h1>
-                                    <MDBRow className='white-text text-center'>
+                                    <h1 className='text-center mowaorangetext my-3 text-uppercase font-weight-bold'>Home Repair</h1>
+                                    <MDBRow className='mowaorangetext text-center'>
                                         <MDBCol md='3' className='mb-2'>
-                                            <MDBIcon icon="blind" size="2x" className="white-text" />
+                                            <MDBIcon icon="blind" size="2x" className="mowaorangetext" />
                                             <h1 className='mx-2 font-weight-bold'>73</h1>
                                             <p className='font-weight-bold'>Average Age</p>
                                         </MDBCol>
                                         <MDBCol md='3' className='mb-2'>
-                                            <MDBIcon icon="female" size="2x" className="white-text" />
+                                            <MDBIcon icon="female" size="2x" className="mowaorangetext" />
                                             <h1 className='mx-2 font-weight-bold'>91%</h1>
                                             <p className='font-weight-bold'>Single Females</p>
                                         </MDBCol>
                                         <MDBCol md='3' className='mb-2'>
-                                            <MDBIcon icon="dollar-sign" size="2x" className="white-text" />
+                                            <MDBIcon icon="dollar-sign" size="2x" className="mowaorangetext" />
                                             <h1 className='mx-2 font-weight-bold'>1,143</h1>
                                             <p className='font-weight-bold'>Avg. Monthly Income</p>
                                         </MDBCol>
                                         <MDBCol md='3' className='mb-2'>
-                                            <MDBIcon icon="home" size="2x" className="white-text" />
+                                            <MDBIcon icon="home" size="2x" className="mowaorangetext" />
                                             <h1 className='mx-2 font-weight-bold'>350</h1>
                                             <p className='font-weight-bold'>Yearly Houses Repaired</p>
                                         </MDBCol>
