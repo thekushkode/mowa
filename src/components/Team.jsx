@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from "mdbreact";
+import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import team1 from '../assets/Team/team1.png';
@@ -37,7 +38,7 @@ const Team = () => {
                     <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                         Meet Our Amazing Team
                     </h2>
-                    <p className="grey-text w-responsive mx-auto mb-5">
+                    <p className="text-muted w-responsive mx-auto mb-5">
                         We're honored to introduce the Meals on Wheels Atlanta team! This amazing group of people are the backbone of the MOWA organization. From fielding calls and emails to creating engaging fundraising events to preparing Senior meals, they are always ready to carry the load to fulfill our mission!
                     </p>
                     <MDBRow className='mb-5'>
@@ -52,10 +53,10 @@ const Team = () => {
                                 Charlene Crusoe-Ingram
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Chief Executive Officer</h6>
-                            <MDBBtn href='tel:4043513889p222' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p222' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:ccrusoeingram@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:ccrusoeingram@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
 
@@ -72,10 +73,10 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Chief Process Improvement Officer
                             </h6>
-                            <MDBBtn href='tel:4043513889p233' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p233' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:vcox@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:vcox@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -91,10 +92,10 @@ const Team = () => {
                                 Laura Ernst
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Sr. Director of Grants & Institutional Giving</h6>
-                            <MDBBtn href='tel:4043513889p232' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p232' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -109,10 +110,10 @@ const Team = () => {
                                 Hillary Baker
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Chief Marketing <br/>Officer</h6>
-                            <MDBBtn href='tel:4048190334' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4048190334' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:hbaker@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:hbaker@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -130,10 +131,10 @@ const Team = () => {
                                 Joshua Rumohr
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Sr. Director of Operations & Veteran Affairs</h6>
-                            <MDBBtn href='tel:4043513889p249' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p249' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:jrumohr@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:jrumohr@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -149,10 +150,10 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Sr. Director of Special Events & Community Engagement
                             </h6>
-                            <MDBBtn href='tel:4043513889p224' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p224' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -168,10 +169,10 @@ const Team = () => {
                                 Jason Tucker
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Senior Director of Meal Services</h6>
-                            <MDBBtn href='tel:4043513889p308' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p308' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:jtucker@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:jtucker@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -186,10 +187,10 @@ const Team = () => {
                                 Karen Kraemer
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Senior Director of <br/>Finance</h6>
-                            <MDBBtn href='tel:4043513889p309' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p309' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:kkraemer@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:kkraemer@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -207,10 +208,10 @@ const Team = () => {
                                 Kassidy Jackson
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Home Repair <br/>Consultant</h6>
-                            <MDBBtn href='tel:4043513889p361' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p361' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:kjackson@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:kjackson@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -226,10 +227,10 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Client Services <br/>Coordinator
                             </h6>
-                            <MDBBtn href='tel:4043513889p362' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p362' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:nmcintosh@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:nmcintosh@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -245,10 +246,10 @@ const Team = () => {
                                 Alissa Robbins
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Community Engagement Manager</h6>
-                            <MDBBtn href='tel:4043513889p245' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p245' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:arobbins@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:arobbins@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -263,10 +264,10 @@ const Team = () => {
                                 Kristy Prox
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Registered Dietitian Nutritionist, LD</h6>
-                            <MDBBtn href='tel:4043513889p310' tag="a" floating gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p310' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:kprox@mowatl.org' tag="a" floating gradient='purple' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:kprox@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
@@ -293,10 +294,10 @@ const Team = () => {
                                 Robert Gerstenecker
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Executive Chef, Culinary Consultant</h6>
-                            <MDBBtn href='tel:4043513889p317' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p317' tag="a" floating size="lg" className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:rgerstenecker@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:rgerstenecker@mowatl.org' tag="a" floating size="lg" className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
 
@@ -313,10 +314,10 @@ const Team = () => {
                             <h6 className="text-uppercase grey-text mb-3">
                                 Executive Sous Chef
                             </h6>
-                            <MDBBtn href='tel:4043513889p310' tag="a" floating size="lg" gradient='blue' className="mx-1 mb-0">
+                            <MDBBtn href='tel:4043513889p310' tag="a" floating size="lg" className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
-                            <MDBBtn href='mailto:ckelly@mowatl.org' tag="a" floating size="lg" gradient='peach' className="mx-1 mb-0">
+                            <MDBBtn href='mailto:ckelly@mowatl.org' tag="a" floating size="lg" className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
