@@ -15,7 +15,6 @@ import Volunteer from './components/Volunteer';
 import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
 import ThankYou from './components/ThankYou';
-import FormsPage from './components/Form';
 import Slideshow from './components/Slideshow';
 import OurKitchen from './components/OurKitchen';
 
@@ -52,7 +51,6 @@ function App() {
       <Route exact path='/dinnerisserved' component={DinnerServed} />
       <Route exact path='/ourkitchen' component={OurKitchen} />
       <Route exact path='/thankyou' component={ThankYou} />
-      <Route exact path='/form' component={FormsPage} />
       <Route exact path='/slide' component={Slideshow} />
     </Switch>
   );
