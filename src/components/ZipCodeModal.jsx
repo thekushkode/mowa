@@ -15,7 +15,7 @@ class ZipCodeModal extends Component {
 
     render() {
         return (
-            <MDBContainer>
+            <div>
                 <MDBBtn className='mowaorange btn-rounded' onClick={this.toggle}>Our Coverage Area</MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Coverage Area</MDBModalHeader>
@@ -67,7 +67,7 @@ class ZipCodeModal extends Component {
                         <MDBBtn className='btn-rounded mowablue' onClick={this.toggle}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
-            </MDBContainer>
+            </div>
         );
     }
 }
