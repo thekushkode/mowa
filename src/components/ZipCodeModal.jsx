@@ -20,21 +20,21 @@ class ZipCodeModal extends Component {
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                     <MDBModalHeader toggle={this.toggle}>MOWA Coverage Area</MDBModalHeader>
                     <MDBModalBody>
-                        <h4>
+                        <h4 className='font-weight-bold p-md-4 mb-0'>
                             In order to qualify for Meal Services, applicants must be:
                                                     </h4>
-                        <ul className='font-weight-bold'>
+                        <ul className='font-weight-bold text-left'>
                             <li>60 YEARS AND OLDER</li>
                             <li>FULTON COUNTY RESIDENTS</li>
                             <li>LOW-INCOME</li>
                         </ul>
-                        <h4>
+                        <h4 className="p-md-4 mb-0">
                             MOWA currently serves the following areas & zipcodes:
                                                     </h4>
-                        <p className="font-weight-bold">Central Fulton County- Buckhead, East Point, Hapeville, & the City of Atlanta</p>
+                        <p className="font-weight-bold p-md-4 mb-0">Central Fulton County- Buckhead, East Point, Hapeville, & the City of Atlanta</p>
                         <MDBRow>
                             <MDBCol>
-                                <ul className='font-weight-bold'>
+                                <ul className='font-weight-bold text-left'>
                                     <li>30305</li>
                                     <li>30306</li>
                                     <li>30307</li>
@@ -47,7 +47,7 @@ class ZipCodeModal extends Component {
                                 </ul>
                             </MDBCol>
                             <MDBCol>
-                                <ul className='font-weight-bold'>
+                                <ul className='font-weight-bold text-left'>
                                     <li>30314</li>
                                     <li>30315</li>
                                     <li>30316</li>
