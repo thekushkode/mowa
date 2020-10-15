@@ -94,7 +94,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBNavLink style={{ color: 'white' }} to="/volunteer">
                                         <MDBBtn size='sm' className='mowaorange btn-rounded'>
-                                            <MDBIcon size='lg' className='mr-1 animated jello infinite' icon="hand-holding-heart" /> Volunteer
+                                            <MDBIcon size='lg' className='mr-1 animated rubberBand infinite' icon="hand-holding-heart" /> Volunteer
                                         </MDBBtn>
                                         {/* <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" /> */}
                                     </MDBNavLink>

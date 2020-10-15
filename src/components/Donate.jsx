@@ -20,12 +20,13 @@ import './MOWAColors.css';
 import Nav from "./Nav";
 import DonationModal from './DonationModal';
 import Footer from "./Footer";
-import peeps from '../assets/ladyandpet.jpg';
+import peeps from '../assets/ladywithcat.jpg';
 import kitchen from '../assets/ourkitchen.png';
 import nuts from '../assets/purposenuts.png';
 import ga from '../assets/ga.png';
 import meal from '../assets/meal.png';
 import chefrob from '../assets/chefrob.png';
+import oldlady from '../assets/oldlady.png';
 
 
 class Donate extends Component {
@@ -102,6 +103,16 @@ class Donate extends Component {
                                         </p>
                                         <div className='d-flex justify-content-center'>
                                             <DonationModal />
+                                        </div>
+                                        <div>
+                                            <MDBRow className='mt-4'>
+                                                <MDBCol md='6'>
+                                                    <img src={peeps} alt='old lady with dog' className='img-fluid rounded'/>
+                                                </MDBCol>
+                                                <MDBCol md='6'>
+                                                    <img src={oldlady} alt='old lady smiling' className='img-fluid rounded'/>
+                                                </MDBCol>
+                                            </MDBRow>
                                         </div>
                                     </MDBTabPane>
                                     

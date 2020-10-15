@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import './MOWAColors.css';
 import Nav from "./Nav";
-import videoMp4 from '../assets/SlideshowVids/mowaslideshow.mp4';
-import videoOgg from '../assets/SlideshowVids/mowaslideshow.ogg';
-import videoWebm from '../assets/SlideshowVids/mowaslideshow.webm';
+import videoMp4 from '../assets/backgroundvids/atlskyline.mp4';
+import videoOgg from '../assets/backgroundvids/atlskyline.ogg';
+import videoWebm from '../assets/backgroundvids/atlskyline.webm';
 import Footer from "./Footer";
 import streakpic from '../assets/blackman1.png';
 import old2 from '../assets/blacklady1.jpeg';
@@ -41,7 +41,7 @@ class VideoBackgroundPage extends React.Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                <div id="videobackground" style={{ marginTop: '-75px', marginBottom: '-75px' }}>
+                <div id="videobackground" style={{ marginTop: '-250px', marginBottom: '-250px' }}>
                     <MDBView>
                         <video className="video-intro" playsInline autoPlay muted loop>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />

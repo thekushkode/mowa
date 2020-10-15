@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, Redirect, useHistory } from 'react-router-dom';
 import ReactGA from 'react-ga';
