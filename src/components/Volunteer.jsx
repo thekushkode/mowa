@@ -18,15 +18,15 @@ import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import volback from '../assets/delivery1.jpg';
-import vol1 from '../assets/Volunteers/vol1.png';
-import vol2 from '../assets/Volunteers/vol2.png';
-import vol3 from '../assets/Volunteers/vol3.png';
-import vol4 from '../assets/Volunteers/vol4.png';
-import vol5 from '../assets/Volunteers/vol5.png';
-import vol6 from '../assets/Volunteers/vol6.png';
-import vol7 from '../assets/Volunteers/vol7.png';
-import vol8 from '../assets/Volunteers/vol8.png';
-import vol9 from '../assets/Volunteers/vol9.png';
+import vol1 from '../assets/Volunteers/vol1.jpg';
+import vol2 from '../assets/Volunteers/vol2.jpg';
+import vol3 from '../assets/Volunteers/vol3.jpg';
+import vol4 from '../assets/Volunteers/vol4.jpg';
+import vol5 from '../assets/Volunteers/vol5.jpg';
+import vol6 from '../assets/Volunteers/vol6.jpg';
+import vol7 from '../assets/Volunteers/vol7.jpg';
+import vol8 from '../assets/Volunteers/vol8.jpg';
+import vol9 from '../assets/Volunteers/vol9.jpg';
 import newform from '../assets/Forms/newvolunteerform.pdf';
 
 class Volunteer extends Component {

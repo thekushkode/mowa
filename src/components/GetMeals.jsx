@@ -5,7 +5,7 @@ import "./MOWAColors.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import old2 from '../assets/esther.jpeg';
-import old3 from '../assets/blackman1.png';
+import old3 from '../assets/blackman1.jpg';
 import volback from '../assets/delivery1.jpg';
 import blady from '../assets/blacklady1.jpeg';
 import bman from '../assets/blackman2.jpg';

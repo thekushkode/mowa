@@ -3,23 +3,23 @@ import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from
 import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
-import team1 from '../assets/Team/team1.png';
-import team2 from '../assets/Team/team2.png';
-import team3 from '../assets/Team/team3.png';
-import team4 from '../assets/Team/team4.png';
-import team5 from '../assets/Team/team5.png';
-import team6 from '../assets/Team/team6.png';
-import alissa from '../assets/AdditionalTeam/Alissa.png';
-import chefchris from '../assets/AdditionalTeam/chefchris.png';
-import chefrobert from '../assets/AdditionalTeam/chefrobert.png';
-import digitalteam from '../assets/AdditionalTeam/digitalteam.png';
-import hillary from '../assets/AdditionalTeam/hillary.png';
-import karen from '../assets/AdditionalTeam/karen.png';
-import kassidy from '../assets/AdditionalTeam/kassidy.png';
-import kitchen from '../assets/AdditionalTeam/kitchen.png';
-import kristy from '../assets/AdditionalTeam/kristy.png';
-import nicole from '../assets/AdditionalTeam/nicole.png';
-import volunteerteam from '../assets/AdditionalTeam/volunteerteam.png';
+import team1 from '../assets/Team/team1.jpg';
+import team2 from '../assets/Team/team2.jpg';
+import team3 from '../assets/Team/team3.jpg';
+import team4 from '../assets/Team/team4.jpg';
+import team5 from '../assets/Team/team5.jpg';
+import team6 from '../assets/Team/team6.jpg';
+import alissa from '../assets/AdditionalTeam/Alissa.jpg';
+import chefchris from '../assets/AdditionalTeam/chefchris.jpg';
+import chefrobert from '../assets/AdditionalTeam/chefrobert.jpg';
+import digitalteam from '../assets/AdditionalTeam/digitalteam.jpg';
+import hillary from '../assets/AdditionalTeam/hillary.jpg';
+import karen from '../assets/AdditionalTeam/karen.jpg';
+import kassidy from '../assets/AdditionalTeam/kassidy.jpg';
+import kitchen from '../assets/AdditionalTeam/kitchen.jpg';
+import kristy from '../assets/AdditionalTeam/kristy.jpg';
+import nicole from '../assets/AdditionalTeam/nicole.jpg';
+import volunteerteam from '../assets/AdditionalTeam/volunteerteam.jpg';
 
 
 const Team = () => {

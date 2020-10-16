@@ -11,7 +11,7 @@ import videoMp4 from '../assets/backgroundvids/atl.mp4';
 import videoOgg from '../assets/backgroundvids/atl.ogg';
 import videoWebm from '../assets/backgroundvids/atl.webm';
 import Footer from "./Footer";
-import streakpic from '../assets/blackman1.png';
+import streakpic from '../assets/blackman1.jpg';
 import old2 from '../assets/blacklady1.jpeg';
 import logo from '../assets/mowaaa.png';
 import Celebs from "./Celebs";

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import bentley from '../assets/bentley.png';
-import wonder from '../assets/wonder.png';
+import bentley from '../assets/bentley.jpg';
+import wonder from '../assets/wonder.jpg';
 
 const Events = () => {
 
