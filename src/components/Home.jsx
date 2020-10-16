@@ -14,6 +14,7 @@ import Footer from "./Footer";
 import streakpic from '../assets/blackman1.jpg';
 import old2 from '../assets/blacklady1.jpeg';
 import logo from '../assets/mowaaa.png';
+import poster from '../assets/backgroundvids/mowaposter.jpg';
 import Celebs from "./Celebs";
 
 
@@ -42,7 +43,7 @@ class VideoBackgroundPage extends React.Component {
                 </header>
                 <div id="videobackground" style={{ marginTop: '-250px', marginBottom: '-250px' }}>
                     <MDBView>
-                        <video className="video-intro" playsInline autoPlay muted loop>
+                        <video className="video-intro" playsInline autoPlay muted loop poster={poster}>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />
                             <source src={videoMp4} type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
                             <source src={videoWebm} type='video/webm;codecs="vp8, vorbis"' />
