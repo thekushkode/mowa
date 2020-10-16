@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBAnimation, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
 import './MOWAColors.css';
 import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.jpg';
 import butlerafter from '../assets/HomeRepairs/ButlerBath-after.jpg';
@@ -58,7 +58,7 @@ class HomeRepairs extends Component {
                                     Through our Home Repair Services program, we work to ensure our senior client's homes are safe, warm, dry, and accessible. Our skilled technicians and licensed general contractors complete rehabilitation and handyman projects on both the interior and exterior of homes, to enable senior and veteran homeowners to maintain their independence and continue living at home as they age.
                                     
                                 </p>
-                                <h4 className='white-text font-weight-bold mb-5'><a href='https://portal.neighborlysoftware.com/mowa/Participant/Login'>Get Pre-Qualified Now!</a></h4>
+                                <MDBAnimation type='jello' infinite><h4 className='white-text font-weight-bold mb-5'><a href='https://portal.neighborlysoftware.com/mowa/Participant/Login'>Get Pre-Qualified Now!</a></h4></MDBAnimation>
 
                                 <hr className='mx-5'/>
                                 <h2 className="h3-responsive mowabluetext font-weight-bold mt-5 mb-3">
