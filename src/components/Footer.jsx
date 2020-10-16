@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink, MDBBtn, MDBIcon } from "mdbreact";
 import './MOWAColors.css';
-import seal from '../assets/sealoftransparency.jpg';
-import member from '../assets/mow2020member.jpg';
+import seal from '../assets/sealoftransparency.png';
+import member from '../assets/mow2020member.png';
 
 const Footer = () => {
 
