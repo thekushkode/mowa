@@ -107,10 +107,10 @@ class Donate extends Component {
                                         <div>
                                             <MDBRow className='mt-4'>
                                                 <MDBCol md='6'>
-                                                    <img src={peeps} alt='old lady with dog' className='img-fluid rounded'/>
+                                                    <img src={peeps} alt='old lady with dog' className='img-fluid rounded mb-2'/>
                                                 </MDBCol>
                                                 <MDBCol md='6'>
-                                                    <img src={oldlady} alt='old lady smiling' className='img-fluid rounded'/>
+                                                    <img src={oldlady} alt='old lady smiling' className='img-fluid rounded mb-2'/>
                                                 </MDBCol>
                                             </MDBRow>
                                         </div>

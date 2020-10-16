@@ -9,7 +9,7 @@ import './MOWAColors.css';
 const Celebs = () => {
     return (
         <MDBContainer>
-            <MDBCarousel activeItem={1} length={3} slide={true} showControls={true} showIndicators={true} multiItem>
+            <MDBCarousel activeItem={1} length={3} slide={true} showControls={true} showIndicators={true} multiItem >
                 <MDBCarouselInner>
                     <MDBRow>
                         <MDBCarouselItem itemId="1">

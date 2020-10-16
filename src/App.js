@@ -13,9 +13,10 @@ import GetMeals from './components/GetMeals';
 import Volunteer from './components/Volunteer';
 import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
-import ThankYou from './components/ThankYou';
+import ThankYou from './components/DonationThankYou';
 import Slideshow from './components/Slideshow';
 import OurKitchen from './components/OurKitchen';
+import EmailThankYou from './components/EmailThankYou';
 
 ReactGA.initialize('UA-178438543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -50,6 +51,7 @@ function App() {
       <Route exact path='/dinnerisserved' component={DinnerServed} />
       <Route exact path='/ourkitchen' component={OurKitchen} />
       <Route exact path='/thankyou' component={ThankYou} />
+      <Route exact path='/emailthankyou' component={EmailThankYou} />
       <Route exact path='/slide' component={Slideshow} />
     </Switch>
   );

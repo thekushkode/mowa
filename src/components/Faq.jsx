@@ -105,7 +105,7 @@ class Faq extends Component {
                                                         </MDBCol>
                                                     </MDBRow>
                                                     <h4 className="p-md-4 mb-0">
-                                                        If you have any questions, please <a href='mailto:jtucker@mowatl.org?subject=Meal Services Inquiry'>send us an email!</a>
+                                                        If you have any questions, please <a href='mailto:nmcintosh@mowatl.org?subject=Meal Services Inquiry'>send us an email!</a>
                                                     </h4>
                                                 </MDBCardBody>
                                             </MDBCollapse>
