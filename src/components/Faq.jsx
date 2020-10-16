@@ -8,7 +8,6 @@ import Footer from "./Footer";
 import fiveohone from '../assets/financials/501c3.pdf';
 import nineninezero from '../assets/financials/form990.pdf';
 import reportcard from '../assets/financials/reportcard.png';
-import nuts from '../assets/purposenuts.png';
 
 
 class Faq extends Component {

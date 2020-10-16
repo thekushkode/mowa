@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBCol, MDBRow, MDBIframe, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
+import { MDBCol, MDBRow, MDBIframe } from "mdbreact";
 import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";

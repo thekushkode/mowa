@@ -106,44 +106,6 @@ const Events = () => {
                             </MDBView>
                         </MDBCol>
                     </MDBRow>
-                    {/* <hr className="my-5" /> */}
-                    {/* <MDBRow>
-                        <MDBCol lg="5">
-                            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                <img
-                                    className="img-fluid"
-                                    src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg"
-                                    alt=""
-                                />
-                                <a href="#!">
-                                    <MDBMask overlay="white-slight" />
-                                </a>
-                            </MDBView>
-                        </MDBCol>
-                        <MDBCol lg="7">
-                            <a href="#!" className="indigo-text">
-                                <h6 className="font-weight-bold mb-3">
-                                    <MDBIcon icon="suitcase" className="pr-2" />
-                                    Food
-                                </h6>
-                            </a>
-                            <h3 className="font-weight-bold mb-3 p-0">
-                                <strong>Title of the news</strong>
-                            </h3>
-                            <p>
-                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
-                                sit amet.
-                            </p>
-                            <p>
-                                Event Date: 11/08/2018
-                            </p>
-                            <MDBBtn color="indigo" size="md" className="waves-light ">
-                                Get Tickets
-                        </MDBBtn>
-                        </MDBCol>
-                    </MDBRow> */}
                 </MDBCardBody>
             </MDBCard>
             <footer style={{ marginTop: '-25px' }}>

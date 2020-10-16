@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Switch, Route, Redirect, useHistory } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Home from './components/Home';
 import Donate from './components/Donate';
@@ -14,7 +14,6 @@ import Volunteer from './components/Volunteer';
 import HomeRepair from './components/HomeRepair';
 import DinnerServed from './components/DinnerServed';
 import ThankYou from './components/DonationThankYou';
-import Slideshow from './components/Slideshow';
 import OurKitchen from './components/OurKitchen';
 import EmailThankYou from './components/EmailThankYou';
 
@@ -52,7 +51,6 @@ function App() {
       <Route exact path='/ourkitchen' component={OurKitchen} />
       <Route exact path='/thankyou' component={ThankYou} />
       <Route exact path='/emailthankyou' component={EmailThankYou} />
-      <Route exact path='/slide' component={Slideshow} />
     </Switch>
   );
 }

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBMask,
-    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle
+    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon, MDBBtn, MDBContainer, MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle
 } from "mdbreact";
 import logo from '../assets/mowaaa.png';
 
@@ -26,7 +25,6 @@ class Nav extends Component {
                     <MDBContainer>
                         <MDBNavbarBrand>
                             <span><a href='/' style={{ color: "white" }}><img src={logo} alt='MOWA logo' style={{ width: '100px', padding: '0px' }}></img></a></span>
-                            {/* <span className="white-text"><b><a style={{ color: "white" }} href='/'>MOW ATL</a></b></span> */}
                         </MDBNavbarBrand>
                         <MDBNavbarToggler onClick={this.toggleCollapse("navbarCollapse")} />
                         <MDBCollapse id="navbarCollapse" isOpen={this.state.collapseID} navbar>
@@ -41,7 +39,6 @@ class Nav extends Component {
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/volunteer'>Volunteer</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/ourkitchen'>Our Kitchen</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/dinnerisserved'>Dinner is Served</MDBNavLink></MDBDropdownItem>
-                                            {/* <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='!#'>1705: Gather With Purpose</MDBNavLink></MDBDropdownItem> */}
                                             <MDBDropdown>
                                                 <MDBDropdownToggle nav caret>
                                                     <span className="black-text">Events & News</span>
@@ -60,17 +57,6 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBNavLink to="/homerepairs"><b>Home Repair</b></MDBNavLink>
                                 </MDBNavItem>
-                                {/* <MDBNavItem>
-                                    <MDBDropdown>
-                                        <MDBDropdownToggle nav caret>
-                                            <span className=""><b>Events & News</b></span>
-                                        </MDBDropdownToggle>
-                                        <MDBDropdownMenu className="dropdown-default">
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
-                                        </MDBDropdownMenu>
-                                    </MDBDropdown>
-                                </MDBNavItem> */}
                                 <MDBNavItem>
                                     <MDBDropdown>
                                         <MDBDropdownToggle nav caret>
@@ -83,12 +69,6 @@ class Nav extends Component {
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
                                 </MDBNavItem>
-                                {/* <MDBNavItem>
-                                    <MDBNavLink to="/faq"><b>FAQ</b></MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink to="/contact"><b>Contact</b></MDBNavLink>
-                                </MDBNavItem> */}
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
@@ -96,7 +76,6 @@ class Nav extends Component {
                                         <MDBBtn size='sm' className='mowaorange btn-rounded'>
                                             <MDBIcon size='lg' className='mr-1 animated rubberBand infinite' icon="hand-holding-heart" /> Volunteer
                                         </MDBBtn>
-                                        {/* <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" /> */}
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
@@ -104,12 +83,10 @@ class Nav extends Component {
                                         <MDBBtn size='sm' outline rounded color="white" href="/donate">
                                             <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
                                         </MDBBtn>
-                                        {/* <MDBIcon size='lg' className='animated heartBeat infinite' icon="heart" /> */}
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem style={{ marginTop: '7px' }} >
                                     <a href="https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods">
-                                        {/* <img style={{ width: '25px', marginTop: '7px' }} src={nuts} alt='purposeful foods link' /> */}
                                         <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Shop Purposeful</b></MDBBtn>
                                     </a>
                                 </MDBNavItem>

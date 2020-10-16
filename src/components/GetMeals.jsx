@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBIcon, MDBIframe, MDBContainer } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
 import { Link } from 'react-router-dom';
 import "./MOWAColors.css";
 import Nav from "./Nav";
@@ -31,14 +31,6 @@ const GetMeals = () => {
                     Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='mailto:nmcintosh@mowatl.org?subject=Meal Services Inquiry'>Contact us</a>, visit our <Link to='/faq'>FAQ page</Link> or use the Find a Provider tool at the bottom of the page!</b>
                 </p>
                 <div className="d-flex justify-content-center">
-                    {/* <MDBRow>
-                        <MDBCol md='6'>
-                            <ZipCodeModal />
-                        </MDBCol>
-                        <MDBCol md='6'>
-                            <MealContact />
-                        </MDBCol>
-                    </MDBRow> */}
                     <ZipCodeModal />
                     <MealContact />
                 </div>

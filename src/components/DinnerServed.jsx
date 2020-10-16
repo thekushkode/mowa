@@ -33,9 +33,6 @@ const DinnerServed = () => {
                                 alt='Mangiamo dinner'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                {/* <a href='#!' className='text-muted'>
-                                    <h5>Camera</h5>
-                                </a> */}
                                 <MDBCardTitle>
                                     <strong>
                                         <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Mangiamo Dinner</a>
@@ -62,9 +59,6 @@ const DinnerServed = () => {
                                 alt='thanksgiving dinner'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                {/* <a href='#!' className='text-muted'>
-                                    <h5>Photography</h5>
-                                </a> */}
                                 <MDBCardTitle>
                                     <strong>
                                         <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Thanksgiving Dinner</a>
@@ -91,9 +85,6 @@ const DinnerServed = () => {
                                 alt='christmas dinner'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                {/* <a href='#!' className='text-muted'>
-                                    <h5>Smartphone</h5>
-                                </a> */}
                                 <MDBCardTitle>
                                     <strong>
                                         <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Christmas Dinner</a>

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import {
-    MDBRow,
-    MDBCol,
     MDBContainer,
     MDBTabPane,
     MDBNavLink,
@@ -10,7 +8,6 @@ import {
     MDBNavItem,
     MDBTabContent,
     MDBBtn,
-    MDBInput,
     MDBCard,
     MDBCarousel,
     MDBCarouselInner,
@@ -18,10 +15,7 @@ import {
     MDBView
 } from "mdbreact";
 import './MOWAColors.css';
-import { Link } from 'react-router-dom';
 import Nav from "./Nav";
-import DonationModal from './DonationModal';
-import MonthlyDonationModal from './MonthlyDonationModal';
 import Footer from "./Footer";
 import volback from '../assets/delivery1.jpg';
 import vol1 from '../assets/Volunteers/vol1.png';

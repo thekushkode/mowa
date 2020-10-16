@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn, MDBIframe } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBView, MDBBtn, MDBIframe } from "mdbreact";
 import { Link } from 'react-router-dom';
 import './MOWAColors.css';
 import Nav from "./Nav";
@@ -28,11 +28,6 @@ const InTheNews = () => {
                     <MDBRow>
                         <MDBCol lg="5">
                             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                {/* <img
-                                    className="img-fluid"
-                                    src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
-                                    alt=""
-                                /> */}
                                 <MDBIframe src="https://www.youtube.com/embed/_jVoBtucMt8"></MDBIframe>
                                 <a href="#!">
                                     <MDBMask overlay="white-slight" />

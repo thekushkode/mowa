@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import {
-    MDBCollapse, MDBMask,
-    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBNavLink, MDBCard, MDBCardBody
+    MDBMask,
+    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBCard, MDBCardBody
 } from "mdbreact";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -70,62 +69,8 @@ class VideoBackgroundPage extends React.Component {
                             </MDBContainer>
                         </MDBMask>
                     </MDBView>
-                    {/* <div>
-                    <MDBCarousel
-                        activeItem={1}
-                        length={3}
-                        showControls={false}
-                        showIndicators={false}
-                        className="z-depth-1"
-                        slide
-                    >
-                        <MDBCarouselInner>
-                            <MDBCarouselItem itemId="1">
-                                <MDBView>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
-                                        alt="First slide"
-                                    />
-                                </MDBView>
-                            </MDBCarouselItem>
-                            <MDBCarouselItem itemId="2">
-                                <MDBView>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg"
-                                        alt="Second slide"
-                                    />
-                                </MDBView>
-                            </MDBCarouselItem>
-                            <MDBCarouselItem itemId="3">
-                                <MDBView>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
-                                        alt="Third slide"
-                                    />
-                                </MDBView>
-                            </MDBCarouselItem>
-                        </MDBCarouselInner>
-                    </MDBCarousel> */}
                 </div>
                 <section>
-                    {/* <h2 className="h1-responsive font-weight-bold text-center my-5">
-                        Our Story
-                        </h2>
-                    <MDBRow className='mt-4 mx-4'>
-                        <MDBCol md='6' lg='6' >
-                            <img style={{ width: '80%' }} src={oldguy} alt='old man eating soup' />
-                        </MDBCol>
-                        <MDBCol className='column' md='6' lg='6' >
-                            <h4>
-                                Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry.
-                                </h4>
-
-                        </MDBCol>
-                    </MDBRow> */}
-
                     {/* OUR STORY */}
                     <MDBCard className="px-5 pb-5">
                         <MDBCardBody>
@@ -143,9 +88,6 @@ class VideoBackgroundPage extends React.Component {
                                             src={old2}
                                             alt=""
                                         />
-                                        {/* <a href="#!">
-                                            <MDBMask overlay="white-slight" />
-                                        </a> */}
                                     </MDBView>
                                 </MDBCol>
                                 <MDBCol lg="7">
@@ -171,106 +113,6 @@ class VideoBackgroundPage extends React.Component {
                         </MDBCardBody>
                     </MDBCard>
                 </section>
-
-                {/* <hr style={{ borderTop: '1px solid #1455D9' }} className='mx-4' /> */}
-
-                {/* WHAT WE DO */}
-                {/* <section className='mx-5 my-5'>
-                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
-                        What We Do!
-                        </h2>
-                    <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam.
-                        </p>
-
-                    <MDBRow>
-                        <MDBCol md="4">
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon
-                                        icon="truck"
-                                        size="2x"
-                                        className="blue-text"
-                                    />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">Home Deliveries</h5>
-                                    <p className="text-muted">
-                                        Our team, along with our helpful and much needed volunteers, hit the streets every week to deliver nutritious meals to qualifying Atlanta seniors. Check out our volunteers page to get involved!
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="users" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">Congregate Meals</h5>
-                                    <p className="text-muted">
-                                        MOWA also provides meals for congregate settings. As with all of the meals that we serve, our congregate meals are nutritious and well-balanced, but crafted to be enjoyable too!
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="carrot" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">MOWA Fresh Food Partnership</h5>
-                                    <p className="text-muted">
-                                        MOWA partners with farmers markets, local growers, and businesses to provide fresh fruits and vegetables as part of a balanced meal plan to improve the nutrition and health of qualifying seniors.
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCol>
-                        <MDBCol md="4" className="text-center">
-                            <img
-                                className="img-fluid"
-                                src={feeding}
-                                alt=""
-                            />
-                        </MDBCol>
-                        <MDBCol md="4">
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="hammer" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">Home Repair</h5>
-                                    <p className="text-muted">
-                                        Home repair is essential to homeowners as it prevents seniors from being displaced from their homes
-                                        and being forced into transitional housing or shelters because of code violations.
-                                    </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="shopping-cart" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">Food Pantry</h5>
-                                    <p className="text-muted">
-                                        MOWA's Pantry Program serves as a critical stop-gap for seniors waiting to receive home-delivered meals. Seniors receive a bag filled with a month-long supply of shelf-stable items.
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                            <MDBRow className="mb-3">
-                                <MDBCol size="2">
-                                    <MDBIcon icon="dog" size="2x" className="blue-text" />
-                                </MDBCol>
-                                <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3 mowabluetext">Pet Food Program</h5>
-                                    <p className="text-muted">
-                                        For many of our homebound clients, their pets are the only family they have. However, income restrictions create a struggle to provide for their furry friends.
-                                            </p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCol>
-                    </MDBRow>
-                </section> */}
-
                 {/* STREAK */}
                 <div>
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
@@ -319,53 +161,6 @@ class VideoBackgroundPage extends React.Component {
                         <Celebs />
                     </div>
                 </div>
-
-                {/* </div> */}
-                {/* <div>
-                    <Team />
-                </div>
-
-                <div>
-                    <MDBCard className="px-1 pb-5 text-center">
-                        <MDBCardBody>
-                            <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
-                                MOWA Board of Trustees
-                            </h2>
-                            <p className="grey-text w-responsive mx-auto mb-5">
-                                MOWA would like to recognize our Board of Trustees. Our trustees are charged with making sure our organization runs at the highest levels and maximizes the full potential of our fundraising efforts.
-                            </p>
-                            <MDBRow className='px-1'>
-
-                                <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
-                                    <p className='blue-text'><b className='mowabluetext'>J. Vance Burgess,</b> Sr. Director of Real Estate at Chick-Fil-A</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
-                                </MDBCol>
-                                <MDBCol md='6' className='text-left'>
-                                    <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
-                                    <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCardBody>
-                    </MDBCard>
-                </div> */}
-
 
                 <footer style={{ marginTop: '-25px' }}>
                     <Footer />

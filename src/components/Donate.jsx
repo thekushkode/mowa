@@ -10,7 +10,6 @@ import {
     MDBNavItem,
     MDBTabContent,
     MDBBtn,
-    MDBInput,
     MDBCard,
     MDBAvatar,
     MDBIframe
@@ -85,7 +84,6 @@ class Donate extends Component {
                                     </MDBNavItem>
                                     <MDBNavItem>
                                         <MDBNavLink link to="#" active={this.state.activeItemJustified === "3"} onClick={this.toggleJustified("3")} role="tab" >
-                                            {/* <MDBIcon className='mr-1' icon="hand-holding-heart" /> Purposeful Foods */}
                                             <img src={nuts} style={{ width: '30px' }} alt='purposeful' className='mr-1' /> Purposeful Foods
                                         </MDBNavLink>
                                     </MDBNavItem>
@@ -161,7 +159,6 @@ class Donate extends Component {
                                                     </p>
                                                     <MDBRow>
                                                         <MDBCol md="4">
-                                                            {/* <MDBIcon icon="seedling" size="3x" className="red-text" /> */}
                                                             <MDBAvatar
                                                                 tag="img"
                                                                 src={ga}
@@ -175,7 +172,6 @@ class Donate extends Component {
                                                             </p>
                                                         </MDBCol>
                                                         <MDBCol md="4">
-                                                            {/* <MDBIcon icon="book" size="3x" className="cyan-text" /> */}
                                                             <MDBAvatar
                                                                 tag="img"
                                                                 src={chefrob}
@@ -189,7 +185,6 @@ class Donate extends Component {
                                                             </p>
                                                         </MDBCol>
                                                         <MDBCol md="4">
-                                                            {/* <MDBIcon far icon="comments" size="3x" className="orange-text" /> */}
                                                             <MDBAvatar
                                                                 tag="img"
                                                                 src={meal}

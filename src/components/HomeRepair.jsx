@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
 import './MOWAColors.css';
-import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.png';
-import butlerafter from '../assets/HomeRepairs/ButlerBath-after.png';
-import clarkbefore from '../assets/HomeRepairs/clarkoven-before.png';
-import clarkafter from '../assets/HomeRepairs/clarkoven-after.png';
-import curtisbefore from '../assets/HomeRepairs/curtisac-before.png';
-import curtisafter from '../assets/HomeRepairs/curtisac-after.png';
-import dobbinsbefore from '../assets/HomeRepairs/dobbinsrail-before.png';
-import dobbinsafter from '../assets/HomeRepairs/dobbinsrail-after.png';
-import elderbefore from '../assets/HomeRepairs/elderroof-before.png';
-import elderafter from '../assets/HomeRepairs/elderroof-after.png';
-import ellisonbefore from '../assets/HomeRepairs/ellisonroof-before.png';
-import ellisonafter from '../assets/HomeRepairs/eliisonroof-after.png';
-import farmerbefore from '../assets/HomeRepairs/farmerhvac-before.png';
-import farmerafter from '../assets/HomeRepairs/farmerhvac-after.png';
-import fordbefore from '../assets/HomeRepairs/fordsink-before.png';
-import fordafter from '../assets/HomeRepairs/fordsink-after.png';
-import harrisbefore from '../assets/HomeRepairs/harrishvac-before.png';
-import harrisafter from '../assets/HomeRepairs/harrishvac-after.png';
+import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.jpg';
+import butlerafter from '../assets/HomeRepairs/ButlerBath-after.jpg';
+import clarkbefore from '../assets/HomeRepairs/clarkoven-before.jpg';
+import clarkafter from '../assets/HomeRepairs/clarkoven-after.jpg';
+import curtisbefore from '../assets/HomeRepairs/curtisac-before.jpg';
+import curtisafter from '../assets/HomeRepairs/curtisac-after.jpg';
+import dobbinsbefore from '../assets/HomeRepairs/dobbinsrail-before.jpg';
+import dobbinsafter from '../assets/HomeRepairs/dobbinsrail-after.jpg';
+import elderbefore from '../assets/HomeRepairs/elderroof-before.jpg';
+import elderafter from '../assets/HomeRepairs/elderroof-after.jpg';
+import ellisonbefore from '../assets/HomeRepairs/ellisonroof-before.jpg';
+import ellisonafter from '../assets/HomeRepairs/eliisonroof-after.jpg';
+import farmerbefore from '../assets/HomeRepairs/farmerhvac-before.jpg';
+import farmerafter from '../assets/HomeRepairs/farmerhvac-after.jpg';
+import fordbefore from '../assets/HomeRepairs/fordsink-before.jpg';
+import fordafter from '../assets/HomeRepairs/fordsink-after.jpg';
+import harrisbefore from '../assets/HomeRepairs/harrishvac-before.jpg';
+import harrisafter from '../assets/HomeRepairs/harrishvac-after.jpg';
 import home from '../assets/dkhome.jpeg';
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -48,9 +48,6 @@ class HomeRepairs extends Component {
                 <div>
                     <MDBCard
                         className="card-image"
-                        // style={{
-                        //     backgroundImage: "url(" + background + ")"
-                        // }}
                     >
                         <div className="pb-5 px-2 text-center">
                             <div className="my-5 px-1 text-center">
@@ -363,7 +360,6 @@ class HomeRepairs extends Component {
                                             <p className='font-weight-bold'>Yearly Houses Repaired</p>
                                         </MDBCol>
                                     </MDBRow>
-                                    {/* <figcaption className='figure-caption text-center cyan-text mb-2'>**2019 Results</figcaption> */}
                                 </MDBContainer>
                             </div>
                         </div>
