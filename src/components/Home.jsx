@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import './MOWAColors.css';
 import Nav from "./Nav";
-import videoMp4 from '../assets/backgroundvids/atl.mp4';
+import videoMp4 from '../assets/backgroundvids/atlsmall.mp4';
 import videoOgg from '../assets/backgroundvids/atl.ogg';
 import videoWebm from '../assets/backgroundvids/atl.webm';
 import Footer from "./Footer";
