@@ -41,7 +41,7 @@ class VideoBackgroundPage extends React.Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                <div id="videobackground" style={{ marginTop: '-250px', marginBottom: '-250px' }}>
+                <div id="videobackground" style={{ marginTop: '-200px' }}>
                     <MDBView>
                         <video className="video-intro" playsInline autoPlay muted loop poster={poster}>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />

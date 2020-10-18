@@ -2,12 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* #videobackground .gradient {
-    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.2), rgba(13, 17, 198, 0.69) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.2), rgba(13, 17, 198, 0.69) 100%);
-    background: linear-gradient(45deg, rgba(213, 15, 61, 0.2), rgba(13, 17, 198, 0.69) 100%);
-} */
-
 #videobackground .gradient {
     background: -moz-linear-gradient(45deg, rgba(40, 60, 100, 0.5), rgba(40, 60, 100, 0.5) 100%);
     background: -webkit-linear-gradient(45deg, rgba(40, 60, 100, 0.5), rgba(40, 60, 100, 0.5) 100%);
@@ -19,36 +13,4 @@ body {
     left: 0!important;
     transform: none!important;
     min-height: 100vh;
-}
-
-@media only screen and (max-width: 400px) {
-    #videobackground .video-intro video {
-        max-height: 50vh;
-        transform: translateX(-50%);
-        left: 50%;
-        position: absolute;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    #videobackground .video-intro video {
-        max-height: 35vh;
-        transform: translateX(-50%);
-        left: 50%;
-    }
-}
-
-@media (max-width: 767px) and (orientation: landscape) {
-    #videobackground .video-intro video {
-        max-height: 50vh;
-        transform: translateX(-50%);
-        left: 50%;
-        position: relative;
-    }
-}
-
-@media (max-width: 1000px) and (orientation: landscape) {
-    #videobackground .video-intro {
-        min-height: 150vh;
-    }
 }
