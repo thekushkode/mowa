@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Home from './components/Home';
