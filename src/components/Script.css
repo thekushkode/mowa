@@ -18,3 +18,11 @@
     opacity: 1;
     position: static;
 }
+
+/* #2488152 .label span {
+    opacity: 0;
+} */
+
+[for='2488152'] span {
+    opacity: 0;
+}
