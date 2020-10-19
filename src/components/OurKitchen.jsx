@@ -27,7 +27,7 @@ class OurKitchen extends Component {
                         <img src={kitchen} className='d-block w-75 mx-auto img-fluid' alt='our kitchen logo' />
                         <MDBRow>
                             <MDBCol md='6' className='mx-auto'>
-                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
+                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/-rDw1KTImzg"></MDBIframe>
                             </MDBCol>
                         </MDBRow>
 

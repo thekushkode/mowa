@@ -31,7 +31,7 @@ class EmailThankYou extends Component {
                             <MDBRow>
                                 <MDBCol md='12' className='text-center'>
                                     <img src={mowa} alt='MOWA logo' className='w-50 mx-auto' />
-                                    <h2 className='text-center white-text my-4'>Thank You for Your Email!</h2>
+                                    <h2 className='text-center white-text my-4'>Thank You, your submission has been sent!</h2>
                                     <p className='font-weight-bold text-center text-white my-4'>A MOWA Team Member Will Be In Touch Soon!</p>
                                 </MDBCol>
                             </MDBRow>

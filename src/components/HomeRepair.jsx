@@ -19,7 +19,7 @@ import fordbefore from '../assets/HomeRepairs/fordsink-before.jpg';
 import fordafter from '../assets/HomeRepairs/fordsink-after.jpg';
 import harrisbefore from '../assets/HomeRepairs/harrishvac-before.jpg';
 import harrisafter from '../assets/HomeRepairs/harrishvac-after.jpg';
-import home from '../assets/dkhome.jpeg';
+import home from '../assets/homerepairs.png';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Partners from "./Partners";

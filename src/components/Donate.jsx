@@ -122,7 +122,7 @@ class Donate extends Component {
                                         </MDBRow>
                                         <MDBRow>
                                             <MDBCol md='7' className='mx-auto'>
-                                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/l-OHizEwn5Y"></MDBIframe>
+                                                <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/-rDw1KTImzg"></MDBIframe>
                                             </MDBCol>
                                         </MDBRow>
                                         <p className="mt-5 mowabluetext text-left font-weight-bold">
