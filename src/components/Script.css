@@ -19,6 +19,6 @@
     position: static;
 }
 
-#\32\34\38\38\31\35\32 > .label {
-    display: none;
+#\32\34\38\38\31\35\32 > span.label {
+    font-size: 0;
 }
