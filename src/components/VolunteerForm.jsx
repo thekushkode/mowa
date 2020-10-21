@@ -11,6 +11,7 @@ class VolunteerForm extends Component {
             status: "",
             volunteer: [],
             court: [],
+            volType: [],
         };
     }
 
@@ -41,21 +42,21 @@ class VolunteerForm extends Component {
     }
 
     handleVolunteer = (e) => {
-        // console.log(e.target.value);
-        console.log(e[0])
         this.setState({
             volunteer: e[0]
         })
-        // this.setState({value: Array.from(e.target.selectedOptions, (item) => item.value)});
     }
 
     handleCourt = (e) => {
-        // console.log(e.target.value);
-        console.log(e[0])
         this.setState({
             court: e[0]
         })
-        // this.setState({value: Array.from(e.target.selectedOptions, (item) => item.value)});
+    }
+
+    handleVolType = (e) => {
+        this.setState({
+            volType: e[0]
+        })
     }
 
 
@@ -79,6 +80,31 @@ class VolunteerForm extends Component {
                                             id="contact-email"
                                             label="Your email"
                                             name='Email'
+                                        />
+                                    </div>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow>
+                                <MDBCol md="6">
+                                    <div>
+                                        <MDBInput name='Volunteer Type:' value={this.state.volType} hidden></MDBInput>
+                                        <MDBSelect getValue={(e) => this.handleVolType(e)}
+                                            label='Are You An Individual or Corporation:'>
+                                            <MDBSelectInput id='volunteer-type' name='Volunteering Type:' />
+                                            <MDBSelectOptions>
+                                                <MDBSelectOption value="Individual" name="Individual">Individual</MDBSelectOption>
+                                                <MDBSelectOption value="Corporation" name="Corporation">Corporation</MDBSelectOption>
+                                            </MDBSelectOptions>
+                                        </MDBSelect>
+                                    </div>
+                                </MDBCol>
+                                <MDBCol md="6">
+                                    <div className="md-form mb-0">
+                                        <MDBInput
+                                            type="text"
+                                            id="corp-name"
+                                            label="If Corporation, Enter Company Name:"
+                                            name='Company Name'
                                         />
                                     </div>
                                 </MDBCol>

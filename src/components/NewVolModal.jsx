@@ -17,8 +17,8 @@ class NewVolModal extends Component {
     render() {
         return (
             <div className='mb-3'>
-                <MDBBtn className='mowablue btn-rounded' onClick={this.toggle}>New Volunteer Form</MDBBtn>
-                <MDBModal isOpen={this.state.modal} toggle={this.toggle} size='lg'>
+                <MDBBtn className='mowablue btn-rounded' size='md' onClick={this.toggle}>New Volunteer Form</MDBBtn>
+                <MDBModal isOpen={this.state.modal} toggle={this.toggle} size='fluid'>
                     <MDBModalHeader toggle={this.toggle}>New Volunteer Form</MDBModalHeader>
                     <MDBModalBody>
                         <VolunteerForm />

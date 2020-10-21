@@ -107,12 +107,13 @@ class Volunteer extends Component {
                                         </p>
                                         <h2 className='text-center mowaorangetext'>Volunteer Requirements</h2>
                                         <ol>
-                                            <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.</li>
+                                            <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
                                             <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
                                             <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
                                             <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
                                             <li>Due to the nature of volunteer opportunities, volunteering at Meals On Wheels Atlanta may require periods of standing, walking, and lifting boxes up to 10 pounds.</li>
                                             <li>Volunteers must be able to stay for the entire duration of the event that you register for.</li>
+                                            <li>We ask that volunteers have consistent email and internet access for convenient communication.</li>
                                         </ol>
                                         <p>
                                             After completing the online application form, your account is subject to review. Once approved, you will be contacted by a member of our Community Engagement Team who will provide you with instructions on completing all required paperwork and waivers as well as creating your VolunteerHub account!
@@ -150,7 +151,7 @@ class Volunteer extends Component {
                                         <h4 className='mowabluetext font-weight-bold'><b>Internships</b></h4>
                                         <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
                                         <div className='text-center'>
-                                            <a href={require('../assets/Forms/newvolunteerform.pdf')} download={newform}><MDBBtn size='md' className='btn-rounded mowablue font-weight-bold'>New Volunteer Form</MDBBtn></a>
+                                            <NewVolModal />
                                             <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
                                         </div>
 

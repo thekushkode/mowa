@@ -118,7 +118,7 @@ class Faq extends Component {
                                             >
                                                 <div
                                                     className="d-flex justify-content-center align-items-center mr-4 mowablue"
-                                                    style={{minWidth: "100px" }}
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="home"
@@ -163,7 +163,7 @@ class Faq extends Component {
                                             >
                                                 <div
                                                     className="d-flex justify-content-center align-items-center mr-4 mowablue"
-                                                    style={{minWidth: "100px" }}
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="hands-helping"
@@ -181,12 +181,13 @@ class Faq extends Component {
                                                     </p>
                                                     <h2 className='text-center mowaorangetext'>Volunteer Requirements</h2>
                                                     <ol>
-                                                        <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.</li>
+                                                        <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
                                                         <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
                                                         <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
                                                         <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
                                                         <li>Due to the nature of volunteer opportunities, volunteering at Meals On Wheels Atlanta may require periods of standing, walking, and lifting boxes up to 10 pounds.</li>
-                                                        <li>Volunteers must be able to stay for the entire duration of the registered event.</li>
+                                                        <li>Volunteers must be able to stay for the entire duration of the event that you register for.</li>
+                                                        <li>We ask that volunteers have consistent email and internet access for convenient communication.</li>
                                                     </ol>
                                                     <p>
                                                         After completing the online application form, your account is subject to review. Once approved, you will be contacted by a member of our Community Engagement Team who will provide you with instructions on completing all required paperwork and waivers as well as creating your VolunteerHub account!
@@ -237,7 +238,7 @@ class Faq extends Component {
                                             >
                                                 <div
                                                     className="d-flex justify-content-center align-items-center mr-4 mowablue"
-                                                    style={{minWidth: "100px" }}
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="donate"
@@ -280,7 +281,7 @@ class Faq extends Component {
                                             >
                                                 <div
                                                     className="d-flex justify-content-center align-items-center mr-4 mowablue"
-                                                    style={{minWidth: "100px" }}
+                                                    style={{ minWidth: "100px" }}
                                                 >
                                                     <MDBIcon
                                                         icon="gift"
