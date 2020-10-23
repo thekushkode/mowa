@@ -12,7 +12,9 @@ import {
     MDBCarousel,
     MDBCarouselInner,
     MDBCarouselItem,
-    MDBView
+    MDBView,
+    MDBRow,
+    MDBCol
 } from "mdbreact";
 import './MOWAColors.css';
 import Nav from "./Nav";
@@ -27,8 +29,8 @@ import vol6 from '../assets/Volunteers/vol6.jpg';
 import vol7 from '../assets/Volunteers/vol7.jpg';
 import vol8 from '../assets/Volunteers/vol8.jpg';
 import vol9 from '../assets/Volunteers/vol9.jpg';
-import newform from '../assets/Forms/newvolunteerform.pdf';
 import NewVolModal from "./NewVolModal";
+import GroupVolModal from "./GroupVolModal";
 
 class Volunteer extends Component {
 
@@ -105,9 +107,9 @@ class Volunteer extends Component {
                                         <p className="mt-2">
                                             You’ll find that there are a number of different types of volunteer opportunities at MOWA, all of which are vital in supporting our work with local seniors. Some opportunities include delivering meals, preparing shelf stable meal options, and stocking our food pantry. Regardless of what opportunity speaks to you, you will be making a world of difference to our senior neighbors here in Atlanta!.
                                         </p>
-                                        <h2 className='text-center mowaorangetext'>Volunteer Requirements</h2>
-                                        <ol>
-                                            <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
+                                        <h2 className='text-center font-weight-bold mowaorangetext'>Volunteer Requirements</h2>
+                                        <ol className='text-left'>
+                                            <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian. Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
                                             <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
                                             <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
                                             <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
@@ -119,40 +121,22 @@ class Volunteer extends Component {
                                             After completing the online application form, your account is subject to review. Once approved, you will be contacted by a member of our Community Engagement Team who will provide you with instructions on completing all required paperwork and waivers as well as creating your VolunteerHub account!
                                         </p>
                                         <h4 className='font-weight-bold'>Community Service Eligibility:</h4>
-                                        <ul>
-                                            <li>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b></li>
-                                            <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org?subject=Community Service Eligibility'>Alissa Robbins</a>.</li>
-                                        </ul>
-                                        <h2 className='text-center mowaorangetext'>Additional Information</h2>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Volunteer Waiver</b></h4>
-                                        <p>
-                                            All volunteers will ﬁll out a volunteer waiver during the volunteer orientation with MOWA.
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Background Checks</b></h4>
-                                        <p>
-                                            All individual volunteers will need a volunteer background check that can be ﬁlled out at orientation.
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Group Volunteers</b></h4>
-                                        <p>
-                                            Corporate Volunteers will not need to ﬁll out a background check. Faith-based groups, civic groups and school groups will still need all members to ﬁll out a background check prior to their scheduled volunteer date. The completed forms may be mailed, scanned or faxed for your convenience.
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Parking</b></h4>
-                                        <p>
-                                            Parking can be found on either side of the building. Due to limited parking, carpooling is recommended for ease and convenience.
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Arriving</b></h4>
-                                        <p>
-                                            Ask for a MOWA Volunteer Representative in the reception area so your group can be directed to the volunteer orientation.
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Confirmation</b></h4>
-                                        <p>
-                                            We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
-                                        </p>
-                                        <h4 className='mowabluetext font-weight-bold'><b>Internships</b></h4>
-                                        <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
+
+                                        <p>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b>&nbsp;
+                                            You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org?subject=Community Service Eligibility'>Alissa Robbins</a>.</p>
+
                                         <div className='text-center'>
-                                            <NewVolModal />
-                                            <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                            <MDBRow>
+                                                <MDBCol md='4'>
+                                                    <GroupVolModal />
+                                                </MDBCol>
+                                                <MDBCol md='4'>
+                                                    <NewVolModal />
+                                                </MDBCol>
+                                                <MDBCol md='4'>
+                                                    <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                                </MDBCol>
+                                            </MDBRow>
                                         </div>
 
                                     </MDBTabPane>
@@ -161,8 +145,9 @@ class Volunteer extends Component {
                                         <p>
                                             Please click the new volunteer button below to fill out our short form and get you on your way to helping Atlanta's Seniors!.
                                         </p>
-                                        <div className='text-center'>
+                                        <div className='d-flex justify-content-center'>
                                             <NewVolModal />
+                                            <GroupVolModal />
                                         </div>
                                         <h4 className='mowabluetext font-weight-bold'>Returning Volunteers</h4>
                                         <p>

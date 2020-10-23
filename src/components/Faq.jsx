@@ -8,6 +8,8 @@ import Footer from "./Footer";
 import fiveohone from '../assets/financials/501c3.pdf';
 import nineninezero from '../assets/financials/form990.pdf';
 import reportcard from '../assets/financials/reportcard.png';
+import GroupVolModal from "./GroupVolModal";
+import NewVolModal from "./NewVolModal";
 
 
 class Faq extends Component {
@@ -180,8 +182,8 @@ class Faq extends Component {
                                                         You’ll find that there are a number of different types of volunteer opportunities at MOWA, all of which are vital in supporting our work with local seniors. Some opportunities include delivering meals, preparing shelf stable meal options, and stocking our food pantry. Regardless of what opportunity speaks to you, you will be making a world of difference to our senior neighbors here in Atlanta!
                                                     </p>
                                                     <h2 className='text-center mowaorangetext'>Volunteer Requirements</h2>
-                                                    <ol>
-                                                        <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian.Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
+                                                    <ol className='text-left'>
+                                                        <li>The minimum volunteer age requirement is 13 years. Volunteers under the age of 16 must be accompanied by a parent or guardian. Volunteers 16 and up must complete a VolunteerHub profile with the background check and waiver.</li>
                                                         <li>All volunteers will be prompted to view an orientation prior to volunteering with Meals On Wheels Atlanta.</li>
                                                         <li>All individual and group volunteers will be prompted to complete a volunteer background check and liability waiver when creating their profile on VolunteerHub.</li>
                                                         <li>Volunteers are required to self-register for events via our VolunteerHub portal.</li>
@@ -224,7 +226,19 @@ class Faq extends Component {
                                                     </p>
                                                     <h4 className='white-text font-weight-bold'><b>Internships</b></h4>
                                                     <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Iternship'>Contact us!</a></p>
-
+                                                    <div className='text-center'>
+                                                        <MDBRow>
+                                                            <MDBCol md='4'>
+                                                                <GroupVolModal />
+                                                            </MDBCol>
+                                                            <MDBCol md='4'>
+                                                                <NewVolModal />
+                                                            </MDBCol>
+                                                            <MDBCol md='4'>
+                                                                <a href='https://mealsonwheelsatlanta.volunteerhub.com/account/signin?returnUrl=%2fevents%2findex' ><MDBBtn size='md' className='btn-rounded mowaorange font-weight-bold'>Login to Volunteer Portal</MDBBtn></a>
+                                                            </MDBCol>
+                                                        </MDBRow>
+                                                    </div>
                                                 </MDBCardBody>
                                             </MDBCollapse>
                                         </MDBCard>

@@ -3,15 +3,13 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput, MDBSelect, MDBSelectInp
 import { Redirect } from 'react-router-dom';
 import './MOWAColors.css';
 
-class VolunteerForm extends Component {
+class GroupVolForm extends Component {
     constructor(props) {
         super(props);
         this.submitForm = this.submitForm.bind(this);
         this.state = {
             status: "",
             volunteer: [],
-            court: [],
-            volType: [],
         };
     }
 
@@ -41,21 +39,9 @@ class VolunteerForm extends Component {
         xhr.send(data);
     }
 
-    handleVolunteer = (e) => {
+    handleGroupVolunteer = (e) => {
         this.setState({
             volunteer: e[0]
-        })
-    }
-
-    handleCourt = (e) => {
-        this.setState({
-            court: e[0]
-        })
-    }
-
-    handleVolType = (e) => {
-        this.setState({
-            volType: e[0]
         })
     }
 
@@ -66,11 +52,11 @@ class VolunteerForm extends Component {
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md="12" className="md-0 mb-5">
-                        <form onSubmit={this.submitForm} method='POST' action='https://formspree.io/f/xwkwopln' >
+                        <form onSubmit={this.submitForm} method='POST' action='https://formspree.io/f/mzbkrknz' >
                             <MDBRow>
                                 <MDBCol md="4">
                                     <div className="md-form mb-0">
-                                        <MDBInput name='Name' type="text" id="contact-name" label="Full Name" />
+                                        <MDBInput name='Contact Name' type="text" id="contact-name" label="Contact Name" />
                                     </div>
                                 </MDBCol>
                                 <MDBCol md="4">
@@ -78,69 +64,93 @@ class VolunteerForm extends Component {
                                         <MDBInput
                                             type="text"
                                             id="contact-email"
-                                            label="Email"
-                                            name='Email'
+                                            label="Contact Email"
+                                            name='Contact Email'
                                         />
                                     </div>
                                 </MDBCol>
                                 <MDBCol md="4">
-                                <div className="md-form mb-0">
+                                    <div className="md-form mb-0">
                                         <MDBInput
                                             type="text"
-                                            id="contact-phone"
-                                            label="Phone Number"
-                                            name='Phone'
+                                            id="phone"
+                                            label="Contact Phone Number"
+                                            name='Contact Phone Number'
                                         />
                                     </div>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow>
                                 <MDBCol md="6">
+                                    <div className="md-form mb-0">
+                                        <MDBInput
+                                            type="text"
+                                            id="corp-name"
+                                            label="Company Name"
+                                            name='Company Name'
+                                        />
+                                    </div>
+                                </MDBCol>
+                                <MDBCol md="6">
+                                    <div className="md-form mb-0">
+                                        <MDBInput
+                                            type="text"
+                                            id="corp-name"
+                                            label="Department Name (if applicable):"
+                                            name='Department Name'
+                                        />
+                                    </div>
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow>
+                                <MDBCol md="12">
                                     <div>
                                         <MDBInput name='Volunteer For:' value={this.state.volunteer} hidden></MDBInput>
-                                        <MDBSelect getValue={(e) => this.handleVolunteer(e)}
-                                            label='I Want to Volunteer For:'>
+                                        <MDBSelect getValue={(e) => this.handleGroupVolunteer(e)}
+                                            label='We Want to Volunteer For:'>
                                             <MDBSelectInput id='volunteer' name='Volunteering For:' />
                                             <MDBSelectOptions>
                                                 <MDBSelectOption value="Saturday Meal Delivery" name="Saturday Meal Delivery">Super Saturday Meal Delivery</MDBSelectOption>
-                                                <MDBSelectOption value="Weekday Meal Delivery" name="Weekday Meal Delivery">Weekday Meal Delivery</MDBSelectOption>
-                                                <MDBSelectOption value="Meal Prep" name="Meal Prep">Weekday Pantry & Meal Preparation</MDBSelectOption>
+                                                <MDBSelectOption value="Weekday Meal Delivery" name=" Weekday Meal Delivery">Weekday Meal Delivery</MDBSelectOption>
+                                                <MDBSelectOption value="Weekday Meal Meal Prep" name="Weekday Meal Prep">Weekday Pantry & Meal Preparation</MDBSelectOption>
+
                                                 <MDBSelectOption value="Admin" name="Admin">Administrative Assistance</MDBSelectOption>
-                                            </MDBSelectOptions>
-                                        </MDBSelect>
-                                    </div>
-                                </MDBCol>
-                                <MDBCol md="6">
-                                    <div>
-                                        <MDBInput name='Court Ordered?' value={this.state.court} hidden></MDBInput>
-                                        <MDBSelect getValue={(e) => this.handleCourt(e)} label='Court-Ordered Community Service?'>
-                                            <MDBSelectInput name='Court Ordered?' id='courtOrdered' />
-                                            <MDBSelectOptions>
-                                                <MDBSelectOption name='Yes' value="Yes">Yes</MDBSelectOption>
-                                                <MDBSelectOption name='no' value="No">No</MDBSelectOption>
+                                                <MDBSelectOption value="Decorate Boxes" name="Decorate Boxes">Decorate Meal Boxes</MDBSelectOption>
+                                                <MDBSelectOption value="Letter Writing" name="Letter Writing">Letter Writing Campaign</MDBSelectOption>
+                                                <MDBSelectOption value="Week of Service" name="Week of Service">Week of Service</MDBSelectOption>
                                             </MDBSelectOptions>
                                         </MDBSelect>
                                     </div>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow>
-                                <MDBCol md="6">
-                                    <div className="md-form mb-0">
-                                        <MDBInput
-                                            type="textarea"
-                                            id="availability"
-                                            name='Availability'
-                                            label="Please enter the dates you are available or let us know if you have open availability:"
-                                        />
-                                    </div>
-                                </MDBCol>
-                                <MDBCol md="6">
+                                <MDBCol md="4">
                                     <div className="md-form mb-0">
                                         <MDBInput
                                             type="text"
-                                            id="referral"
+                                            id="Service Date"
+                                            name='Service Date:'
+                                            label="Preferred Service Date(s)"
+                                        />
+                                    </div>
+                                </MDBCol>
+                                <MDBCol md="4">
+                                    <div className="md-form mb-0">
+                                        <MDBInput
+                                            type="text"
+                                            id="Group Size"
+                                            name='Group Size'
+                                            label="Group Size"
+                                        />
+                                    </div>
+                                </MDBCol>
+                                <MDBCol md="4">
+                                    <div className="md-form mb-0">
+                                        <MDBInput
+                                            type="text"
+                                            id="Referral"
+                                            name='Referral'
                                             label="How did you hear about us?"
-                                            name='Referral:'
                                         />
                                     </div>
                                 </MDBCol>
@@ -160,4 +170,4 @@ class VolunteerForm extends Component {
     }
 }
 
-export default VolunteerForm;
+export default GroupVolForm;

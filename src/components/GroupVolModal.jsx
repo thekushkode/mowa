@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import './MOWAColors.css';
-import VolunteerForm from './VolunteerForm';
+import GroupVolForm from './GroupVolForm';
 
-class NewVolModal extends Component {
+class GroupVolModal extends Component {
     state = {
         modal: false
     }
@@ -17,11 +17,11 @@ class NewVolModal extends Component {
     render() {
         return (
             <div className='mb-3'>
-                <MDBBtn className='mowablue btn-rounded' size='md' onClick={this.toggle}>New Volunteer Form</MDBBtn>
+                <MDBBtn className='mowalightblue btn-rounded' size='md' onClick={this.toggle}>Group Volunteer Form</MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle} size='fluid'>
-                    <MDBModalHeader toggle={this.toggle}>New Volunteer Form</MDBModalHeader>
+                    <MDBModalHeader toggle={this.toggle}>Group Volunteer Form</MDBModalHeader>
                     <MDBModalBody>
-                        <VolunteerForm />
+                        <GroupVolForm />
                     </MDBModalBody>
                     <MDBModalFooter>
                         <MDBBtn className='mowaorange btn-rounded' onClick={this.toggle}>Close</MDBBtn>
@@ -32,4 +32,4 @@ class NewVolModal extends Component {
     }
 }
 
-export default NewVolModal;
+export default GroupVolModal;
