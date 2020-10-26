@@ -28,7 +28,7 @@ const GetMeals = () => {
                     Meal Services
                 </h2>
                 <p className="text-center w-responsive mx-auto mb-3">
-                    Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='mailto:nmcintosh@mowatl.org?subject=Meal Services Inquiry'>Contact us</a>, visit our <Link to='/faq'>FAQ page</Link> or use the Find a Provider tool at the bottom of the page!</b>
+                    Our flagship program, Meal Services, provides nourishing meals to low-income and homebound seniors in Atlanta who are unable to afford or access adequate nutrition. Currently, the meal services program delivers meals every Saturday to frail, homebound and low-income seniors residing in Fulton County. <b>Having trouble finding your local office? <a href='mailto:nmcintosh@mowatl.org?subject=Meal Services Inquiry'>Contact us</a> or visit our <Link to='/faq'>FAQ page</Link> for more info. Additionally, you can click the "Our Coverage Area" button to see the zip codes we service!</b>
                 </p>
                 <div className="d-flex justify-content-center">
                     <ZipCodeModal />
@@ -161,7 +161,7 @@ const GetMeals = () => {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <hr className="my-5 w-75" />
+            {/* <hr className="my-5 w-75" />
             <div className='px-4'>
                 <MDBRow>
                     <MDBCol md='12'>
@@ -170,7 +170,7 @@ const GetMeals = () => {
                         </div>
                     </MDBCol>
                 </MDBRow>
-            </div>
+            </div> */}
             <footer>
                 <Footer />
             </footer>
