@@ -1,11 +1,14 @@
 import React from 'react';
-import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBBtn,  MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter } from 'mdbreact';
+import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBBtn, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter } from 'mdbreact';
 import Nav from './Nav';
 import Footer from './Footer';
 import dinnerserved from '../assets/dinnerserved.png';
-import mangiamo from '../assets/mangiamo.png';
-import thanksgiving from '../assets/thanksgiving.png';
-import christmas from '../assets/christmas.png';
+import thanksgiving from '../assets/turkeymeal.jpg';
+import christmas from '../assets/lambmeal.jpg';
+import thanksmenu from '../assets/thanksmenu.png';
+import christmasmenu from '../assets/christmasmenu.png';
+import './MOWAColors.css';
+import ThanksgivingModal from './ThanksgivingModal';
 
 const DinnerServed = () => {
     return (
@@ -21,40 +24,14 @@ const DinnerServed = () => {
                 <p className='mowabluetext text-center w-responsive mx-auto mb-3'>
                     DINNER IS SERVED is a unique series of culinary dinner experiences for two or more people. Meals are conveniently delivered right to your door or expertly prepared in your own kitchen.  Each experience includes a four-course meal and hand-selected wine pairings.  Just unpack, plate & enjoy!
                 </p>
-                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
+                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>With the holidays around the corner DINNER IS SERVED provides the perfect holiday meal without all of the hustle and bustle. These delicious "to go" packages include a full menu of holiday favorites and can serve eight or more.<br /><br />All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
 
                 <MDBRow className='mx-3'>
-                    <MDBCol lg='4' md='12' className='mb-lg-0 mb-4'>
+                    <MDBCol lg='6' md='6' className='mb-lg-0 mb-4'>
                         <MDBCard wide ecommerce>
                             <MDBCardImage
                                 cascade
-                                src={mangiamo}
-                                top
-                                alt='Mangiamo dinner'
-                            />
-                            <MDBCardBody cascade className='text-center'>
-                                <MDBCardTitle>
-                                    <strong>
-                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Mangiamo Dinner</a>
-                                    </strong>
-                                </MDBCardTitle>
-                                <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-                                <MDBCardFooter className='px-1'>
-                                    <span className='float-left mt-2 font-weight-bold'>
-                                        $1000
-                                    </span>
-                                    <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
-                                    </span>
-                                </MDBCardFooter>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol lg='4' md='12' className='mb-lg-0 mb-4'>
-                        <MDBCard wide ecommerce>
-                            <MDBCardImage
-                                cascade
-                                src={thanksgiving}
+                                src={thanksmenu}
                                 top
                                 alt='thanksgiving dinner'
                             />
@@ -64,25 +41,34 @@ const DinnerServed = () => {
                                         <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Thanksgiving Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
-                                <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-                                <MDBCardFooter className='px-1'>
-                                    <span className='float-left mt-2 font-weight-bold'>
-                                        $500
+                                <MDBCardText>Each dinner benefits Meals on Wheels Atlanta's home delivered meal services program for Seniors.<br />All meals are deliciously prepared by Chef Robert Gerstenecker.<br />
+                                    <h5 className='text-center mt-2'>Order Deadline: November 12, 2020</h5>
+                                    <p className='font-weight-bold mt-3'>Orders received by 11.12.2020 will receive a <br />FREE bottle of wine!</p>
+                                </MDBCardText>
+                                <MDBCardImage
+                                    cascade
+                                    src={thanksgiving}
+                                    top
+                                    alt='christmas dinner'
+                                />
+                                <MDBCardFooter className='px-1 d-flex justify-content-between'>
+                                    <span className='mt-2 font-weight-bold ml-3'>
+                                        $500: Feeds 8 People
                                     </span>
-                                    <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
+                                    <span>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
-                    <MDBCol lg='4' md='12' className='mb-lg-0 mb-4'>
+                    <MDBCol lg='6' md='6' className='mb-lg-0 mb-4'>
                         <MDBCard wide ecommerce>
                             <MDBCardImage
                                 cascade
-                                src={christmas}
+                                src={christmasmenu}
                                 top
-                                alt='christmas dinner'
+                                alt='thanksgiving dinner'
                             />
                             <MDBCardBody cascade className='text-center'>
                                 <MDBCardTitle>
@@ -90,13 +76,22 @@ const DinnerServed = () => {
                                         <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Christmas Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
-                                <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-                                <MDBCardFooter className='px-1'>
-                                    <span className='float-left mt-2 font-weight-bold'>
-                                        $500
+                                <MDBCardText>Each dinner benefits Meals on Wheels Atlanta's home delivered meal services program for Seniors.<br />All meals are deliciously prepared by Chef Robert Gerstenecker.<br />
+                                    <h5 className='text-center mt-2'>Order Deadline: December 11, 2020</h5>
+                                    <p className='font-weight-bold mt-3'>Orders received by 12.11.2020 will receive a <br />FREE bottle of wine!</p>
+                                </MDBCardText>
+                                <MDBCardImage
+                                    cascade
+                                    src={christmas}
+                                    top
+                                    alt='christmas dinner'
+                                />
+                                <MDBCardFooter className='px-1 d-flex justify-content-between'>
+                                    <span className='mt-2 font-weight-bold ml-3'>
+                                        $500: Feeds 8 People
                                     </span>
-                                    <span className='float-right'>
-                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='blue-gradient btn-rounded font-weight-bold white-text' size='sm'>Order Now</MDBBtn>
+                                    <span>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
