@@ -8,7 +8,6 @@ import christmas from '../assets/lambmeal.jpg';
 import thanksmenu from '../assets/thanksmenu.png';
 import christmasmenu from '../assets/christmasmenu.png';
 import './MOWAColors.css';
-import ThanksgivingModal from './ThanksgivingModal';
 
 const DinnerServed = () => {
     return (
