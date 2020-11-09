@@ -58,17 +58,9 @@ class Nav extends Component {
                                     <MDBNavLink to="/homerepairs"><b>Home Repair</b></MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBDropdown>
-                                        <MDBDropdownToggle nav caret>
-                                            <span className=""><b>About</b></span>
-                                        </MDBDropdownToggle>
-                                        <MDBDropdownMenu className="dropdown-default">
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/faq'>FAQ</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/contact'>Contact</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/team'>Our Team</MDBNavLink></MDBDropdownItem>
-                                        </MDBDropdownMenu>
-                                    </MDBDropdown>
+                                    <MDBNavLink to="/dinnerisserved"><b>Dinner is Served</b></MDBNavLink>
                                 </MDBNavItem>
+                                
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
