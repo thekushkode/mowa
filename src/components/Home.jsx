@@ -16,6 +16,7 @@ import old2 from '../assets/blacklady1.jpeg';
 import logo from '../assets/mowaaa.png';
 import poster from '../assets/backgroundvids/mowaposter.jpg';
 import Celebs from "./Celebs";
+import AlertPage from "./Alert";
 
 
 class VideoBackgroundPage extends React.Component {
@@ -65,6 +66,9 @@ class VideoBackgroundPage extends React.Component {
                                                 <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
                                             </MDBBtn>
                                         </Link>
+                                        <div className='mt-5'>
+                                            <AlertPage />
+                                        </div>
                                     </MDBCol>
                                 </MDBRow>
                             </MDBContainer>
