@@ -6,7 +6,7 @@ import dinnerserved from '../assets/dinnerserved.png';
 import thanksgiving from '../assets/turkeymeal.jpg';
 import christmas from '../assets/lambmeal.jpg';
 import thanksmenu from '../assets/thanksmenu.png';
-import christmasmenu from '../assets/christmasmenu.png';
+import christmasmenu from '../assets/homefortheholidays.png';
 import './MOWAColors.css';
 
 const DinnerServed = () => {
