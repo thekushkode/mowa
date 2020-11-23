@@ -26,6 +26,7 @@ import ga from '../assets/ga.png';
 import meal from '../assets/meal.png';
 import chefrob from '../assets/chefrob.png';
 import oldlady from '../assets/oldlady.png';
+import StockModal from "./StockModal";
 
 
 class Donate extends Component {
@@ -101,6 +102,8 @@ class Donate extends Component {
                                         </p>
                                         <div className='d-flex justify-content-center'>
                                             <DonationModal />
+                                            <p className='align-self-center'>&nbsp;-OR-&nbsp;</p>
+                                            <StockModal />
                                         </div>
                                         <div>
                                             <MDBRow className='mt-4'>
