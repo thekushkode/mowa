@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBCol, MDBRow, MDBIframe } from "mdbreact";
+import { MDBCol, MDBRow, MDBIframe, MDBBtn, MDBIcon } from "mdbreact";
 import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -37,7 +37,13 @@ class OurKitchen extends Component {
                         <p className="mt-2 mowabluetext w-responsive mx-auto text-justify font-weight-bold">
                             We are thrilled to announce OUR new project called “Our Kitchen.” It’s a community collaboration of designers, architects, builders, chefs, gardeners, and more.  We’re getting ready to build OUR answer to ending senior hunger in OUR community. We will convert more than 10,000 square feet of existing space into a new state-of-the-art commercial kitchen that will enable us to triple OUR meal production. We’ll add a gourmet demo kitchen for cooking classes, an organic garden and a beautiful community event space.
                         </p>
-                        <DonationModal />
+                        <div className='d-flex justify-content-center'>
+                            <DonationModal />
+                            <MDBBtn href='www.ourkitchenwishlist.com' className='mowalightblue btn-rounded font-weight-bold'>
+                                Wish List
+                                <MDBIcon fas icon="list" className="ml-1" />
+                            </MDBBtn>
+                        </div>
                     </div>
                 </div>
                 <footer style={{ marginTop: '-25px' }}>

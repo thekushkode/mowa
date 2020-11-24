@@ -17,6 +17,8 @@ import logo from '../assets/mowaaa.png';
 import poster from '../assets/backgroundvids/mowaposter.jpg';
 import Celebs from "./Celebs";
 import AlertPage from "./Alert";
+import kitchen from '../assets/mowakitchen.png';
+import wishlist from '../assets/wishlistbkgrnd.png';
 
 
 class VideoBackgroundPage extends React.Component {
@@ -118,6 +120,41 @@ class VideoBackgroundPage extends React.Component {
                         </MDBCardBody>
                     </MDBCard>
                 </section>
+
+                {/* WISH LIST */}
+                <div>
+                    <MDBCard className='card-image' style={{ backgroundImage: "url(" + kitchen + ")" }}>
+                        <div className="rgba-black-strong pb-5 px-2 text-center">
+                            <div className="my-5 px-1 text-center">
+                                <h2 className='white-text font-weight-bold'>You're Invited to the "Our Kitchen" Wish List Shower!</h2>
+                            </div>
+                            <MDBRow>
+                                <MDBCol>
+                                    <p className='white-text font-weight-bold'>It takes a lot to prepare over 600,000 meals per year. That's why we are dedicating 18,000 sq ft of our new space to create a new commercial kitchen. This will enable us to TRIPLE our meal production!</p>
+                                    <p className='white-text font-weight-bold' >It's easy to make an impact. Just visit our Wish List and select an item an that you want to "buy". Your donation goes directly to helping us stock our commercial kitchen!</p>
+                                    <MDBBtn className='btn-rounded mowalightblue font-weight-bold' href='www.ourkitchenwishlist.com' target='_blank'>View Our Wish List</MDBBtn>
+                                </MDBCol>
+                                <MDBCol>
+                                    <img src={wishlist} alt='our kitchen wish list' className='d-block img-fluid w-75 mx-auto' />
+                                </MDBCol>
+                            </MDBRow>
+                        </div>
+                    </MDBCard>
+                </div>
+
+                {/* CELEBRITY ENDORSEMENTS */}
+                <div className='mb-5'>
+                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
+                        MOWA Ambassadors
+                    </h2>
+                    <p className="lead text-muted w-responsive text-center mx-auto mb-5">
+                        Atlanta's most well-known residents know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders standing behind us in the fight to end Senior hunger!
+                    </p>
+                    <div>
+                        <Celebs />
+                    </div>
+                </div>
+
                 {/* STREAK */}
                 <div>
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
@@ -151,20 +188,6 @@ class VideoBackgroundPage extends React.Component {
                         </div>
                     </div>
                     {/* </MDBStreak> */}
-                </div>
-
-
-                {/* CELEBRITY ENDORSEMENTS */}
-                <div className='mb-5'>
-                    <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
-                        MOWA Ambassadors
-                    </h2>
-                    <p className="lead text-muted w-responsive text-center mx-auto mb-5">
-                        Atlanta's most well-known residents know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders standing behind us in the fight to end Senior hunger!
-                    </p>
-                    <div>
-                        <Celebs />
-                    </div>
                 </div>
 
                 <footer style={{ marginTop: '-25px' }}>

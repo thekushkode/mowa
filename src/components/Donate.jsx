@@ -145,6 +145,10 @@ class Donate extends Component {
                                                                 <MDBIcon far icon="envelope" className="ml-1" />
                                                             </MDBBtn>
                                                         </Link>
+                                                        <MDBBtn href='www.ourkitchenwishlist.com' className='mowalightblue btn-rounded'>
+                                                                Wish List
+                                                                <MDBIcon fas icon="list" className="ml-1" />
+                                                        </MDBBtn>
                                                     </div>
                                                 </MDBCol>
                                             </MDBRow>

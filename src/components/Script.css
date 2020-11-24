@@ -22,3 +22,7 @@
 #\32\34\38\38\31\35\32 > span.label {
     font-size: 0;
 }
+
+#express-submit {
+    border: 2px solid red;
+}
