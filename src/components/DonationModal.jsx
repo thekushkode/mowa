@@ -37,7 +37,7 @@ class DonationModal extends Component {
                         <Script />
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <MDBBtn className="btn-rounded purple-gradient" onClick={this.toggle}>Close</MDBBtn>
+                        <MDBBtn className="btn-rounded mowablue" onClick={this.toggle}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
             </div>
