@@ -24,5 +24,6 @@
 }
 
 #express-submit {
-    border: 2px solid red;
+    border: 2px solid red !important;
+    color: red !important;
 }
