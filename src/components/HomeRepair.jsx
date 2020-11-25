@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBAnimation, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBAnimation, MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCardImage, MDBRotatingCard, MDBIcon, MDBBtn } from "mdbreact";
 import './MOWAColors.css';
 import butlerbefore from '../assets/HomeRepairs/ButlerBath-before.jpg';
 import butlerafter from '../assets/HomeRepairs/ButlerBath-after.jpg';
@@ -20,6 +20,10 @@ import fordafter from '../assets/HomeRepairs/fordsink-after.jpg';
 import harrisbefore from '../assets/HomeRepairs/harrishvac-before.jpg';
 import harrisafter from '../assets/HomeRepairs/harrishvac-after.jpg';
 import home from '../assets/homerepairs.png';
+import flyer1 from '../assets/fly1.png';
+import flyer2 from '../assets/fly2.png';
+import application from '../assets/pdfs/choiceexteriorapplication.pdf';
+import guidelines from '../assets/pdfs/choiceguidelines.pdf';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Partners from "./Partners";
@@ -59,7 +63,25 @@ class HomeRepairs extends Component {
                                     
                                 </p>
                                 <MDBAnimation type='jello' infinite><h4 className='white-text font-weight-bold mb-5'><a href='https://portal.neighborlysoftware.com/mowa/Participant/Login'>Get Pre-Qualified Now!</a></h4></MDBAnimation>
-
+                                <div>
+                                <div>
+                                    <h2 className='mowabluetext'>Choice Neighborhoods Exterior<br/>Owner-Occupied Rehab Program</h2>
+                                    <p className='px-5 my-3'>Atlanta Housing, Invest Atlanta & the City of Atlanta have launched a deferred forgivable loan program that provides up to $70,000 in federal funds to eligible Ashview Heights & Atlanta University Center homeowners for exterior health and safety repairs on their home. Funds will be provided in the form of a forgivable loan at a 0% interest rate with payments deferred & forgiven until the earlier of loan maturity, sale, transfer of ownership, or failure to maintain the property as the primary residence during the loan term.</p>
+                                    <div className='d-flex justify-content-center' >
+                                        <MDBBtn className='btn-rounded mowablue font-weight-bold' href={require("../assets/pdfs/choiceexteriorapplication.pdf")} download={application} >Download Application</MDBBtn>
+                                        <MDBBtn className='btn-rounded mowalightblue font-weight-bold' href={require("../assets/pdfs/choiceguidelines.pdf")} download={guidelines} >Download Guidelines</MDBBtn>
+                                        <MDBBtn className='mowaorange btn-rounded font-weight-bold' href='mailto:vcox@mowatl.org?subject=Choice Neighborhoods Exterior Program'>Ask Us A Question</MDBBtn>
+                                    </div>
+                                    <MDBRow className='mt-3'>
+                                        <MDBCol md='6'>
+                                            <img src={flyer1} alt='choice exterior flyer page 1' className='d-block img-fluid mx-auto' />
+                                        </MDBCol>
+                                        <MDBCol md='6'>
+                                            <img src={flyer2} alt='choice exterior flyer page 2' className='d-block img-fluid mx-auto' />
+                                        </MDBCol>
+                                    </MDBRow>
+                                </div>
+                                </div>
                                 <hr className='mx-5'/>
                                 <h2 className="h3-responsive mowabluetext font-weight-bold mt-5 mb-3">
                                     Checkout Some of Our Previous Home Repairs!

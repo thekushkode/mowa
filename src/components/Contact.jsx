@@ -141,7 +141,7 @@ class ContactPage extends Component {
 
                                 </MDBCol>
                                 <MDBCol md="4">
-                                    <MDBBtn tag="a" href='mailto:info@mowatl.org' floating className="mowablue">
+                                    <MDBBtn tag="a" href='mailto:vcox@mowatl.org' floating className="mowablue">
                                         <MDBIcon icon="envelope" />
                                     </MDBBtn>
                                     <p>info@mowatl.org</p>
