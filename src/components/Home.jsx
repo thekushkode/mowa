@@ -126,7 +126,7 @@ class VideoBackgroundPage extends React.Component {
                     <MDBCard className='card-image' style={{ backgroundImage: "url(" + kitchen + ")" }}>
                         <div className="rgba-black-strong pb-5 px-2 text-center">
                             <div className="my-5 px-1 text-center">
-                                <h2 className='white-text font-weight-bold'>You're Invited to the "Our Kitchen" Wish List Shower!</h2>
+                                <h2 className='white-text font-weight-bold'>Please Pitch In For "Our Kitchen"!</h2>
                             </div>
                             <MDBRow>
                                 <MDBCol>
