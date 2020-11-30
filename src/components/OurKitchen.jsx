@@ -39,7 +39,7 @@ class OurKitchen extends Component {
                         </p>
                         <div className='d-flex justify-content-center'>
                             <DonationModal />
-                            <MDBBtn href='www.ourkitchenwishlist.com' className='mowalightblue btn-rounded font-weight-bold'>
+                            <MDBBtn href='https://ourkitchenwishlist.com/' className='mowalightblue btn-rounded font-weight-bold'>
                                 Wish List
                                 <MDBIcon fas icon="list" className="ml-1" />
                             </MDBBtn>

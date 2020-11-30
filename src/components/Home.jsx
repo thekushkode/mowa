@@ -132,7 +132,7 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBCol>
                                     <p className='white-text font-weight-bold'>It takes a lot to prepare over 600,000 meals per year. That's why we are dedicating 18,000 sq ft of our new space to create a new commercial kitchen. This will enable us to TRIPLE our meal production!</p>
                                     <p className='white-text font-weight-bold' >It's easy to make an impact. Just visit our Wish List and select an item an that you want to "buy". Your donation goes directly to helping us stock our commercial kitchen!</p>
-                                    <MDBBtn className='btn-rounded mowalightblue font-weight-bold' href='www.ourkitchenwishlist.com' target='_blank'>View Our Wish List</MDBBtn>
+                                    <MDBBtn className='btn-rounded mowalightblue font-weight-bold' href='https://ourkitchenwishlist.com/' target='_blank'>View Our Wish List</MDBBtn>
                                 </MDBCol>
                                 <MDBCol>
                                     <img src={wishlist} alt='our kitchen wish list' className='d-block img-fluid w-75 mx-auto' />
