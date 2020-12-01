@@ -5,7 +5,7 @@ import Footer from './Footer';
 import dinnerserved from '../assets/dinnerserved.png';
 import thanksgiving from '../assets/turkeymeal.jpg';
 import christmas from '../assets/lambmeal.jpg';
-import thanksmenu from '../assets/thanksmenu.png';
+import thanksmenu from '../assets/soldout.jpg';
 import christmasmenu from '../assets/homefortheholidays.png';
 import './MOWAColors.css';
 
@@ -55,7 +55,7 @@ const DinnerServed = () => {
                                         $500: Feeds 8 People
                                     </span>
                                     <span>
-                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
+                                        <MDBBtn href='#!' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>

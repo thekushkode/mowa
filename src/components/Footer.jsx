@@ -14,7 +14,7 @@ const Footer = () => {
         <MDBFooter className="mowablue font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
-                    <MDBCol md='3' className='text-center'>
+                    <MDBCol md='4' className='text-center'>
                         <h5 className="title font-weight-bold">Meals on Wheels Atlanta</h5>
                         <p>
                             Tax ID#: 58-0960309
@@ -31,15 +31,21 @@ const Footer = () => {
                             </MDBBtn>
                         </div>
                     </MDBCol>
-                    <MDBCol md="3" className='text-center'>
+                    <MDBCol md='4'>
+                        <div className='d-flex flex-column'>
+                            <img src={seal} className="img-fluid mx-auto mb-2" alt="Seal of Transparency" />
+                            <img src={member} width='100' className="img-fluid mx-auto mb-1" alt="MOW 2020 Member" />
+                        </div>
+                    </MDBCol>
+                    {/* <MDBCol md="3" className='text-center'>
                         <img src={seal} className="img-fluid mb-1" alt="Seal of Transparency" />
-                        
+
                     </MDBCol>
                     <MDBCol md="3" className='text-center mb-3'>
-                        
+
                         <img src={member} className="img-fluid mb-1" alt="MOW 2020 Member" />
-                    </MDBCol>
-                    <MDBCol md="3" className='text-right'>
+                    </MDBCol> */}
+                    <MDBCol md="4" className='text-right'>
                         <ul>
                             <li className="list-unstyled py-0">
                                 <MDBNavLink to="/contact">Contact</MDBNavLink>
