@@ -6,7 +6,7 @@ import dinnerserved from '../assets/dinnerserved.png';
 import thanksgiving from '../assets/turkeymeal.jpg';
 import christmas from '../assets/lambmeal.jpg';
 import thanksmenu from '../assets/soldout.jpg';
-import christmasmenu from '../assets/homefortheholidays.png';
+import christmasmenu from '../assets/xmasmenu.png';
 import './MOWAColors.css';
 
 const DinnerServed = () => {
@@ -67,7 +67,7 @@ const DinnerServed = () => {
                                 cascade
                                 src={christmasmenu}
                                 top
-                                alt='thanksgiving dinner'
+                                alt='christmas dinner'
                             />
                             <MDBCardBody cascade className='text-center'>
                                 <MDBCardTitle>
