@@ -1,10 +1,14 @@
 import React, { Component } from "react";
-import { MDBCol, MDBRow, MDBIframe, MDBBtn, MDBIcon } from "mdbreact";
+import { MDBCol, MDBRow, MDBIframe, MDBBtn, MDBIcon, MDBAvatar } from "mdbreact";
 import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import kitchen from '../assets/ourkitchen.png';
 import DonationModal from "./DonationModal";
+import atlmag from '../assets/atlmag.jpg';
+import asdsky from '../assets/asdsky.jpg';
+import choate from '../assets/choate.jpg';
+import designgalleria from '../assets/designgalleria.jpg';
 
 class OurKitchen extends Component {
 
@@ -43,6 +47,32 @@ class OurKitchen extends Component {
                                 Wish List
                                 <MDBIcon fas icon="list" className="ml-1" />
                             </MDBBtn>
+                        </div>
+                        <div className='d-flex justify-content-around mt-5'>
+                            <MDBAvatar
+                                tag="img"
+                                src={atlmag}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <MDBAvatar
+                                tag="img"
+                                src={asdsky}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <MDBAvatar
+                                tag="img"
+                                src={choate}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <MDBAvatar
+                                tag="img"
+                                src={designgalleria}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
                         </div>
                     </div>
                 </div>

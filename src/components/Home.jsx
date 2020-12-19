@@ -1,7 +1,7 @@
 import React from "react";
 import {
     MDBMask,
-    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBCard, MDBCardBody
+    MDBRow, MDBCol, MDBIcon, MDBBtn, MDBView, MDBContainer, MDBCard, MDBCardBody, MDBIframe, MDBAvatar,
 } from "mdbreact";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -19,6 +19,10 @@ import Celebs from "./Celebs";
 import AlertPage from "./Alert";
 import kitchen from '../assets/mowakitchen.png';
 import wishlist from '../assets/wishlistbkgrnd.png';
+import atlmag from '../assets/atlmag.jpg';
+import asdsky from '../assets/asdsky.jpg';
+import choate from '../assets/choate.jpg';
+import designgalleria from '../assets/designgalleria.jpg';
 
 
 class VideoBackgroundPage extends React.Component {
@@ -90,11 +94,12 @@ class VideoBackgroundPage extends React.Component {
                             <MDBRow>
                                 <MDBCol lg="5">
                                     <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                        <img
+                                        {/* <img
                                             className="img-fluid"
                                             src={old2}
                                             alt=""
-                                        />
+                                        /> */}
+                                        <MDBIframe src="https://player.vimeo.com/video/491335154" />
                                     </MDBView>
                                 </MDBCol>
                                 <MDBCol lg="7">
@@ -136,6 +141,40 @@ class VideoBackgroundPage extends React.Component {
                                 </MDBCol>
                                 <MDBCol>
                                     <img src={wishlist} alt='our kitchen wish list' className='d-block img-fluid w-75 mx-auto' />
+                                </MDBCol>
+                            </MDBRow>
+                            <MDBRow>
+                                <MDBCol md='12'>
+                                    <div className='d-flex justify-content-around mt-5 p-3'>
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={atlmag}
+                                            className="rounded-circle z-depth-1-half img-fluid"
+                                            alt="Sample avatar"
+                                        />
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={asdsky}
+                                            className="rounded-circle z-depth-1-half img-fluid"
+                                            alt="Sample avatar"
+                                        />
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={choate}
+                                            className="rounded-circle z-depth-1-half img-fluid"
+                                            alt="Sample avatar"
+                                        />
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={designgalleria}
+                                            className="rounded-circle z-depth-1-half img-fluid"
+                                            alt="Sample avatar"
+                                        />
+                                        {/* <img src={atlmag} width='100' alt='atl magazine logo' />
+                                        <img src={asdsky} width='100' alt='asd sky logo' />
+                                        <img src={choate} width='100' alt='choate logo' />
+                                        <img src={designgalleria} width='100' alt='design galleria logo' /> */}
+                                    </div>
                                 </MDBCol>
                             </MDBRow>
                         </div>
