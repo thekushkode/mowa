@@ -43,7 +43,7 @@ const Team = () => {
                         We're honored to introduce the Meals on Wheels Atlanta team! This amazing group of people are the backbone of the MOWA organization. From fielding calls and emails to creating engaging fundraising events to preparing Senior meals, they are always ready to carry the load to fulfill our mission!
                     </p>
                     <MDBRow className='mb-5'>
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team1}
@@ -63,7 +63,7 @@ const Team = () => {
 
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team6}
@@ -82,7 +82,7 @@ const Team = () => {
                             </MDBBtn>
                         </MDBCol>
 
-                        <MDBCol md="4" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={claudia}
@@ -102,27 +102,7 @@ const Team = () => {
                             </MDBBtn>
                         </MDBCol>
 
-                    </MDBRow>
-                    <MDBRow className='mb-5'>
-                        <MDBCol md="2" className="mb-md-0 mb-5">
-                            <MDBAvatar
-                                tag="img"
-                                src={team5}
-                                className="rounded-circle z-depth-1-half img-fluid"
-                                alt="Sample avatar"
-                            />
-                            <h4 className="font-weight-bold dark-grey-text my-4">
-                                Laura Ernst
-                            </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Grants & Institutional Giving</h6>
-                            <MDBBtn href='tel:4043513889p232' tag="a" floating className="mx-1 mowablue mb-0">
-                                <MDBIcon icon="phone" />
-                            </MDBBtn>
-                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
-                                <MDBIcon icon="envelope" />
-                            </MDBBtn>
-                        </MDBCol>
-                        <MDBCol md="2" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={hillary}
@@ -140,7 +120,27 @@ const Team = () => {
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
-                        <MDBCol md="2" className="mb-md-0 mb-5">
+                    </MDBRow>
+                    <MDBRow className='mb-5'>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
+                            <MDBAvatar
+                                tag="img"
+                                src={team5}
+                                className="rounded-circle z-depth-1-half img-fluid"
+                                alt="Sample avatar"
+                            />
+                            <h4 className="font-weight-bold dark-grey-text my-4">
+                                Laura Ernst
+                            </h4>
+                            <h6 className="text-uppercase grey-text mb-3">Sr. Director of Grants & Institutional Giving</h6>
+                            <MDBBtn href='tel:4043513889p232' tag="a" floating className="mx-1 mowablue mb-0">
+                                <MDBIcon icon="phone" />
+                            </MDBBtn>
+                            <MDBBtn href='mailto:lernst@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
+                                <MDBIcon icon="envelope" />
+                            </MDBBtn>
+                        </MDBCol>
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team4}
@@ -160,7 +160,7 @@ const Team = () => {
                             </MDBBtn>
                         </MDBCol>
 
-                        <MDBCol md="2" className="mb-md-0 mb-5">
+                        {/* <MDBCol md="2" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team3}
@@ -177,9 +177,9 @@ const Team = () => {
                             <MDBBtn href='mailto:esilvera@mowatl.org' tag="a" floating className="mx-1 mb-0 mowaorange">
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
-                        </MDBCol>
+                        </MDBCol> */}
 
-                        <MDBCol md="2" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={team2}
@@ -197,7 +197,7 @@ const Team = () => {
                                 <MDBIcon icon="envelope" />
                             </MDBBtn>
                         </MDBCol>
-                        <MDBCol md="2" className="mb-md-0 mb-5">
+                        <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
                                 src={karen}
@@ -355,16 +355,16 @@ const Team = () => {
                         </MDBCol>
                     </MDBRow>
                     <MDBRow>
-                        <MDBCol md='6'>
+                        <MDBCol md='12'>
                             <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 Digital Team
                             </h2>
-                            <img src={digitalteam} alt='MOWA digital team' />
+                            <img src={digitalteam} alt='MOWA digital team' className='img-fluid' />
                             <figcaption className="figure-caption">
                                 From left: Hillary B., Isabella P., Brandon J., Jamie M.
                             </figcaption>
                         </MDBCol>
-                        <MDBCol md='6'>
+                        {/* <MDBCol md='6'>
                             <h2 className="h1-responsive mowabluetext font-weight-bold my-5">
                                 Volunteer Services
                             </h2>
@@ -372,7 +372,7 @@ const Team = () => {
                             <figcaption className="figure-caption">
                                 From left: Jasmine D., Alissa R.
                             </figcaption>
-                        </MDBCol>
+                        </MDBCol> */}
                     </MDBRow>
                 </MDBCardBody>
             </MDBCard>

@@ -72,9 +72,9 @@ class VideoBackgroundPage extends React.Component {
                                                 <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
                                             </MDBBtn>
                                         </Link>
-                                        <div className='mt-5'>
+                                        {/* <div className='mt-5'>
                                             <AlertPage />
-                                        </div>
+                                        </div> */}
                                     </MDBCol>
                                 </MDBRow>
                             </MDBContainer>
