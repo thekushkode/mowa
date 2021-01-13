@@ -389,10 +389,10 @@ const Team = () => {
                         <MDBCol md='6' className='text-left'>
                             <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
                             <p className='blue-text'><b className='mowabluetext'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                            <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Board Treasurer & Manager at SouthStar Energy</p>
-                            <p className='blue-text'><b className='mowabluetext'>Johanna Wise,</b> Board Secretary & Director, Labor & Employement Law at Chick-Fil-A</p>
+                            <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Board Treasurer at B.O.A, Managing Director & Market Investment Executive at U.S. Trust</p>
+                            <p className='blue-text'><b className='mowabluetext'>Kim Tyson Chenevey,</b> Vice President, Wealth Advisor at Atlanta Wealth Management</p>
                             <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                            <p className='blue-text'><b className='mowabluetext'>Sandra Baldwin,</b> VP & Design Consultant at Baldwin Capital</p>
+                            <p className='blue-text'><b className='mowabluetext'>Dietmar G Hofmarcher,</b> Board Secretary at Siemens Inc.,Head of Accounting & Finance at Americas</p>
                             <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
                             <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
                             <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
@@ -404,12 +404,13 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
                             <p className='blue-text'><b className='mowabluetext'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
                             <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                            <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Managing Director, Market Investment Executive at US Trust, B.O.A.</p>
+                            <p className='blue-text'><b className='mowabluetext'>Sarah Beth Brown,</b> Global Customer Director at The Coca-Cola Company</p>
                             <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
                             <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
                             <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
-                            <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
+                            <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Manager at SouthStar Energy</p>
                             <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
+                            <p className='blue-text'><b className='mowabluetext'>Edward Stephenson,</b> Sr. Principal Managing Partner at Workday, Inc.</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBCardBody>

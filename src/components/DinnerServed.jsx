@@ -23,8 +23,8 @@ const DinnerServed = () => {
                 </p>
                 <p className='mowabluetext text-center w-responsive mx-auto mb-5'>With the holidays around every corner DINNER IS SERVED provides the perfect holiday meal without all of the hustle and bustle. These delicious "to go" packages include a full menu of holiday favorites and can serve eight or more.<br /><br />All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
 
-                <MDBRow className='mx-3'>
-                    <MDBCol lg='12' md='12' className='mb-lg-0 mb-4'>
+                <MDBRow className='mx-3 d-flex justify-content-center'>
+                    <MDBCol lg='8' md='8' className='mb-lg-0 mb-4'>
                         <MDBCard wide ecommerce>
                             <MDBCardImage
                                 cascade
@@ -35,7 +35,7 @@ const DinnerServed = () => {
                             <MDBCardBody cascade className='text-center'>
                                 <MDBCardTitle>
                                     <strong>
-                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' rel="noopener noreferrer">Valentines Day Dinner</a>
+                                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served/dinner-is-served-valentine-s-day' target='_blank' rel="noopener noreferrer">Valentines Day Dinner</a>
                                     </strong>
                                 </MDBCardTitle>
                                 <MDBCardText>Each dinner benefits Meals on Wheels Atlanta's home delivered meal services program for Seniors.<br />All meals are deliciously prepared by Chef Robert Gerstenecker.<br />
@@ -53,7 +53,7 @@ const DinnerServed = () => {
                                         $300: Feeds 2 People
                                     </span>
                                     <span>
-                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served-27237709-628c-4e58-bbc7-ecdf300c417d' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
+                                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/dinner-is-served/dinner-is-served-valentine-s-day' target='_blank' className='mowablue btn-rounded font-weight-bold white-text mr-3' size='sm'>Order Now</MDBBtn>
                                     </span>
                                 </MDBCardFooter>
                             </MDBCardBody>
