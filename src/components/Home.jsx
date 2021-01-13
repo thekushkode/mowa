@@ -146,29 +146,32 @@ class VideoBackgroundPage extends React.Component {
                             <MDBRow>
                                 <MDBCol md='12'>
                                     <div className='d-flex justify-content-around mt-5 p-3'>
+                                        <div>
+                                            <h4 className='white-text font-weight-bold'>Presenting Sponsor</h4>
+                                            <MDBAvatar
+                                                tag="img"
+                                                src={designgalleria}
+                                                className="rounded-circle z-depth-1-half img-fluid"
+                                                alt="Sample avatar"
+                                            />
+                                        </div>
                                         <MDBAvatar
                                             tag="img"
                                             src={atlmag}
-                                            className="rounded-circle z-depth-1-half img-fluid"
-                                            alt="Sample avatar"
+                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                            alt="alt mag logo"
                                         />
                                         <MDBAvatar
                                             tag="img"
                                             src={asdsky}
-                                            className="rounded-circle z-depth-1-half img-fluid"
-                                            alt="Sample avatar"
+                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                            alt="asd sky logo"
                                         />
                                         <MDBAvatar
                                             tag="img"
                                             src={choate}
-                                            className="rounded-circle z-depth-1-half img-fluid"
-                                            alt="Sample avatar"
-                                        />
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={designgalleria}
-                                            className="rounded-circle z-depth-1-half img-fluid"
-                                            alt="Sample avatar"
+                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                            alt="choate logo"
                                         />
                                         {/* <img src={atlmag} width='100' alt='atl magazine logo' />
                                         <img src={asdsky} width='100' alt='asd sky logo' />
