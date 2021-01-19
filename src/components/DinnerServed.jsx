@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBBtn, MDBCardBody, MDBCardTitl
 import Nav from './Nav';
 import Footer from './Footer';
 import dinnerserved from '../assets/dinnerserved.png';
-import valentines from '../assets/valentines.png';
+import valentines from '../assets/dis.png';
 import valdinner from '../assets/valdinner.jpeg';
 import './MOWAColors.css';
 
@@ -19,10 +19,18 @@ const DinnerServed = () => {
                 <img src={dinnerserved} style={{ width: '500px' }} className="img-fluid mb-4" alt="dinner is served poster" />
 
                 <p className='mowabluetext text-center w-responsive mx-auto mb-3'>
-                    DINNER IS SERVED is a unique series of culinary dinner experiences for two or more people. Meals are conveniently delivered right to your door or expertly prepared in your own kitchen.  Each experience includes a four-course meal and hand-selected wine pairings.  Just unpack, plate & enjoy!
+                    DINNER IS SERVED is a unique series of culinary dinner experiences serving up to 8 guests. Enjoy the perfect curated meal for any holiday or special occasion throughout the year. For your convenience, we offer contact-free curbside pick-up. Just unpack, plate and enjoy!
                 </p>
-                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>With the holidays around every corner DINNER IS SERVED provides the perfect holiday meal without all of the hustle and bustle. These delicious "to go" packages include a full menu of holiday favorites and can serve eight or more.<br /><br />All meals are deliciously prepared by <b>Chef Robert Gerstenecker</b></p>
+                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>All meals are deliciously prepared by our Executive Chef, <b>Robert Gerstenecker</b>. Proceeds benefit our home-delivered meal services program for Atlanta’s homebound senior neighbors.</p>
+                <p className='mowabluetext text-center w-responsive mx-auto font-weight-bold'>Upcoming Featured Occasions:</p>
 
+                <p className='m-0 p-0'>Mother's Day</p>
+                <p className='m-0 p-0'>Father's Day</p>
+                <p className='m-0 p-0'>Fourth of July</p>
+                <p className='m-0 p-0'>Thanksgiving</p>
+                <p className='mb-3 p-0'>Christmas</p>
+
+                <p className='mowabluetext text-center w-responsive mx-auto mb-5'>For private gourmet dinners catered at your home, please contact <a href='mailto:caguas@mowatl.org'>caguas@mowatl.org</a>. (Experience starts at 10 guests or more.)</p>
                 <MDBRow className='mx-3 d-flex justify-content-center'>
                     <MDBCol lg='8' md='8' className='mb-lg-0 mb-4'>
                         <MDBCard wide ecommerce>
