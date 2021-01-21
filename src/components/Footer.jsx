@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink, MDBBtn, MDBIcon } from "mdbreact";
 import './MOWAColors.css';
 import seal from '../assets/sealoftransparency.png';
-import member from '../assets/mow2020member.png';
+import member from '../assets/banner-2021.png';
 
 const Footer = () => {
 
@@ -34,7 +34,7 @@ const Footer = () => {
                     <MDBCol md='4'>
                         <div className='d-flex flex-column'>
                             <img src={seal} className="img-fluid mx-auto mb-2" alt="Seal of Transparency" />
-                            <img src={member} width='100' className="img-fluid mx-auto mb-1" alt="MOW 2020 Member" />
+                            <img src={member} width='100' className="img-fluid mx-auto mb-1" alt="MOW 2021 Member Seal" />
                         </div>
                     </MDBCol>
                     {/* <MDBCol md="3" className='text-center'>
