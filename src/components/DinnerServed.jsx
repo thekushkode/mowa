@@ -50,12 +50,12 @@ const DinnerServed = () => {
                                     <h5 className='text-center mt-2'>Order Deadline: February 09, 2021</h5>
                                     {/* <p className='font-weight-bold mt-3'>Orders received by 02.09.2021 will receive a <br />FREE bottle of wine!</p> */}
                                 </MDBCardText>
-                                <MDBCardImage
+                                {/* <MDBCardImage
                                     cascade
                                     src={valdinner}
                                     top
                                     alt='valentines day dinner'
-                                />
+                                /> */}
                                 <MDBCardFooter className='px-1 d-flex justify-content-between'>
                                     <span className='mt-2 font-weight-bold ml-3'>
                                         $300: Feeds 2 People
