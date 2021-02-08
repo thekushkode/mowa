@@ -48,7 +48,7 @@ class VideoBackgroundPage extends React.Component {
                 <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
-                <div id="videobackground" style={{ marginTop: '-200px' }}>
+                <section id="videobackground" style={{ marginTop: '-200px' }}>
                     <MDBView>
                         <video className="video-intro" playsInline autoPlay muted loop poster={poster}>
                             <source src={videoOgg} type='video/ogg;codecs="vp8, vorbis"' />
@@ -80,125 +80,121 @@ class VideoBackgroundPage extends React.Component {
                             </MDBContainer>
                         </MDBMask>
                     </MDBView>
-                </div>
+                </section>
                 <section>
                     {/* OUR STORY */}
-                    <MDBCard className="px-5 pb-5">
-                        <MDBCardBody>
+                    {/* <MDBCard className="px-5 pb-5">
+                        <MDBCardBody> */}
+                    <MDBRow>
+                        <MDBCol md='12'>
                             <h2 className="h1-responsive font-weight-bold mowabluetext text-center mb-5 mt-2">
                                 Our Story
                             </h2>
-                            <p className="text-center text-muted w-responsive mx-auto mb-5">
+                            <p className="text-center text-muted px-2 mb-5">
                                 At Meals on Wheels Atlanta, our mission is to support senior independence through meals, shelter, education, and community. We hope our story inspires you to get involved and bring an end to senior hunger in Atlanta!
                             </p>
-                            <MDBRow>
-                                <MDBCol lg="5">
-                                    <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                        {/* <img
-                                            className="img-fluid"
-                                            src={old2}
-                                            alt=""
-                                        /> */}
-                                        <MDBIframe src="https://player.vimeo.com/video/491335154" />
-                                    </MDBView>
-                                </MDBCol>
-                                <MDBCol lg="7">
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="5">
+                            <MDBIframe src="https://player.vimeo.com/video/491335154" className='px-1' />
+                        </MDBCol>
+                        <MDBCol md="7">
 
-                                    <p>
-                                        Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry for both seniors and their pets.
-                                    </p>
-                                    <div>
+                            <p>
+                                Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry for both seniors and their pets.
+                            </p>
+                            <div>
 
-                                        <Link to='/donate'>
-                                            <MDBBtn size="lg" className="waves-light btn-rounded mowablue">
-                                                Donate Now
+                                <Link to='/donate'>
+                                    <MDBBtn size="lg" className="waves-light btn-rounded mowablue">
+                                        Donate Now
                                             </MDBBtn>
-                                        </Link>
-                                        <Link to='/volunteer'>
-                                            <MDBBtn size="lg" className="waves-light btn-rounded mowaorange">
-                                                Volunteer
+                                </Link>
+                                <Link to='/volunteer'>
+                                    <MDBBtn size="lg" className="waves-light btn-rounded mowaorange">
+                                        Volunteer
                                             </MDBBtn>
-                                        </Link>
-                                    </div>
-                                </MDBCol>
-                            </MDBRow>
-                        </MDBCardBody>
-                    </MDBCard>
+                                </Link>
+                            </div>
+                        </MDBCol>
+                    </MDBRow>
+                    {/* </MDBCardBody>
+                    </MDBCard> */}
                 </section>
 
                 {/* WISH LIST */}
-                <div>
+                <section>
                     <MDBCard className='card-image' style={{ backgroundImage: "url(" + kitchen + ")" }}>
                         <div className="rgba-black-strong pb-5 px-2 text-center">
                             <div className="my-5 px-1 text-center">
                                 <h2 className='white-text font-weight-bold'>Please Pitch In For "Our Kitchen"!</h2>
                             </div>
                             <MDBRow>
-                                <MDBCol>
+                                <MDBCol md='6'>
                                     <p className='white-text font-weight-bold'>Our current outdated kitchen was built to serve 200,000 meals. It may sound like a huge number but this year, we’ll prepare almost 600,000 nutritious meals to our elderly and vulnerable senior neighbors. That's why we are reimagining over 18,000 sq ft in our current building to include a new, state of the art commercial kitchen. This will enable us to TRIPLE our meal production!</p>
                                     <p className='white-text font-weight-bold' >It's easy to make an impact. Just visit our Wish List and select an item an that you want to "buy". Your donation goes directly to helping us stock our commercial kitchen!</p>
                                     <MDBBtn className='btn-rounded mowalightblue font-weight-bold' href='https://ourkitchenwishlist.com/' target='_blank'>View Our Wish List</MDBBtn>
                                 </MDBCol>
-                                <MDBCol>
+                                <MDBCol md='6'>
                                     <img src={wishlist} alt='our kitchen wish list' className='d-block img-fluid w-75 mx-auto' />
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow>
-                                <MDBCol md='12'>
-                                    <div className='d-flex justify-content-around mt-5 p-3'>
-                                        <div>
-                                            <h4 className='white-text font-weight-bold'>Presenting Sponsor</h4>
-                                            <MDBAvatar
-                                                tag="img"
-                                                src={designgalleria}
-                                                className="rounded-circle z-depth-1-half img-fluid"
-                                                alt="Sample avatar"
-                                            />
-                                        </div>
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={atlmag}
-                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
-                                            alt="alt mag logo"
-                                        />
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={asdsky}
-                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
-                                            alt="asd sky logo"
-                                        />
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={choate}
-                                            className="rounded-circle z-depth-1-half img-fluid mt-5"
-                                            alt="choate logo"
-                                        />
-                                        {/* <img src={atlmag} width='100' alt='atl magazine logo' />
-                                        <img src={asdsky} width='100' alt='asd sky logo' />
-                                        <img src={choate} width='100' alt='choate logo' />
-                                        <img src={designgalleria} width='100' alt='design galleria logo' /> */}
-                                    </div>
+                                <MDBCol md='3'>
+                                    <h4 className='white-text font-weight-bold mt-4'>Presenting Sponsor</h4>
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={designgalleria}
+                                        className="rounded-circle z-depth-1-half img-fluid"
+                                        alt="Sample avatar"
+                                    />
+                                </MDBCol>
+                                <MDBCol md='3'>
+
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={atlmag}
+                                        className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                        alt="alt mag logo"
+                                    />
+                                </MDBCol>
+                                <MDBCol md='3'>
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={asdsky}
+                                        className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                        alt="asd sky logo"
+                                    />
+                                </MDBCol>
+                                <MDBCol md='3'>
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={choate}
+                                        className="rounded-circle z-depth-1-half img-fluid mt-5"
+                                        alt="choate logo"
+                                    />
                                 </MDBCol>
                             </MDBRow>
                         </div>
                     </MDBCard>
-                </div>
+                </section>
 
                 {/* CELEBRITY ENDORSEMENTS */}
-                <div className='mb-5'>
+                <section className='mb-5'>
                     <h2 className="h1-responsive font-weight-bold mowabluetext text-center my-5">
                         MOWA Ambassadors
                     </h2>
-                    <p className="lead text-muted w-responsive text-center mx-auto mb-5">
+                    <p className="text-muted px-5 text-center mb-5">
                         Atlanta's most well-known residents know that Meals on Wheels Atlanta needs their support. We are proud to have such an amazing, diverse community of athletes, entertainers, and government leaders standing behind us in the fight to end Senior hunger!
                     </p>
-                    <div>
+                    <div className='mx-2'>
                         <Celebs />
                     </div>
-                </div>
+                </section>
 
                 {/* STREAK */}
-                <div>
+                <section>
                     <div className='streak streak-photo streak-long-2' style={{ backgroundImage: "url(" + streakpic + ")" }}>
                         <div className='mask flex-center rgba-black-strong'>
                             <MDBContainer>
@@ -230,12 +226,12 @@ class VideoBackgroundPage extends React.Component {
                         </div>
                     </div>
                     {/* </MDBStreak> */}
-                </div>
+                </section>
 
                 <footer style={{ marginTop: '-25px' }}>
                     <Footer />
                 </footer>
-            </div>
+            </div >
         );
     }
 }
