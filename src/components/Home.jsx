@@ -206,26 +206,26 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBRow className='mowaorangetext text-center'>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="utensils" size="2x" className="mowaorangetext" />
-                                        <h1 className='mx-2 font-weight-bold'>519,000</h1>
+                                        <h1 className='mx-2 font-weight-bold'>605,000</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="clock" size="2x" className="mowaorangetext" />
-                                        <h1 className='mx-2 font-weight-bold'>21,914</h1>
+                                        <h1 className='mx-2 font-weight-bold'>17,500</h1>
                                         <p className='font-weight-bold'>Volunteer Hours</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="dollar-sign" size="2x" className="mowaorangetext" />
-                                        <h1 className='mx-2 font-weight-bold'>557,273</h1>
+                                        <h1 className='mx-2 font-weight-bold'>475,000</h1>
                                         <p className='font-weight-bold'>Dollars Saved</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="home" size="2x" className="mowaorangetext" />
-                                        <h1 className='mx-2 font-weight-bold'>372</h1>
+                                        <h1 className='mx-2 font-weight-bold'>340</h1>
                                         <p className='font-weight-bold'>Homes Repaired</p>
                                     </MDBCol>
                                 </MDBRow>
-                                <figcaption className='figure-caption text-center mowaorangetext mb-2'>**2019 Results</figcaption>
+                                <figcaption className='figure-caption text-center mowaorangetext mb-2'>**2020 Results</figcaption>
                             </MDBContainer>
                         </div>
                     </div>
