@@ -325,7 +325,7 @@ class ChefsTable extends React.Component {
                                                         </div>
                                                     </form>
                                                 </MDBCol>
-                                                <p className='white-text text-uppercase text-justify px-3'>At MOWA, we’re committed to cultivating meaningful and memorable experiences while operating in accordance with CDC and state guidelines.</p>
+                                                {/* <p className='white-text text-uppercase text-justify px-3'>At MOWA, we’re committed to cultivating meaningful and memorable experiences while operating in accordance with CDC and state guidelines.</p> */}
                                             </MDBRow>
                                         </MDBContainer>
 
