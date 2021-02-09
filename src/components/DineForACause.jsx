@@ -84,15 +84,15 @@ class ChefsTable extends React.Component {
         const { status } = this.state;
         return (
             <div>
-                <header>
+                <header style={{ marginBottom: '56px' }}>
                     <Nav />
                 </header>
                 <div>
-                    <MDBView
-                        src={studio}
+                    {/* <MDBView
+                        
                         fixed
                     >
-                        {/* <MDBMask className='whitegradient' /> */}
+                        <MDBMask className='whitegradient' />
                         <MDBMask overlay='black-strong' />
                         <MDBContainer
                             className='d-flex justify-content-center align-items-center'
@@ -100,31 +100,42 @@ class ChefsTable extends React.Component {
                         >
                             <MDBRow>
                                 <MDBCol md='12' className='mb-4 white-text text-center'>
-                                    {/* <h1 className='display-2 mb-0 pt-md-5 pt-5 goldtext2 font-weight-bold'>
+                                    <h1 className='display-2 mb-0 pt-md-5 pt-5 goldtext2 font-weight-bold'>
                                         SEVENTEEN
                                     <span className='white-text font-weight-bold'>05</span>
-                                    </h1> */}
-                                    <h1 className='slideOneText display-1 text-uppercase mb-0 pt-md-5 pt-5 white-text'>
+                                    </h1>
+                                    <h1 className='slideOneText display-1 text-uppercase mb-0 pt-md-5 pt-5 mowabluetext'>
                                         Dine For A Cause
                                     </h1>
                                     <hr className='hr-light my-4' />
-                                    {/* <h4 className="h4-responsive px-3">
+                                    <h4 className="h4-responsive px-3">
                                         Turn up the glamour, cut out the work and prepare your guests for a dinner to remember. Former Four Seasons Atlanta Executive Chef, Robert Gerstenecker, crafts gourmet culinary dinner experiences.
-                                    </h4> */}
+                                    </h4>
 
                                 </MDBCol>
                             </MDBRow>
                         </MDBContainer>
-                    </MDBView>
+                    </MDBView> */}
                     <main>
                         <MDBCard >
+                            <div className="px-2 text-center">
+                                <div className="my-5 px-1 text-center">
+                                    <h2 className="h1-responsive mowabluetext font-weight-bold mb-5">
+                                        Dine For A Cause
+                                    </h2>
+                                    {/* <p className="black-text text-justify w-responsive mx-auto mb-3">
+                                    Turn up the glamour, cut out the work and prepare your guests for a dinner to remember. Former Four Seasons Atlanta Executive Chef, Robert Gerstenecker, crafts gourmet culinary dinner experiences.
+                                        
+                                    </p> */}
+                                    <h5 className="h4-responsive text-center px-5">
+                                        Turn up the glamour, cut out the work and prepare your guests for a dinner to remember. Former Four Seasons Atlanta Executive Chef, Robert Gerstenecker, crafts gourmet culinary dinner experiences.
+                                            </h5>
+                                </div>
+                            </div>
                             <MDBCardBody>
                                 <MDBContainer>
                                     <MDBRow>
                                         <MDBCol md='12'>
-                                            <h4 className="h4-responsive text-center px-5 mt-3">
-                                                Turn up the glamour, cut out the work and prepare your guests for a dinner to remember. Former Four Seasons Atlanta Executive Chef, Robert Gerstenecker, crafts gourmet culinary dinner experiences.
-                                            </h4>
                                         </MDBCol>
                                     </MDBRow>
                                 </MDBContainer>
