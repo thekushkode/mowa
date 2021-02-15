@@ -72,6 +72,11 @@ class VideoBackgroundPage extends React.Component {
                                                 <MDBIcon size='lg' className='mr-1 animated heartBeat infinite' icon="heart" /> Donate
                                             </MDBBtn>
                                         </Link>
+                                        <Link to='/donate'>
+                                            <MDBBtn size='lg' outline rounded color="white" >
+                                                <MDBIcon size='lg' className='mr-1' icon="utensils" /> Our Kitchen
+                                            </MDBBtn>
+                                        </Link>
                                         {/* <div className='mt-5'>
                                             <AlertPage />
                                         </div> */}
@@ -128,7 +133,7 @@ class VideoBackgroundPage extends React.Component {
                     <MDBCard className='card-image' style={{ backgroundImage: "url(" + kitchen + ")" }}>
                         <div className="rgba-black-strong pb-5 px-2 text-center">
                             <div className="my-5 px-1 text-center">
-                                <h2 className='white-text font-weight-bold'>Please Pitch In For "Our Kitchen"!</h2>
+                                <h2 className='white-text font-weight-bold'>Pitch In For Our Kitchen!</h2>
                             </div>
                             <MDBRow>
                                 <MDBCol md='6'>

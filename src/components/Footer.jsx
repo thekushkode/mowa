@@ -15,7 +15,7 @@ const Footer = () => {
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md='4' className='text-center'>
-                        <h5 className="title font-weight-bold">Meals on Wheels Atlanta</h5>
+                        <h5 className="title font-weight-bold">Meals On Wheels Atlanta</h5>
                         <p>
                             Tax ID#: 58-0960309
                         </p>
@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="footer-copyright text-center py-3">
                 <MDBContainer className='d-flex justify-content-between' fluid>
                     <div>
-                        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Meals on Wheels Atlanta </a>
+                        &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Meals On Wheels Atlanta </a>
                     </div>
                     <div>
                         Powered By: <a href='https://www.goatwebdesigns.com'>Goat Web Designs</a>
