@@ -3,24 +3,24 @@ import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBBtn } from
 import './MOWAColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
-import team1 from '../assets/Team/team1.jpg';
+import team1 from '../assets/AdditionalTeam/ingram.jpg';
 import team2 from '../assets/Team/team2.jpg';
 import team3 from '../assets/Team/team3.jpg';
 import team4 from '../assets/Team/team4.jpg';
 import team5 from '../assets/Team/team5.jpg';
 import team6 from '../assets/Team/team6.jpg';
-import alissa from '../assets/AdditionalTeam/Alissa.jpg';
+import alissa from '../assets/AdditionalTeam/alissaregine.jpg';
 import chefchris from '../assets/AdditionalTeam/chefchris.jpg';
 import chefrobert from '../assets/AdditionalTeam/robby.jpg';
 import digitalteam from '../assets/AdditionalTeam/digitalteam.jpg';
 import hillary from '../assets/AdditionalTeam/hillary.jpg';
 import karen from '../assets/AdditionalTeam/karen.jpg';
-import kassidy from '../assets/AdditionalTeam/kassidy.jpg';
 import kitchen from '../assets/AdditionalTeam/kitchen.jpg';
 import kristy from '../assets/AdditionalTeam/kristy.jpg';
 import nicole from '../assets/AdditionalTeam/nicole.jpg';
 import volunteerteam from '../assets/AdditionalTeam/volunteerteam.jpg';
-import claudia from '../assets/AdditionalTeam/Claudia.jpg';
+import claudia from '../assets/AdditionalTeam/lpatrick.jpg';
+import jamie from '../assets/AdditionalTeam/jamie.jpg';
 
 
 const Team = () => {
@@ -72,7 +72,7 @@ const Team = () => {
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">Vona Cox</h4>
                             <h6 className="text-uppercase grey-text mb-3">
-                                Chief Process Improvement Officer
+                                Chief Project Officer
                             </h6>
                             <MDBBtn href='tel:4043513889p233' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
@@ -90,9 +90,9 @@ const Team = () => {
                                 alt="Sample avatar"
                                 width='250'
                             />
-                            <h4 className="font-weight-bold dark-grey-text my-4">Claudia Aguas</h4>
+                            <h4 className="font-weight-bold dark-grey-text my-4">Lynn Patrick</h4>
                             <h6 className="text-uppercase grey-text mb-3">
-                                VP Sales & Business Development
+                                Sr. Director Operations & Administration
                             </h6>
                             <MDBBtn href='tel:4043513889p233' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
@@ -189,7 +189,7 @@ const Team = () => {
                             <h4 className="font-weight-bold dark-grey-text my-4">
                                 Jason Tucker
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Senior Director of Meal Services</h6>
+                            <h6 className="text-uppercase grey-text mb-3">Chief Innovation & Business Development Director</h6>
                             <MDBBtn href='tel:4043513889p308' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
@@ -220,15 +220,15 @@ const Team = () => {
                         <MDBCol md="3" className="mb-md-0 mb-5">
                             <MDBAvatar
                                 tag="img"
-                                src={kassidy}
+                                src={jamie}
                                 className="rounded-circle z-depth-1-half img-fluid"
                                 alt="Sample avatar"
                                 style={{ height: '250px', width: '250px' }}
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
-                                Kassidy Jackson
+                                Jamie Martin
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Home Repair <br />Consultant</h6>
+                            <h6 className="text-uppercase grey-text mb-3">Director Brand <br />Development</h6>
                             <MDBBtn href='tel:4043513889p361' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
@@ -246,7 +246,7 @@ const Team = () => {
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">Nicole McIntosh</h4>
                             <h6 className="text-uppercase grey-text mb-3">
-                                Client Services <br />Coordinator
+                                Client Engagement <br />Manager
                             </h6>
                             <MDBBtn href='tel:4043513889p362' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
@@ -264,7 +264,7 @@ const Team = () => {
                                 alt="Sample avatar"
                             />
                             <h4 className="font-weight-bold dark-grey-text my-4">
-                                Alissa Robbins
+                                Alissa Robbins & Regine Amos
                             </h4>
                             <h6 className="text-uppercase grey-text mb-3">Community Engagement Manager</h6>
                             <MDBBtn href='tel:4043513889p245' tag="a" floating className="mx-1 mowablue mb-0">
@@ -284,7 +284,7 @@ const Team = () => {
                             <h4 className="font-weight-bold dark-grey-text my-4">
                                 Kristy Prox
                             </h4>
-                            <h6 className="text-uppercase grey-text mb-3">Registered Dietitian Nutritionist, LD</h6>
+                            <h6 className="text-uppercase grey-text mb-3">Registered Dietician Nutritionist, LD</h6>
                             <MDBBtn href='tel:4043513889p310' tag="a" floating className="mx-1 mowablue mb-0">
                                 <MDBIcon icon="phone" />
                             </MDBBtn>
@@ -389,10 +389,10 @@ const Team = () => {
                         <MDBCol md='6' className='text-left'>
                             <p className='blue-text'><b className='mowabluetext'>Louisa Johnson,</b> Board Chair & Partner at Seyfarth Shaw LLP</p>
                             <p className='blue-text'><b className='mowabluetext'>Erik Bryant,</b> Board Vice Chair & Sr. VP of Wealth Mgmt at Cadence Bank</p>
-                            <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Board Treasurer at B.O.A, Managing Director & Market Investment Executive at U.S. Trust</p>
+                            <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Board Treasurer, Bank of America Private Wealth Mgmt, Managing Director & Market Investment Executive, U.S. Trust</p>
                             <p className='blue-text'><b className='mowabluetext'>Kim Tyson Chenevey,</b> Vice President, Wealth Advisor at Atlanta Wealth Management</p>
                             <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                            <p className='blue-text'><b className='mowabluetext'>Dietmar G Hofmarcher,</b> Board Secretary at Siemens Inc.,Head of Accounting & Finance at Americas</p>
+                            <p className='blue-text'><b className='mowabluetext'>Dietmar G Hofmarcher,</b> Board Secretary, Siemens, Inc., Head of Accounting & Finance, Americas</p>
                             <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
                             <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
                             <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
@@ -400,12 +400,11 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Trent Collins,</b> District Manager at Publix Supermarkets Inc.</p>
                         </MDBCol>
                         <MDBCol md='6' className='text-left'>
-                            <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Dir. of Policy & Communication at Hartsfield-Jackson INTL Airport</p>
+                            <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Director of Communications, Interim | Mayor’s Office of Communications | Atlanta Mayor Keisha Lance Bottoms</p>
                             <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
-                            <p className='blue-text'><b className='mowabluetext'>Jim Fink,</b> CAO, Managing Director at Voya Investment Management</p>
                             <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
                             <p className='blue-text'><b className='mowabluetext'>Sarah Beth Brown,</b> Global Customer Director at The Coca-Cola Company</p>
-                            <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Executive Chef, Partner at AIX & Tin Tin</p>
+                            <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Atlanta Restauranteur</p>
                             <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
                             <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
                             <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Manager at SouthStar Energy</p>

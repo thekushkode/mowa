@@ -207,7 +207,7 @@ class VideoBackgroundPage extends React.Component {
                                 <MDBRow className='mowaorangetext text-center'>
                                     <MDBCol md='3' className='mb-2'>
                                         <MDBIcon icon="utensils" size="2x" className="mowaorangetext" />
-                                        <h1 className='mx-2 font-weight-bold'>605,000</h1>
+                                        <h1 className='mx-2 font-weight-bold'>600K+</h1>
                                         <p className='font-weight-bold'>Meals Served</p>
                                     </MDBCol>
                                     <MDBCol md='3' className='mb-2'>

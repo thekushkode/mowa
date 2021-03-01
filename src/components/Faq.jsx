@@ -106,7 +106,7 @@ class Faq extends Component {
                                                         </MDBCol>
                                                     </MDBRow>
                                                     <h4 className="p-md-4 mb-0">
-                                                        If you have any questions, please <a href='mailto:nmcintosh@mowatl.org?subject=Meal Services Inquiry'>send us an email!</a>
+                                                        If you have any questions, please <a href='mailto:thawkins@mowatl.org?subject=Meal Services Inquiry'>send us an email!</a>
                                                     </h4>
                                                 </MDBCardBody>
                                             </MDBCollapse>
@@ -151,7 +151,7 @@ class Faq extends Component {
                                                         <li><b>When our Home Repair Team is ready to begin, we will schedule a home assessment to determine your home’s repair needs and which repairs can be completed for you. The repair needs must meet program guidelines and budget limits. NOTE: Not all homes can be repaired.</b></li>
                                                     </ul>
                                                     <p className="p-md-4 mb-0">
-                                                        <b>If you have any questions, please email <a href='mailto:vcox@mowatl.org?subject=Home Repair Services'>vcox@mowatl.org</a>.</b>
+                                                        <b>If you have any questions, please email <a href='mailto:vcox@mowatl.org,kjackson@mowatl.org?subject=Home Repair Services'>vcox@mowatl.org</a>.</b>
                                                     </p>
                                                 </MDBCardBody>
                                             </MDBCollapse>
@@ -197,7 +197,7 @@ class Faq extends Component {
                                                     <h4 className='font-weight-bold'>Community Service Eligibility:</h4>
                                                     <ul>
                                                         <li>We cannot accept charges related to <b>larceny, theft, violent offenses, sexual offenses, or felonies.</b></li>
-                                                        <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:arobbins@mowatl.org?subject=Community Service Eligibility'>Alissa Robbins</a>.</li>
+                                                        <li>You must provide proof of your charge. This must be written documentation from your probation officer, counselor, attorney, or other official. Please send a copy to <a href='mailto:ramos@mowatl.org?subject=Community Service Eligibility'>Regine Amos</a>.</li>
                                                     </ul>
                                                     <h2 className='text-center mowaorangetext'>Additional Information</h2>
                                                     <h4 className='white-text font-weight-bold'><b>Volunteer Waiver</b></h4>
@@ -222,10 +222,10 @@ class Faq extends Component {
                                                     </p>
                                                     <h4 className='white-text font-weight-bold'><b>Confirmation</b></h4>
                                                     <p>
-                                                        We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:volunteerservices@mowatl.org'>email</a> as soon as possible!
+                                                        We will call or email all volunteers to conﬁrm one week prior to their volunteer date to make sure they are set and to answer any questions they have about their upcoming volunteer day. However, if anything changes in your plans, please <a href='tel:4043513889'>call</a> or <a href='mailto:ramos@mowatl.org'>email</a> as soon as possible!
                                                     </p>
                                                     <h4 className='white-text font-weight-bold'><b>Internships</b></h4>
-                                                    <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:volunteerservices@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
+                                                    <p>Looking for a long-term volunteer opportunity or an internship? <a href='mailto:ramos@mowatl.org?subject=MOWA Internship'>Contact us!</a></p>
                                                     <div className='text-center'>
                                                         <MDBRow>
                                                             <MDBCol md='4'>
