@@ -23,6 +23,7 @@ import atlmag from '../assets/atlmag.jpg';
 import asdsky from '../assets/asdsky.jpg';
 import choate from '../assets/choate.jpg';
 import designgalleria from '../assets/designgalleria.jpg';
+import PiDay from "./PiDay";
 
 
 class VideoBackgroundPage extends React.Component {
@@ -57,6 +58,7 @@ class VideoBackgroundPage extends React.Component {
                         </video>
                         <MDBMask className="d-flex justify-content-center align-items-center gradient">
                             <MDBContainer className="px-sm-0">
+                                <PiDay />
                                 <MDBRow>
                                     <MDBCol md="12" className="mb-4 mt-3 white-text text-center">
                                         {/* <h3 className="display-3 font-weight-bold mb-0 pt-md-3">
