@@ -361,7 +361,7 @@ const Team = () => {
                             </h2>
                             <img src={digitalteam} alt='MOWA digital team' className='img-fluid' />
                             <figcaption className="figure-caption">
-                                From left: Hillary B., Isabella P., Brandon J., Jamie M.
+                                From left: Andrew A., Kendra N., Brandon J., Sydney H-L.
                             </figcaption>
                         </MDBCol>
                         {/* <MDBCol md='6'>
