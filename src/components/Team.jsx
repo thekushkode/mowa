@@ -406,6 +406,7 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Sarah Beth Brown,</b> Global Customer Director at The Coca-Cola Company</p>
                             <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Atlanta Restauranteur</p>
                             <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
+                            <p className='blue-text'><b className='mowabluetext'>John Murnane,</b> McKinsey & Company, Senior Partner</p>
                             <p className='blue-text'><b className='mowabluetext'>Jovita Moore,</b> News Anchor at WSB-TV</p>
                             <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Manager at SouthStar Energy</p>
                             <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
