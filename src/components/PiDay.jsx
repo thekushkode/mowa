@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import './MOWAColors.css';
-import pi from '../assets/truffles.png';
+import pi from '../assets/jov.png';
 
 class PiDay extends Component {
     state = {
@@ -19,13 +20,15 @@ class PiDay extends Component {
         return (
             <MDBContainer>
                 <MDBBtn color="primary" onClick={this.toggle(14)} hidden>MDBModal</MDBBtn>
-                <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
-                    <MDBModalHeader toggle={this.toggle(14)}>Delicious Spring Truffles!</MDBModalHeader>
+                <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered size='lg'>
+                    <MDBModalHeader toggle={this.toggle(14)}>Help Us Support Jovita Moore!</MDBModalHeader>
                     <MDBModalBody>
-                        <a href='https://secure.givelively.org/event/meals-on-wheels-atlanta/gourmet-spring-truffles?blm_aid=40295425' target='_blank' rel="noopener noreferrer"><img src={pi} className='img-fluid' alt='piday promotion' /></a>
+                        <Link to='/donate' ><img src={pi} className='img-fluid' alt='Jovita Moore Donation Poster' /></Link>
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/gourmet-spring-truffles?blm_aid=40295425' target='_blank' rel="noopener noreferrer" className='mowablue'>Place Order</MDBBtn>
+                        <Link to='/donate' >
+                            <MDBBtn className='mowablue'>Donate</MDBBtn>
+                        </Link>
                         <MDBBtn className='mowaorange' onClick={this.toggle(14)}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
