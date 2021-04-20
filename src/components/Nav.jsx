@@ -78,7 +78,7 @@ class Nav extends Component {
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem style={{ marginTop: '7px' }} >
-                                    <a href="https://www.purposefulgourmetfoods.org/collections/purposeful-gourmet-foods">
+                                    <a href="https://www.purposefulgourmetfoods.org/">
                                         <MDBBtn className='btn-rounded mdb-color border border-warning' size='sm'><b>Shop Purposeful</b></MDBBtn>
                                     </a>
                                 </MDBNavItem>
