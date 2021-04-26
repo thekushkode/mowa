@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import './MOWAColors.css';
-import pi from '../assets/jov.png';
+import pi from '../assets/mommy.png';
 
 class PiDay extends Component {
     state = {
@@ -19,16 +19,16 @@ class PiDay extends Component {
     render() {
         return (
             <MDBContainer>
-                <MDBBtn color="primary" onClick={this.toggle(14)} hidden>MDBModal</MDBBtn>
+                <MDBBtn color="primary" onClick={this.toggle(14)} hidden>MOWA</MDBBtn>
                 <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered size='lg'>
-                    <MDBModalHeader toggle={this.toggle(14)}>Help Us Support Jovita Moore!</MDBModalHeader>
+                    <MDBModalHeader toggle={this.toggle(14)}>Plan the Perfect Mother's Day!</MDBModalHeader>
                     <MDBModalBody>
-                        <Link to='/donate' ><img src={pi} className='img-fluid' alt='Jovita Moore Donation Poster' /></Link>
+                        <a href='https://www.purposefulgourmetfoods.org/collections/chefs-kitchen/products/chefs-kitchen' target='_blank' ><img src={pi} className='img-fluid' alt='Mothers Day Meal Poster' /></a>
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <Link to='/donate' >
-                            <MDBBtn className='mowablue'>Donate</MDBBtn>
-                        </Link>
+                        {/* <Link to='/donate' > */}
+                        <MDBBtn href='https://www.purposefulgourmetfoods.org/collections/chefs-kitchen/products/chefs-kitchen' className='mowablue'>Order Now</MDBBtn>
+                        {/* </Link> */}
                         <MDBBtn className='mowaorange' onClick={this.toggle(14)}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
