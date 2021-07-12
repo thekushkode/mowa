@@ -123,11 +123,11 @@ class Donate extends Component {
                                                 <img src={kitchen} className='d-block w-75 mx-auto img-fluid mt-2' alt='our kitchen logo' />
                                             </MDBCol>
                                         </MDBRow>
-                                        <MDBRow>
+                                        {/* <MDBRow>
                                             <MDBCol md='7' className='mx-auto'>
                                                 <MDBIframe title='Janelle Monae MOWA video' src="https://www.youtube.com/embed/-rDw1KTImzg"></MDBIframe>
                                             </MDBCol>
-                                        </MDBRow>
+                                        </MDBRow> */}
                                         <p className="mt-5 mowabluetext text-left font-weight-bold">
                                         Last year, with the help of OUR community, OUR team at Meals On Wheels Atlanta prepared and delivered over 519,000 nutritious meals.  With hunger on the rise and the fact that seniors are at the greatest health risk for COVID-19, we expect to exceed OUR plans this year by almost an additional 100,000 meals.  Even with this huge increase, there will still be hundreds of seniors on OUR (can’t) waitlist.  Could you imagine your mother, grandmother or grandfather just waiting for food?
                                         </p>
