@@ -58,7 +58,7 @@ class VideoBackgroundPage extends React.Component {
                         </video>
                         <MDBMask className="d-flex justify-content-center align-items-center gradient">
                             <MDBContainer className="px-sm-0">
-                                <PiDay />
+                                {/* <PiDay /> */}
                                 <MDBRow>
                                     <MDBCol md="12" className="mb-4 mt-3 white-text text-center">
                                         {/* <h3 className="display-3 font-weight-bold mb-0 pt-md-3">
@@ -109,7 +109,7 @@ class VideoBackgroundPage extends React.Component {
                         <MDBCol md="7">
 
                             <p>
-                                Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 514,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry for both seniors and their pets.
+                                Meals On Wheels Atlanta (MOWA) was founded in 1965 to support seniors struggling with poverty, food insecurity, and social isolation. Over more than 50 years, we have grown from a small soup kitchen to an organization serving more than 600,000 meals each year throughout the Atlanta area. We have also expanded our program offerings to respond to other critical needs in our community. We now offer multiple services to support both older adults and veterans, including home-delivered and congregate meals, home repair services, and a food pantry for both seniors and their pets.
                             </p>
                             <div>
 

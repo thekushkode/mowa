@@ -392,7 +392,7 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Naima Judge,</b> Board Treasurer, Bank of America Private Wealth Mgmt, Managing Director & Market Investment Executive, U.S. Trust</p>
                             <p className='blue-text'><b className='mowabluetext'>Kim Tyson Chenevey,</b> Vice President, Wealth Advisor at Atlanta Wealth Management</p>
                             <p className='blue-text'><b className='mowabluetext'>Marlene Alexander,</b> Sr. VP at Ivy Investments</p>
-                            <p className='blue-text'><b className='mowabluetext'>Dietmar G Hofmarcher,</b> Board Secretary, Siemens, Inc., Head of Accounting & Finance, Americas</p>
+                            <p className='blue-text'><b className='mowabluetext'>Erica J. Bolden,</b> Head of Diversity, Inclusion & Equity Engagement at Mercedes-Benz USA</p>
                             <p className='blue-text'><b className='mowabluetext'>Grené Baranco,</b> Sales Manager at Mercedes-Benz of Buckhead</p>
                             <p className='blue-text'><b className='mowabluetext'>Angela Blank,</b> Community Organizer</p>
                             <p className='blue-text'><b className='mowabluetext'>Rusty Bowers,</b> Owner at Pine Street Market</p>
@@ -403,7 +403,7 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Elise Durham,</b> Director of Communications, Interim | Mayor’s Office of Communications | Atlanta Mayor Keisha Lance Bottoms</p>
                             <p className='blue-text'><b className='mowabluetext'>Fayron Epps,</b> Asst. Professor at Nell Hodgson Woodruff School of Nursing at Emory</p>
                             <p className='blue-text'><b className='mowabluetext'>Sean Hyslop,</b> President at Sysco Atlanta</p>
-                            <p className='blue-text'><b className='mowabluetext'>Sarah Beth Brown,</b> Global Customer Director at The Coca-Cola Company</p>
+                            <p className='blue-text'><b className='mowabluetext'>Sarah Beth Brown,</b> Board Secretary, Global Customer Director at The Coca-Cola Company (retired)</p>
                             <p className='blue-text'><b className='mowabluetext'>Nick Leahy,</b> Atlanta Restauranteur</p>
                             <p className='blue-text'><b className='mowabluetext'>Rachel Martin,</b> Director of Marketing at Design Galleria</p>
                             <p className='blue-text'><b className='mowabluetext'>John Murnane,</b> McKinsey & Company, Senior Partner</p>
@@ -411,6 +411,7 @@ const Team = () => {
                             <p className='blue-text'><b className='mowabluetext'>Freda Porter,</b> Manager at SouthStar Energy</p>
                             <p className='blue-text'><b className='mowabluetext'>Louise Sams,</b> Executive VP & General Counsel at Turner Broadcasting (retired)</p>
                             <p className='blue-text'><b className='mowabluetext'>Edward Stephenson,</b> Sr. Principal Managing Partner at Workday, Inc.</p>
+                            <p className='blue-text'><b className='mowabluetext'>Marissa M. Maldonado,</b> Chief Executive Officer at Proda Technology</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBCardBody>

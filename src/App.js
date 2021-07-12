@@ -32,7 +32,7 @@ ReactGA.pageview('/faq');
 ReactGA.pageview('/homerepairs');
 ReactGA.pageview('/ourkitchen');
 ReactGA.pageview('/dinnerisserved');
-ReactGA.pageview('/dineforacause');
+ReactGA.pageview('/chefsexperience');
 ReactGA.pageview('/thankyou');
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
       <Route exact path='/inthenews' component={InTheNews} />
       <Route exact path='/faq' component={Faq} />
       <Route exact path='/dinnerisserved' component={DinnerServed} />
-      <Route exact path='/dineforacause' component={ChefsTable} />
+      <Route exact path='/chefsexperience' component={ChefsTable} />
       <Route exact path='/ourkitchen' component={OurKitchen} />
       <Route exact path='/thankyou' component={ThankYou} />
       <Route exact path='/emailthankyou' component={EmailThankYou} />

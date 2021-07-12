@@ -105,7 +105,7 @@ class ChefsTable extends React.Component {
                                     <span className='white-text font-weight-bold'>05</span>
                                     </h1>
                                     <h1 className='slideOneText display-1 text-uppercase mb-0 pt-md-5 pt-5 mowabluetext'>
-                                        Dine For A Cause
+                                        Chef's Experience
                                     </h1>
                                     <hr className='hr-light my-4' />
                                     <h4 className="h4-responsive px-3">
@@ -121,7 +121,7 @@ class ChefsTable extends React.Component {
                             <div className="px-2 text-center">
                                 <div className="my-5 px-1 text-center">
                                     <h2 className="h1-responsive mowabluetext font-weight-bold mb-5">
-                                        Dine For A Cause
+                                        Chef's Experience
                                     </h2>
                                     {/* <p className="black-text text-justify w-responsive mx-auto mb-3">
                                     Turn up the glamour, cut out the work and prepare your guests for a dinner to remember. Former Four Seasons Atlanta Executive Chef, Robert Gerstenecker, crafts gourmet culinary dinner experiences.
