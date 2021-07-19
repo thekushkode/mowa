@@ -16,8 +16,8 @@ import './MOWAColors.css';
 import Nav from './Nav';
 import studio from '../assets/inspiration/studio-experience.png';
 import FooterPage from './Footer';
-import one from '../assets/inspiration/dinner.jpg';
-import two from '../assets/inspiration/tbl.jpg';
+import one from '../assets/pros.png';
+import two from '../assets/octo.png';
 
 
 class ChefsTable extends React.Component {
@@ -147,10 +147,8 @@ class ChefsTable extends React.Component {
                                             <MDBCardImage className="img-fluid" src={one}
                                                 waves />
                                             <MDBCardBody>
-                                                <MDBCardTitle className='text-uppercase'>Dinner Is Served</MDBCardTitle>
-                                                <MDBCardText>Dinner is Served is a unique series of culinary dinner experiences To-Go, serving from 2 up to 8 guests.
-                                                Enjoy the perfect curated meal for any holiday or special occasion throughout the year.
-                                                For your convenience, we offer contact-free curbside pick-up.
+                                                <MDBCardTitle className='text-uppercase'>Chef's Kitchen</MDBCardTitle>
+                                                <MDBCardText>Make your next celebration the most delicious one yet! Enjoy perfectly curated meals and seasonal specialties from Chef's Kitchen, ready to serve in your kitchen. 
                                                 Just unpack, plate and enjoy!
                                                     </MDBCardText>
                                                 <h5>Featured Occasions:</h5>
@@ -162,6 +160,11 @@ class ChefsTable extends React.Component {
                                                     <li>Thanksgiving - Serves Up To 8 Guests</li>
                                                     <li>Christmas - Serves Up To 8 Guests</li>
                                                 </ul>
+                                                <h5>Seasonal Specialties:</h5>
+                                                <ul>
+                                                    <li>Truffles</li>
+                                                    <li>Pies</li>
+                                                </ul>
                                                 {/* <MDBBtn href="#">Click</MDBBtn> */}
                                             </MDBCardBody>
                                         </MDBCard>
@@ -172,7 +175,7 @@ class ChefsTable extends React.Component {
                                                 waves />
                                             <MDBCardBody>
                                                 <MDBCardTitle className='text-uppercase'>Chef's Table</MDBCardTitle>
-                                                <MDBCardText>Chef’s Table is a unique series of intimate gourmet dinner experiences for 8 or more guests, expertly catered in the comfort of your own home.</MDBCardText>
+                                                <MDBCardText>Effortless entertaining meets gastronomic bliss when you gather at the Chef's Table. Enjoy your guests while Chef Robert prepares your ideal dining experience, expertly catered to your table.</MDBCardText>
                                                 <br />
                                                 <br />
                                                 <h5>Each experience includes:</h5>
