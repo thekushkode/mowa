@@ -58,7 +58,7 @@ class Nav extends Component {
                                     <MDBNavLink to="/homerepairs"><b>Home Repair</b></MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink to="/chefsexperience"><b>Dine For A Cause</b></MDBNavLink>
+                                    <MDBNavLink to="/chefsexperience"><b>Chef's Experience</b></MDBNavLink>
                                 </MDBNavItem>
                                 
                             </MDBNavbarNav>

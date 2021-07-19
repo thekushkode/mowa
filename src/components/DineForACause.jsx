@@ -192,10 +192,10 @@ class ChefsTable extends React.Component {
                                 </MDBRow>
                                 <MDBRow style={{ marginTop: '50px' }}>
 
-                                    <div className="rgba-black-strong text-center mx-auto" >
+                                    <div className="text-center mx-auto" >
                                         <MDBContainer>
-                                            <MDBRow style={{ backgroundColor: 'rgba(0, 0, 0, .8)' }}>
-                                                <h1 className="mx-auto white-text pt-3">
+                                            <MDBRow >
+                                                <h1 className="mx-auto black-text pt-3">
                                                     Inquiry Form
                                                         </h1>
                                                 <MDBCol md="12" className="md-0 mb-5 pt-3">
@@ -206,7 +206,7 @@ class ChefsTable extends React.Component {
                                                             <MDBCol md="6">
                                                                 <div className="md-form mb-0">
                                                                     <MDBInput type="text" id="contact-name" label="Your Name"
-                                                                        className='white-text' name='Name' required />
+                                                                        className='black-text' name='Name' required />
                                                                 </div>
                                                             </MDBCol>
                                                             <MDBCol md="6">
@@ -215,7 +215,7 @@ class ChefsTable extends React.Component {
                                                                         type="text"
                                                                         id="contact-email"
                                                                         label="Your Email"
-                                                                        className='white-text'
+                                                                        className='black-text'
                                                                         name='Email'
                                                                         required
                                                                     />
@@ -226,7 +226,7 @@ class ChefsTable extends React.Component {
                                                             <MDBCol md="6">
                                                                 <div className="md-form mb-0">
                                                                     <MDBInput type="text" id="contact-phone" label="Your Phone"
-                                                                        className='white-text' name='Phone' required />
+                                                                        className='black-text' name='Phone' required />
                                                                 </div>
                                                             </MDBCol>
                                                             {/* <MDBCol md="6">
@@ -235,7 +235,7 @@ class ChefsTable extends React.Component {
                                                                         type="text"
                                                                         id="event-name"
                                                                         label="Name Your Event"
-                                                                        className='white-text'
+                                                                        className='black-text'
                                                                         name='Name of Event'
                                                                     />
                                                                 </div>
@@ -243,7 +243,7 @@ class ChefsTable extends React.Component {
                                                             <MDBCol md="6">
                                                                 <div className="md-form mb-0">
                                                                     <MDBInput type="text" id="date-of-event" label="Date of Event"
-                                                                        className='white-text' name='Date of Event' />
+                                                                        className='black-text' name='Date of Event' />
                                                                 </div>
                                                             </MDBCol>
                                                         </MDBRow>
@@ -253,7 +253,7 @@ class ChefsTable extends React.Component {
                                                                     <MDBInput name='Date Flexible' value={this.state.flexDate} hidden></MDBInput>
                                                                     <MDBSelect getValue={(e) => this.handleflexDate(e)}
                                                                         label='Is Date Flexible?'>
-                                                                        <MDBSelectInput id='volunteer' name='Date Flexible:' className='white-text' />
+                                                                        <MDBSelectInput id='volunteer' name='Date Flexible:' className='black-text' />
                                                                         <MDBSelectOptions>
                                                                             <MDBSelectOption value="Yes" name="Yes">Yes</MDBSelectOption>
                                                                             <MDBSelectOption value="No" name="No">No</MDBSelectOption>
@@ -268,7 +268,7 @@ class ChefsTable extends React.Component {
                                                                         id="number-of-guests"
                                                                         label="Number of Guests"
                                                                         name='Number of Guests'
-                                                                        className='white-text'
+                                                                        className='black-text'
                                                                     />
                                                                 </div>
                                                             </MDBCol>
@@ -277,7 +277,7 @@ class ChefsTable extends React.Component {
                                                                     <MDBInput name='Select Service:' value={this.state.selectService} hidden></MDBInput>
                                                                     <MDBSelect getValue={(e) => this.handleServiceSelection(e)}
                                                                         label='Select Service:'>
-                                                                        <MDBSelectInput id='service-selection' name='Select Service:' className='white-text' />
+                                                                        <MDBSelectInput id='service-selection' name='Select Service:' className='black-text' />
                                                                         <MDBSelectOptions>
                                                                             <MDBSelectOption value="Dinner Is Served" name="Dinner Is Served">Dinner Is Served</MDBSelectOption>
                                                                             <MDBSelectOption value="Chefs Table" name="Chefs Table">Chef's Table</MDBSelectOption>
@@ -293,7 +293,7 @@ class ChefsTable extends React.Component {
                                                                     <MDBInput name='Select Occasion:' value={this.state.selectOccasion} hidden></MDBInput>
                                                                     <MDBSelect getValue={(e) => this.handleOccasionSelection(e)}
                                                                         label='Select Occasion:'>
-                                                                        <MDBSelectInput id='occasion-selection' name='Select Occasion:' className='white-text' />
+                                                                        <MDBSelectInput id='occasion-selection' name='Select Occasion:' className='black-text' />
                                                                         <MDBSelectOptions>
                                                                             <MDBSelectOption value="Valentine's Day" name="Valentine's Day">Valentine's Day</MDBSelectOption>
                                                                             <MDBSelectOption value="Mother's Day" name="Mother's Day">Mother's Day</MDBSelectOption>
@@ -314,7 +314,7 @@ class ChefsTable extends React.Component {
                                                                         id="additional-details"
                                                                         name='Additional Details'
                                                                         label="Additional Details"
-                                                                        className='white-text'
+                                                                        className='black-text'
                                                                     />
                                                                 </div>
                                                             </MDBCol>
@@ -324,11 +324,11 @@ class ChefsTable extends React.Component {
                                                                 Send
                                                                     </MDBBtn>
                                                             {status === 'SUCCESS' && <Redirect to='/emailthankyou' />}
-                                                            {status === 'ERROR' && <p className='white-text'>Oops! There was an error. Please try again.</p>}
+                                                            {status === 'ERROR' && <p className='black-text'>Oops! There was an error. Please try again.</p>}
                                                         </div>
                                                     </form>
                                                 </MDBCol>
-                                                {/* <p className='white-text text-uppercase text-justify px-3'>At MOWA, we’re committed to cultivating meaningful and memorable experiences while operating in accordance with CDC and state guidelines.</p> */}
+                                                {/* <p className='black-text text-uppercase text-justify px-3'>At MOWA, we’re committed to cultivating meaningful and memorable experiences while operating in accordance with CDC and state guidelines.</p> */}
                                             </MDBRow>
                                         </MDBContainer>
 
