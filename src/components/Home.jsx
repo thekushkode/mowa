@@ -58,7 +58,7 @@ class VideoBackgroundPage extends React.Component {
                         </video>
                         <MDBMask className="d-flex justify-content-center align-items-center gradient">
                             <MDBContainer className="px-sm-0">
-                                {/* <PiDay /> */}
+                                <PiDay />
                                 <MDBRow>
                                     <MDBCol md="12" className="mb-4 mt-3 white-text text-center">
                                         {/* <h3 className="display-3 font-weight-bold mb-0 pt-md-3">

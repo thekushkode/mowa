@@ -44,7 +44,7 @@ class Nav extends Component {
                                                     <span className="black-text">Events & News</span>
                                                 </MDBDropdownToggle>
                                                 <MDBDropdownMenu className="dropdown-default">
-                                                    <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
+                                                    {/* <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem> */}
                                                     <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
                                                 </MDBDropdownMenu>
                                             </MDBDropdown>
