@@ -40,7 +40,7 @@ class Nav extends Component {
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/ourkitchen'>Our Kitchen</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/chefsexperience'>Chef's Experience</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdown>
-                                                <MDBDropdownToggle nav caret>
+                                                <MDBDropdownToggle nav caret color='black' >
                                                     <span className="black-text">Events & News</span>
                                                 </MDBDropdownToggle>
                                                 <MDBDropdownMenu className="dropdown-default">
