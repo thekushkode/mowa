@@ -39,7 +39,9 @@ class Nav extends Component {
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/volunteer'>Volunteer</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/ourkitchen'>Our Kitchen</MDBNavLink></MDBDropdownItem>
                                             <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/chefsexperience'>Chef's Experience</MDBNavLink></MDBDropdownItem>
-                                            <MDBDropdown>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
+                                            <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
+                                            {/* <MDBDropdown>
                                                 <MDBDropdownToggle nav caret color='black' >
                                                     <span className="black-text">Events & News</span>
                                                 </MDBDropdownToggle>
@@ -47,7 +49,7 @@ class Nav extends Component {
                                                     <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/events'>Events</MDBNavLink></MDBDropdownItem>
                                                     <MDBDropdownItem className='p-0'><MDBNavLink className='black-text' to='/inthenews'>MOWA in the News</MDBNavLink></MDBDropdownItem>
                                                 </MDBDropdownMenu>
-                                            </MDBDropdown>
+                                            </MDBDropdown> */}
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
                                 </MDBNavItem>
@@ -60,7 +62,7 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBNavLink to="/chefsexperience"><b>Chef's Experience</b></MDBNavLink>
                                 </MDBNavItem>
-                                
+
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
