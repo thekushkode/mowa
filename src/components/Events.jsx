@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import bentley from '../assets/bentley.jpg';
+import bentley from '../assets/newgolf.png';
 import wonder from '../assets/wonder.jpg';
 
 const Events = () => {
@@ -33,7 +33,7 @@ const Events = () => {
                                     src={bentley}
                                     alt="bentley golf classic poster"
                                 />
-                                <a href="https://secure.givelively.org/event/meals-on-wheels-atlanta/the-bentley-atlanta-golf-classic">
+                                <a href="https://secure.givelively.org/event/meals-on-wheels-atlanta/21st-annual-meals-on-wheels-atlanta-golf-classic">
                                     <MDBMask overlay="white-slight" />
                                 </a>
                             </MDBView>
@@ -46,24 +46,24 @@ const Events = () => {
                                 </h6>
                             </a>
                             <h3 className="font-weight-bold mowabluetext mb-3 p-0">
-                                <strong>The Bentley Golf Classic</strong>
+                                <strong>21st Annual MOWA Golf Classic</strong>
                             </h3>
                             <p>
-                                This tournament provides a great opportunity for corporations to impact the communities they serve. All tournament proceeds are donated to Meals On Wheels Atlanta, which supports senior independence through meals, shelter, education and community.
+                                We are thrilled to announce that the 21st Annual Meals On Wheels Atlanta Golf Classic will take place on Tuesday, October 26th at the Piedmont Driving Club! This all-inclusive event combines tasty cuisine, hand-crafted libations, player gift bags, prizes, raffles, and an exceptional round of golf! All proceeds from this exclusive golf experience will allow Meals On Wheels Atlanta to fill the empty plates and hearts of our homebound senior neighbors.
                             </p>
                             <p>
-                                Event Date: 10/20/2020
+                                Event Date: 10/26/2021
                             </p>
                             <p>
                                 Location: <a href='https://goo.gl/maps/TnHUaSRBkhUtxCZd9' target='_blank' rel="noopener noreferrer">Piedmont Driving Club</a>
                             </p>
-                            <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/the-bentley-atlanta-golf-classic' color="success" size="md" className="waves-light " target='_blank'>
+                            <MDBBtn href='https://secure.givelively.org/event/meals-on-wheels-atlanta/21st-annual-meals-on-wheels-atlanta-golf-classic' color="success" size="md" className="waves-light " target='_blank'>
                                 Get Tickets
                             </MDBBtn>
                         </MDBCol>
                     </MDBRow>
                     <hr className="my-5" />
-                    <MDBRow>
+                    {/* <MDBRow>
                         <MDBCol lg="7">
                             <a href="#!" className="pink-text">
                                 <h6 className="font-weight-bold mb-3">
@@ -105,7 +105,7 @@ const Events = () => {
                                 </a>
                             </MDBView>
                         </MDBCol>
-                    </MDBRow>
+                    </MDBRow> */}
                 </MDBCardBody>
             </MDBCard>
             <footer style={{ marginTop: '-25px' }}>

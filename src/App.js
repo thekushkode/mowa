@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Donate from './components/Donate';
 import Team from './components/Team';
 import ContactPage from './components/Contact';
-// import Events from './components/Events';
+import Events from './components/Events';
 import Faq from './components/Faq';
 import InTheNews from './components/InTheNews';
 import GetMeals from './components/GetMeals';
@@ -26,7 +26,7 @@ ReactGA.pageview('/getmeals');
 ReactGA.pageview('/volunteer');
 ReactGA.pageview('/team');
 ReactGA.pageview('/contact');
-// ReactGA.pageview('/events');
+ReactGA.pageview('/events');
 ReactGA.pageview('/inthenews');
 ReactGA.pageview('/faq');
 ReactGA.pageview('/homerepairs');
@@ -46,7 +46,7 @@ function App() {
       <Route exact path='/homerepairs' component={HomeRepair} />
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={ContactPage} />
-      {/* <Route exact path='/events' component={Events} /> */}
+      <Route exact path='/events' component={Events} />
       <Route exact path='/inthenews' component={InTheNews} />
       <Route exact path='/faq' component={Faq} />
       <Route exact path='/dinnerisserved' component={DinnerServed} />
