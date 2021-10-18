@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import './MOWAColors.css';
-import pi from '../assets/mealremember.png';
+import pi from '../assets/savorbig.png';
 
 class PiDay extends Component {
     state = {
